@@ -2,7 +2,7 @@
 
 <br>
 <p align="justify">
-"I have a strong passion for utilizing and experimenting with emerging technologies. As a Software Engineer at IBM, I have the opportunity to apply my skills and knowledge to develop innovative solutions that address complex challenges. In my role, I continuously seek out new technologies and approaches to enhance the development process and improve the quality of the final product. I am driven by the satisfaction of creating high-quality software that meets the needs of clients and end-users. I believe that staying on top of the latest trends in technology is crucial to remain competitive in the industry, and I'm committed to continuous learning and growth in my field."
+"I have a strong passion for utilizing and experimenting with emerging technologies. As a Software Engineer at IBM, I have the opportunity to apply my skills and knowledge to develop innovative solutions that address complex challenges. In my role, I continuously seek out new technologies and approaches to enhance the development process and improve the quality of the final product. I'm driven by the satisfaction of creating high-quality software that meets the needs of clients and end-users. I believe that staying on top of the latest trends in technology is crucial to remain competitive in the industry, and I'm committed to continuous learning and growth in my field."
 </p>
 
 
