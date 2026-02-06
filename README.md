@@ -47,11 +47,11 @@ Check out my latest research on **AI Agents & Fitness Data**:
 ---
 
 ## 🤝 Connect with me
-<p align="left">
-<a href="https://linkedin.com/in/bruney" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Bruney" height="30" width="40" /></a>
-<a href="https://medium.com/@brun3y" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@brun3y" height="30" width="40" /></a>
+<p align="center">
+<a href="https://linkedin.com/in/bruney" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
+<a href="https://medium.com/@brun3y" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="Medium" height="30" width="40" /></a>
+<a href="https://x.com/BrUn3y" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="BrUn3y" height="30" width="40" /></a>
 </p>
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=BrUn3y&label=Profile%20views&color=0062ff&style=flat" alt="Views" />
 </p>
