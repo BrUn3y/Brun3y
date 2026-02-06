@@ -1,22 +1,57 @@
-<div align="center"><img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzQ0YWY1NWZiMmQ2NWQ4ZjMwYjc1OTQwZjc2NDVjMDA5N2UyNzM2NiZjdD1n/4cQicieDfKTmm4IFRC/giphy.gif" align="center" /></div>
+# ⚡ Edgar Bruney | Full Stack Engineer @ IBM
 
-<br>
-<p align="justify">
-"I have a strong passion for utilizing and experimenting with emerging technologies. As a Software Engineer at IBM, I have the opportunity to apply my skills and knowledge to develop innovative solutions that address complex challenges. In my role, I continuously seek out new technologies and approaches to enhance the development process and improve the quality of the final product. I'm driven by the satisfaction of creating high-quality software that meets the needs of clients and end-users. I believe that staying on top of the latest trends in technology is crucial to remain competitive in the industry, and I'm committed to continuous learning and growth in my field."
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0062ff&height=200&section=header&text=Edgar%20Bruney&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Building%20AI%20Agents%20%26%20Quantum%20Solutions&descAlignY=60&descSize=20" alt="Header" />
 </p>
 
+## 👨‍💻 About Me
+I am a **Full Stack Engineer at IBM (CIO Organization)** with over a decade of experience building scalable applications and specialized Cloud solutions. I thrive on the edge of innovation, where I can experiment, research, and master emerging technologies.
 
-<div align="center">
-<a href="https://github.com/brun3y" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://twitter.com/brun3y" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/bruney" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.facebook.com/Brun3y" target="_blank">
-<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
-</a> 
-</div>  
+- 🤖 **AI & Quantum Research:** I am passionate about experimenting with **BeeAI** for Agentic workflows, investigating **Watson** capabilities, and exploring the potential of **Qiskit** in the Quantum realm.
+- ☁️ **Cloud Expertise:** Extensive experience architecting and deploying solutions across **IBM Cloud**, **AWS**, and **GCP**.
+- 🚀 **Space Enthusiast:** Deeply fascinated by space exploration and the engineering marvels of the cosmic race.
+- 🏃‍♂️ **Hybrid Athlete:** Fitness is my discipline. I’m currently training to break a **21-minute 5K** through high-intensity functional training.
+- 🤘 **Heavy Music:** High-energy, heavy tracks are the soundtrack to my coding and training sessions.
+
+---
+
+## 🛠️ Tech Stack
+
+### AI Ecosystem & Experimentation
+> Currently researching and building with: **BeeAI**, **IBM Watson**, **Google Gemini**, and **Claude**.
+
+### Languages & Frameworks
+[![My Skills](https://skillicons.dev/icons?i=java,js,ts,py,php,html,css,react,angular,nodejs,express,laravel&theme=dark)](https://skillicons.dev)
+
+### Cloud, DevOps & Monitoring
+[![My Skills](https://skillicons.dev/icons?i=aws,gcp,docker,jenkins,bash,linux,ubuntu,newrelic&theme=dark)](https://skillicons.dev)
+
+> **Enterprise Stack:** Also specialized in **IBM Cloud**, **Dynatrace**, and **Spring** for high-scale environments.
+
+---
+
+## 📝 Latest Publications
+Check out my latest research on **AI Agents & Fitness Data**:
+
+* 📘 [**I finally got positive results following my Strava AI Agent**](https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808)
+* 📗 [**My personal AI Agent for Strava**](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a)
+
+---
+
+## 📊 GitHub Metrics
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BrUn3y&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Bruney's Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrUn3y&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+---
+
+## 🤝 Connect with me
+<p align="left">
+<a href="https://linkedin.com/in/bruney" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Bruney" height="30" width="40" /></a>
+<a href="https://medium.com/@brun3y" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@brun3y" height="30" width="40" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=BrUn3y&label=Profile%20views&color=0062ff&style=flat" alt="BrUn3y" />
+</p>
