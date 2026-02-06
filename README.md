@@ -13,6 +13,7 @@ I am a **Full Stack Engineer at IBM (CIO Organization)** with over a decade of e
 - 🏃‍♂️ **Hybrid Athlete:** Fitness is my discipline. I’m currently training to break a **21-minute 5K** through high-intensity functional training.
 - 🤘 **Heavy Music:** High-energy, heavy tracks are the soundtrack to my coding and training sessions.
 
+![Spotify recently played](https://spotify-recently-played-readme.vercel.app/api?user=brun3y&count=1)
 ---
 
 ## 🛠️ Tech Stack
