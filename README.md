@@ -1,7 +1,7 @@
 # ⚡ Edgar Bruney | Full Stack Engineer @ IBM
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0062ff&height=200&section=header&text=Edgar%20Bruney&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Building%20AI%20Agents%20%26%20Quantum%20Solutions&descAlignY=60&descSize=20" alt="Header" />
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
 
 ## 👨‍💻 About Me
@@ -38,10 +38,10 @@ Check out my latest research on **AI Agents & Fitness Data**:
 
 ---
 
-## 📊 GitHub Metrics
+## 📊 GitHub Activity
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BrUn3y&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Bruney's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrUn3y&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-used-languages?username=BrUn3y&theme=tokyonight" alt="Languages Card" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=tokyonight" alt="Stats Card" />
 </p>
 
 ---
@@ -53,5 +53,5 @@ Check out my latest research on **AI Agents & Fitness Data**:
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=BrUn3y&label=Profile%20views&color=0062ff&style=flat" alt="BrUn3y" />
+  <img src="https://komarev.com/ghpvc/?username=BrUn3y&label=Profile%20views&color=0062ff&style=flat" alt="Views" />
 </p>
