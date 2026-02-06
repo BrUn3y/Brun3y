@@ -7,7 +7,7 @@
 ## 👨‍💻 About Me
 I am a **Full Stack Engineer at IBM (CIO Organization)** with over a decade of experience building scalable applications and specialized Cloud solutions. I thrive on the edge of innovation, where I can experiment, research, and master emerging technologies.
 
-- 🤖 **AI & Quantum Research:** I am passionate about experimenting with **BeeAI** for Agentic workflows, investigating **Watson** capabilities, and exploring the potential of **Qiskit** in the Quantum realm.
+- 🤖 **AI & Quantum Research:** I am passionate about experimenting with **AI** for Agentic workflows, investigating **Agents** capabilities, and exploring the potential of **Qiskit** in the Quantum realm.
 - ☁️ **Cloud Expertise:** Extensive experience architecting and deploying solutions across **IBM Cloud**, **AWS**, and **GCP**.
 - 🚀 **Space Enthusiast:** Deeply fascinated by space exploration and the engineering marvels of the cosmic race.
 - 🏃‍♂️ **Hybrid Athlete:** Fitness is my discipline. I’m currently training to break a **21-minute 5K** through high-intensity functional training.
