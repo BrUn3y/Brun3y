@@ -10,7 +10,7 @@ I am a **Full Stack Engineer at IBM (CIO Organization)** with over a decade of e
 - 🤖 **AI & Quantum Research:** I am passionate about experimenting with **AI** for Agentic workflows, investigating **Agents** capabilities, and exploring the potential of **Qiskit** in the Quantum realm.
 - ☁️ **Cloud Expertise:** Extensive experience architecting and deploying solutions across **IBM Cloud**, **AWS**, and **GCP**.
 - 🚀 **Space Enthusiast:** Deeply fascinated by space exploration and the engineering marvels of the cosmic race.
-- 🏃‍♂️ **Hybrid Athlete:** Fitness is my discipline. I’m currently training to break a **21-minute 5K** through high-intensity functional training.
+- 🏃‍♂️ **Hybrid Athlete:** Passionate about running and functional exercise. [I’m currently training to break a **21-minute 5K** through high-intensity functional training.](https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808)
 - 🤘 **Heavy Music:** High-energy, heavy tracks are the soundtrack to my coding and training sessions.
 
 ![Spotify recently played](https://spotify-recently-played-readme.vercel.app/api?user=brun3y&count=1)
