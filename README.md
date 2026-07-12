@@ -49,18 +49,12 @@ and turning emerging tech into things that run in production.
 
 I write about AI agents, fitness data, and personal tooling on [Medium](https://medium.com/@brun3y).
 
-- [How My AI Agent is Engineering a 5KM PR](https://medium.com/@brun3y/how-my-ai-agent-is-engineering-a-5km-pr-a2e9966869f4)
+<!-- Latest post card, auto-updated via omidnikrah/github-readme-medium -->
+[![Latest post](https://github-readme-medium.vercel.app/?username=@brun3y)](https://medium.com/@brun3y)
+
 - [IBM Bob Shell + Skills.sh: Supercharging Your Personal AI](https://medium.com/@brun3y/ibm-bob-shell-skills-sh-supercharging-your-personal-ai-d074dbd5ec7c)
 - [I Finally Got Positive Results Following My Strava AI Agent](https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808)
 - [My Personal AI Agent for Strava](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a)
-
-<!--
-  Auto-updating widget via omidnikrah/github-readme-medium.
-  The public instance (github-readme-medium.vercel.app) is currently down, so
-  deploy your own from https://github.com/omidnikrah/github-readme-medium then
-  swap YOUR_INSTANCE below and delete the static list above.
-  [![Latest posts](https://YOUR_INSTANCE.vercel.app/?username=@brun3y&limit=4)](https://medium.com/@brun3y)
--->
 
 ---
 
