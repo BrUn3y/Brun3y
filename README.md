@@ -118,10 +118,9 @@ I write about AI agents, fitness data, and personal tooling on [Medium](https://
 
 Open to collaborating on AI agents, cloud, and quantum experiments.
 
-<a href="mailto:Brun3y@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
 <a href="https://x.com/BrUn3y"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
-<img src="https://img.shields.io/badge/WhatsApp-Brun3y-000000?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp: Brun3y" />
+<a href="https://wa.me/Brun3y"><img src="https://img.shields.io/badge/WhatsApp-Brun3y-000000?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp: Brun3y" /></a>
 
 </div>
