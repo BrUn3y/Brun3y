@@ -49,12 +49,36 @@ and turning emerging tech into things that run in production.
 
 I write about AI agents, fitness data, and personal tooling on [Medium](https://medium.com/@brun3y).
 
-<!-- Latest post card, auto-updated via omidnikrah/github-readme-medium -->
-[![Latest post](https://github-readme-medium.vercel.app/?username=@brun3y)](https://medium.com/@brun3y)
-
-- [IBM Bob Shell + Skills.sh: Supercharging Your Personal AI](https://medium.com/@brun3y/ibm-bob-shell-skills-sh-supercharging-your-personal-ai-d074dbd5ec7c)
-- [I Finally Got Positive Results Following My Strava AI Agent](https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808)
-- [My Personal AI Agent for Strava](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://medium.com/@brun3y/how-my-ai-agent-is-engineering-a-5km-pr-a2e9966869f4">
+        <img src="https://cdn-images-1.medium.com/max/1024/1*qai-vcC-o4ng61LKd32Cpw.png" width="100%" alt="" /><br />
+        <b>How My AI Agent is Engineering a 5KM PR</b>
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://medium.com/@brun3y/ibm-bob-shell-skills-sh-supercharging-your-personal-ai-d074dbd5ec7c">
+        <img src="https://cdn-images-1.medium.com/max/811/1*w9j0OCMzNI8VrEF1sJRwDg.png" width="100%" alt="" /><br />
+        <b>IBM Bob Shell + Skills.sh: Supercharging Your Personal AI</b>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808">
+        <img src="https://cdn-images-1.medium.com/max/884/1*ZuiTB291gE44shNtftF2qg.gif" width="100%" alt="" /><br />
+        <b>I Finally Got Positive Results Following My Strava AI Agent</b>
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a">
+        <img src="https://cdn-images-1.medium.com/max/1024/1*_5wsH-MMQcn7Be4psYbB5Q.png" width="100%" alt="" /><br />
+        <b>My Personal AI Agent for Strava</b>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
