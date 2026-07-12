@@ -13,11 +13,11 @@
 
 ### About
 
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="" align="right" width="48%" />
+<img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="" align="right" width="48%" />
 
 I'm **Edgar Bruney** — a Full Stack Engineer and System Computer Engineer with over a
 decade of experience shipping scalable applications and cloud solutions, currently
-within **IBM's CIO Organization** in Zapopan, Mexico.
+within **IBM's CIO Organization** in Zapopan, Mexico. I've been on GitHub **since 2013**.
 
 Lately my work lives at the intersection of **AI agents** and everyday problems: I build
 autonomous, conversational agents across **BeeAI, CrewAI, and LangGraph** — from a
@@ -48,6 +48,16 @@ enthusiast, and I code to a soundtrack of **heavy music**.
 **AI Lab** &nbsp; ![Watson](https://img.shields.io/badge/-IBM_Watson-000?style=flat&logo=ibmwatson&logoColor=white) ![BeeAI](https://img.shields.io/badge/-BeeAI-000?style=flat) ![Gemini](https://img.shields.io/badge/-Gemini-000?style=flat&logo=googlegemini&logoColor=white) ![Claude](https://img.shields.io/badge/-Claude-000?style=flat&logo=anthropic&logoColor=white)
 
 </div>
+
+---
+
+### Projects
+
+Things I've built and open-sourced — mostly AI agents and developer tooling.
+
+- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in an unrestricted mode and exposes it over a REST API.
+- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational agent on the BeeAI framework that analyzes athletic performance from the Strava API.
+- **X Trends Agent** — The same trend-analysis agent implemented three ways: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
 
 ---
 
@@ -86,13 +96,32 @@ I write about AI agents, fitness data, and personal tooling on [Medium](https://
 
 <div align="center">
 
+### GitHub Activity
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
+
+---
+
 ### Now Playing
 
 <!-- Spotify widget via kittinan/spotify-github-profile -->
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
 
-<br />
+</div>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
+---
+
+<div align="center">
+
+**Let's build something.**
+
+Open to collaborating on AI agents, cloud, and quantum experiments.
+
+<a href="mailto:Brun3y@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
+<a href="https://x.com/BrUn3y"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
+<img src="https://img.shields.io/badge/WhatsApp-Brun3y-000000?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp: Brun3y" />
 
 </div>
