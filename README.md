@@ -1,10 +1,6 @@
+<img src="./assets/banner.svg" alt="Edgar Bruney — Full Stack Engineer @ IBM" width="100%" />
+
 <div align="center">
-
-# Edgar Bruney
-
-**Full Stack Engineer** · IBM (CIO Organization) · Zapopan, MX
-
-*Building scalable cloud systems · Researching AI agents & quantum · Hybrid athlete*
 
 <a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
@@ -13,19 +9,29 @@
 
 </div>
 
-<br />
-
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="" align="right" width="52%" />
+---
 
 ### About
 
-A decade of shipping scalable applications and cloud solutions.
-I live on the edge of innovation — experimenting, researching,
-and turning emerging tech into things that run in production.
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="" align="right" width="48%" />
 
-`AI Agents` &nbsp;·&nbsp; `Quantum / Qiskit` &nbsp;·&nbsp; `Multi-Cloud`
+I'm **Edgar Bruney** — a Full Stack Engineer and System Computer Engineer with over a
+decade of experience shipping scalable applications and cloud solutions, currently
+within **IBM's CIO Organization** in Zapopan, Mexico.
 
-`Space` &nbsp;·&nbsp; `Sub-21' 5K` &nbsp;·&nbsp; `Heavy Music`
+Lately my work lives at the intersection of **AI agents** and everyday problems: I build
+autonomous, conversational agents across **BeeAI, CrewAI, and LangGraph** — from a
+[Strava performance coach](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a)
+that engineers my running PRs to trend-analysis tools for X. I also containerize AI
+workflows (an unrestricted **IBM Bob Shell** REST harness) and explore **quantum computing**
+with **Qiskit**.
+
+Off the keyboard I'm a hybrid athlete chasing a **sub-21-minute 5K**, a space-exploration
+enthusiast, and I code to a soundtrack of **heavy music**.
+
+`AI Agents` &nbsp;·&nbsp; `Quantum / Qiskit` &nbsp;·&nbsp; `Multi-Cloud` &nbsp;·&nbsp; `Space` &nbsp;·&nbsp; `Sub-21' 5K` &nbsp;·&nbsp; `Heavy Music`
+
+<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 <br clear="right" />
 
@@ -87,6 +93,6 @@ I write about AI agents, fitness data, and personal tooling on [Medium](https://
 
 <br />
 
-<img src="https://github-readme-stats.vercel.app/api?username=BrUn3y&show_icons=true&hide_border=true&hide=contribs&count_private=true&theme=dark&icon_color=53b14f&title_color=ffffff&text_color=8b949e&bg_color=0d1117" height="160" alt="Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
 
 </div>
