@@ -51,30 +51,26 @@ I write about AI agents, fitness data, and personal tooling on [Medium](https://
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td>
       <a href="https://medium.com/@brun3y/how-my-ai-agent-is-engineering-a-5km-pr-a2e9966869f4">
-        <img src="https://cdn-images-1.medium.com/max/1024/1*qai-vcC-o4ng61LKd32Cpw.png" width="100%" alt="" /><br />
-        <b>How My AI Agent is Engineering a 5KM PR</b>
+        <img src="./assets/medium/1.svg" alt="How My AI Agent is Engineering a 5KM PR" />
       </a>
     </td>
-    <td width="50%" valign="top">
+    <td>
       <a href="https://medium.com/@brun3y/ibm-bob-shell-skills-sh-supercharging-your-personal-ai-d074dbd5ec7c">
-        <img src="https://cdn-images-1.medium.com/max/811/1*w9j0OCMzNI8VrEF1sJRwDg.png" width="100%" alt="" /><br />
-        <b>IBM Bob Shell + Skills.sh: Supercharging Your Personal AI</b>
+        <img src="./assets/medium/2.svg" alt="IBM Bob Shell + Skills.sh: Supercharging Your Personal AI" />
       </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td>
       <a href="https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808">
-        <img src="https://cdn-images-1.medium.com/max/884/1*ZuiTB291gE44shNtftF2qg.gif" width="100%" alt="" /><br />
-        <b>I Finally Got Positive Results Following My Strava AI Agent</b>
+        <img src="./assets/medium/3.svg" alt="I Finally Got Positive Results Following My Strava AI Agent" />
       </a>
     </td>
-    <td width="50%" valign="top">
+    <td>
       <a href="https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a">
-        <img src="https://cdn-images-1.medium.com/max/1024/1*_5wsH-MMQcn7Be4psYbB5Q.png" width="100%" alt="" /><br />
-        <b>My Personal AI Agent for Strava</b>
+        <img src="./assets/medium/4.svg" alt="My Personal AI Agent for Strava" />
       </a>
     </td>
   </tr>
