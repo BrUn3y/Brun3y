@@ -1,58 +1,78 @@
-# ⚡ Edgar Bruney | Full Stack Engineer @ IBM
+<div align="center">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
+# Edgar Bruney
 
-## 👨‍💻 About Me
-I am a **Full Stack Engineer at IBM (CIO Organization)** with over a decade of experience building scalable applications and specialized Cloud solutions. I thrive on the edge of innovation, where I can experiment, research, and master emerging technologies.
+**Full Stack Engineer** · IBM (CIO Organization) · Zapopan, MX
 
-- 🤖 **AI & Quantum Research:** I am passionate about experimenting with **AI** for Agentic workflows, investigating **Agents** capabilities, and exploring the potential of **Qiskit** in the Quantum realm.
-- ☁️ **Cloud Expertise:** Extensive experience architecting and deploying solutions across **IBM Cloud**, **AWS**, and **GCP**.
-- 🚀 **Space Enthusiast:** Deeply fascinated by space exploration and the engineering marvels of the cosmic race.
-- 🏃‍♂️ **Hybrid Athlete:** Passionate about running and functional exercise. [I’m currently training to break a **21-minute 5K** through high-intensity functional training.](https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808)
-- 🤘 **Heavy Music:** High-energy, heavy tracks are the soundtrack to my coding and training sessions.
+*Building scalable cloud systems · Researching AI agents & quantum · Hybrid athlete*
 
-![Spotify recently played](https://spotify-recently-played-readme.vercel.app/api?user=brun3y&count=1)
----
+<a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
+<a href="https://x.com/BrUn3y"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
+<img src="https://komarev.com/ghpvc/?username=BrUn3y&label=Views&color=000000&style=flat" alt="Views" />
 
-## 🛠️ Tech Stack
+</div>
 
-### AI Ecosystem & Experimentation
-> Currently researching and building with: **BeeAI**, **IBM Watson**, **Google Gemini**, and **Claude**.
+<br />
 
-### Languages & Frameworks
-[![My Skills](https://skillicons.dev/icons?i=java,js,ts,py,php,html,css,react,angular,nodejs,express,laravel&theme=dark)](https://skillicons.dev)
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="" align="right" width="52%" />
 
-### Cloud, DevOps & Monitoring
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,docker,jenkins,bash,linux,ubuntu,newrelic&theme=dark)](https://skillicons.dev)
+### About
 
-> **Enterprise Stack:** Also specialized in **IBM Cloud**, **Dynatrace**, and **Spring** for high-scale environments.
+A decade of shipping scalable applications and cloud solutions.
+I live on the edge of innovation — experimenting, researching,
+and turning emerging tech into things that run in production.
 
----
+`AI Agents` &nbsp;·&nbsp; `Quantum / Qiskit` &nbsp;·&nbsp; `Multi-Cloud`
 
-## 📝 Latest Publications
-Check out my latest research on **AI Agents & Fitness Data**:
+`Space` &nbsp;·&nbsp; `Sub-21' 5K` &nbsp;·&nbsp; `Heavy Music`
 
-* 📘 [**I finally got positive results following my Strava AI Agent**](https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808)
-* 📗 [**My personal AI Agent for Strava**](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a)
+<br clear="right" />
 
 ---
 
-## 📊 GitHub Activity
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-used-languages?username=BrUn3y&theme=tokyonight" alt="Languages Card" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=tokyonight" alt="Stats Card" />
-</p>
+### Stack
+
+<div>
+
+**Core** &nbsp; ![Java](https://img.shields.io/badge/-Java-000?style=flat&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-000?style=flat&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/-Python-000?style=flat&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-000?style=flat&logo=nodedotjs&logoColor=white) ![React](https://img.shields.io/badge/-React-000?style=flat&logo=react&logoColor=white)
+
+**Cloud** &nbsp; ![IBM Cloud](https://img.shields.io/badge/-IBM_Cloud-000?style=flat&logo=ibmcloud&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-000?style=flat&logo=amazonwebservices&logoColor=white) ![GCP](https://img.shields.io/badge/-GCP-000?style=flat&logo=googlecloud&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-000?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-000?style=flat&logo=linux&logoColor=white)
+
+**AI Lab** &nbsp; ![Watson](https://img.shields.io/badge/-IBM_Watson-000?style=flat&logo=ibmwatson&logoColor=white) ![BeeAI](https://img.shields.io/badge/-BeeAI-000?style=flat) ![Gemini](https://img.shields.io/badge/-Gemini-000?style=flat&logo=googlegemini&logoColor=white) ![Claude](https://img.shields.io/badge/-Claude-000?style=flat&logo=anthropic&logoColor=white)
+
+</div>
 
 ---
 
-## 🤝 Connect with me
-<p align="center">
-<a href="https://linkedin.com/in/bruney" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-<a href="https://medium.com/@brun3y" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="Medium" height="30" width="40" /></a>
-<a href="https://x.com/BrUn3y" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="BrUn3y" height="30" width="40" /></a>
-</p>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=BrUn3y&label=Profile%20views&color=0062ff&style=flat" alt="Views" />
-</p>
+### Writing
+
+I write about AI agents, fitness data, and personal tooling on [Medium](https://medium.com/@brun3y).
+
+- [How My AI Agent is Engineering a 5KM PR](https://medium.com/@brun3y/how-my-ai-agent-is-engineering-a-5km-pr-a2e9966869f4)
+- [IBM Bob Shell + Skills.sh: Supercharging Your Personal AI](https://medium.com/@brun3y/ibm-bob-shell-skills-sh-supercharging-your-personal-ai-d074dbd5ec7c)
+- [I Finally Got Positive Results Following My Strava AI Agent](https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808)
+- [My Personal AI Agent for Strava](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a)
+
+<!--
+  Auto-updating widget via omidnikrah/github-readme-medium.
+  The public instance (github-readme-medium.vercel.app) is currently down, so
+  deploy your own from https://github.com/omidnikrah/github-readme-medium then
+  swap YOUR_INSTANCE below and delete the static list above.
+  [![Latest posts](https://YOUR_INSTANCE.vercel.app/?username=@brun3y&limit=4)](https://medium.com/@brun3y)
+-->
+
+---
+
+<div align="center">
+
+### Now Playing
+
+<!-- Spotify widget via kittinan/spotify-github-profile -->
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
+
+<br />
+
+<img src="https://github-readme-stats.vercel.app/api?username=BrUn3y&show_icons=true&hide_border=true&hide=contribs&count_private=true&theme=dark&icon_color=53b14f&title_color=ffffff&text_color=8b949e&bg_color=0d1117" height="160" alt="Stats" />
+
+</div>
