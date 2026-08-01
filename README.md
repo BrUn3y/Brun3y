@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Edgar Bruney — Agentic AI Engineer · Cloud Architect · Quantum Explorer" width="100%" />
+<img src="./assets/banner.svg" alt="Edgar Bruney — From Zapopan to the cloud — shipping AI systems at IBM" width="100%" />
 
 <div align="center">
 
@@ -11,7 +11,41 @@
 
 ---
 
-### Tech Stack
+<table><tr><td width="52%">
+
+### Profile
+
+**Edgar Bruney** here — Full Stack Engineer at **IBM** with 10+ years building for the cloud. I call **Zapopan, Mexico** home, and my code has lived on GitHub since **2013**.
+
+I ship agentic systems for a living: autonomous **BeeAI**, **CrewAI**, and **LangGraph** pipelines, containerized AI harnesses, and cloud-native microservices on **IBM Cloud, AWS, and GCP**. A notable personal project: an AI agent that analyzes my **Strava** training data and produces a weekly running plan — it helped me break a plateau on the way to my **sub-21' 5K** goal. I also hold the **IBM Generative & Agentic AI Expert** badge and explore **Qiskit**.
+
+Side passions: running, heavy music, and space.
+
+`IBM CIO Org` &nbsp;·&nbsp; `AI Agents` &nbsp;·&nbsp; `Space Nerd` &nbsp;·&nbsp; `Runner` &nbsp;·&nbsp; `Heavy Music`
+
+<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
+
+</td><td>
+
+### GitHub Stats
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
+
+</td></tr></table>
+
+---
+
+### OSS Projects
+
+- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
+- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
+- **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
+
+---
+
+### My Stack
 
 <div>
 
@@ -25,41 +59,7 @@
 
 ---
 
-### Who I Am
-
-Meet **Edgar Bruney** — an engineer who joined GitHub in **2013** and never stopped shipping. Today I work inside **IBM's CIO Organization** in **Zapopan, Mexico**, translating research-grade AI into real production systems.
-
-Right now I'm deep in **agentic AI** — designing multi-agent pipelines with **BeeAI**, **CrewAI**, and **LangGraph** that go from idea to deployed REST API. I built a [personal running coach agent](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) on top of the **Strava API** that actually moved my 5K time, and I containerized **IBM Bob Shell** into a headless REST harness. Beyond that: **Qiskit** experiments, multi-cloud architecture, and co-organizing **quantum computing meetups** in Guadalajara.
-
-When I step away from the screen, I run — targeting **sub-21 minutes** for 5K — and listen to **heavy music**.
-
-`BeeAI · CrewAI · LangGraph` &nbsp;·&nbsp; `IBM Cloud` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `Running` &nbsp;·&nbsp; `Heavy Music`
-
-<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
-
----
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" width="70%" />
-
-<br clear="right" />
-
-</div>
-
----
-
-### Open Source
-
-- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
-- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
-- **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
-
----
-
-### On Medium
-
-I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic performance data, and cloud tooling.
+### Blog Posts
 
 <table>
   <tr>
@@ -92,14 +92,7 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 <div align="center">
 
-### Stats
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
-
----
-
-### Listening To
+### On Spotify
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
 
@@ -109,7 +102,7 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 <div align="center">
 
-**Open to collaborating on AI agents, cloud, and quantum experiments.**
+**Let's build something bold.**
 
 <a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
@@ -123,9 +116,9 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-07-30** at **2026-07-30 19:49:44 UTC**
+🤖 **Auto-updated by AI** on **2026-08-01** at **2026-08-01 13:01:59 UTC**
 All information gathered from publicly available sources across the internet.
-Content rotates daily — layout variant 2/7.
+Content rotates daily — layout variant 4/7.
 
 </sub>
 </div>
