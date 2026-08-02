@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Edgar Bruney — From Zapopan to the cloud — shipping AI systems at IBM" width="100%" />
+<img src="./assets/banner.svg" alt="Edgar Bruney — Full Stack × AI Agents × Quantum Computing · IBM Engineer" width="100%" />
 
 <div align="center">
 
@@ -7,45 +7,34 @@
 <a href="https://x.com/BrUn3y"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
 <img src="https://komarev.com/ghpvc/?username=BrUn3y&label=Views&color=000000&style=flat" alt="Views" />
 
+---
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
+
 </div>
 
 ---
 
-<table><tr><td width="52%">
+### The Person
 
-### Profile
+<img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />
 
-**Edgar Bruney** here — Full Stack Engineer at **IBM** with 10+ years building for the cloud. I call **Zapopan, Mexico** home, and my code has lived on GitHub since **2013**.
+**Edgar Bruney** — IBM engineer, AI agent enthusiast, and occasional quantum tinkerer operating out of **Zapopan, Mexico**. I've been pushing commits since **2013**.
 
-I ship agentic systems for a living: autonomous **BeeAI**, **CrewAI**, and **LangGraph** pipelines, containerized AI harnesses, and cloud-native microservices on **IBM Cloud, AWS, and GCP**. A notable personal project: an AI agent that analyzes my **Strava** training data and produces a weekly running plan — it helped me break a plateau on the way to my **sub-21' 5K** goal. I also hold the **IBM Generative & Agentic AI Expert** badge and explore **Qiskit**.
+My work sits at the intersection of **enterprise cloud** and **agentic AI**. Inside IBM I design microservices and cloud solutions; outside work hours I prototype AI agents with **BeeAI**, **CrewAI**, and **LangGraph** — including a [conversational Strava coach](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) and multi-platform X trend analyzers. I'm also co-building a **quantum computing community** in Guadalajara through IBM.
 
-Side passions: running, heavy music, and space.
+When I'm not at a keyboard: running sub-21' 5K, listening to heavy music, watching space launches.
 
-`IBM CIO Org` &nbsp;·&nbsp; `AI Agents` &nbsp;·&nbsp; `Space Nerd` &nbsp;·&nbsp; `Runner` &nbsp;·&nbsp; `Heavy Music`
+`Certified IBM AI Expert` &nbsp;·&nbsp; `AWS Serverless` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `5K Runner` &nbsp;·&nbsp; `Open Source`
 
 <sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
-</td><td>
-
-### GitHub Stats
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
-
-</td></tr></table>
+<br clear="right" />
 
 ---
 
-### OSS Projects
-
-- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
-- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
-- **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
-
----
-
-### My Stack
+### Technologies
 
 <div>
 
@@ -59,7 +48,15 @@ Side passions: running, heavy music, and space.
 
 ---
 
-### Blog Posts
+### Built & Shipped
+
+- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
+- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
+- **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
+
+---
+
+### Writing
 
 <table>
   <tr>
@@ -92,7 +89,7 @@ Side passions: running, heavy music, and space.
 
 <div align="center">
 
-### On Spotify
+### Music
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
 
@@ -102,7 +99,7 @@ Side passions: running, heavy music, and space.
 
 <div align="center">
 
-**Let's build something bold.**
+**Building at the intersection of AI, cloud, and quantum.**
 
 <a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
@@ -116,9 +113,9 @@ Side passions: running, heavy music, and space.
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-01** at **2026-08-01 13:01:59 UTC**
+🤖 **Auto-updated by AI** on **2026-08-02** at **2026-08-02 13:01:26 UTC**
 All information gathered from publicly available sources across the internet.
-Content rotates daily — layout variant 4/7.
+Content rotates daily — layout variant 5/7.
 
 </sub>
 </div>
