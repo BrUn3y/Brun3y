@@ -20,34 +20,34 @@
 
 <img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />
 
-**Edgar Bruney** — Ingeniero en IBM, entusiasta de agentes de IA, y ocasional experimentador en computación cuántica operando desde **Zapopan, México**. Ha estado contribuyendo código desde **2013**.
+**Edgar Bruney** — IBM Engineer, AI agent enthusiast, and occasional quantum computing experimenter operating from **Zapopan, Mexico**. Has been contributing code since **2013**.
 
-#### Trayectoria Profesional
+#### Professional Journey
 
-Edgar trabaja en la intersección de **cloud empresarial** e **IA agéntica**. Dentro de IBM diseña microservicios y soluciones en la nube; fuera del horario laboral desarrolla prototipos de agentes de IA con **BeeAI**, **CrewAI**, y **LangGraph** — incluyendo un [coach conversacional para Strava](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) y analizadores de tendencias en X multiplataforma. También está co-construyendo una **comunidad de computación cuántica** en Guadalajara a través de IBM.
+Edgar works at the intersection of **enterprise cloud** and **agentic AI**. Within IBM he designs microservices and cloud solutions; outside work hours he develops AI agent prototypes with **BeeAI**, **CrewAI**, and **LangGraph** — including a [conversational coach for Strava](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) and cross-platform X trend analyzers. He's also co-building a **quantum computing community** in Guadalajara through IBM.
 
-#### Expertise Técnico
+#### Technical Expertise
 
-- **Cloud & Enterprise**: Arquitectura de microservicios, soluciones serverless en AWS, infraestructura en IBM Cloud y GCP
-- **Inteligencia Artificial**: Desarrollo de agentes autónomos, integración con Watson, Gemini y Claude, frameworks como BeeAI y LangGraph
-- **Computación Cuántica**: Trabajo con Qiskit, divulgación y construcción de comunidad en el ecosistema quantum
+- **Cloud & Enterprise**: Microservices architecture, serverless solutions on AWS, infrastructure on IBM Cloud and GCP
+- **Artificial Intelligence**: Autonomous agent development, integration with Watson, Gemini and Claude, frameworks like BeeAI and LangGraph
+- **Quantum Computing**: Work with Qiskit, outreach and community building in the quantum ecosystem
 - **Full Stack Development**: Java, TypeScript, Python, Node.js, React, Docker, Linux
 
-#### Proyectos Destacados
+#### Featured Projects
 
-Edgar ha construido y publicado varios proyectos open source que demuestran su enfoque en automatización inteligente:
+Edgar has built and published several open source projects that demonstrate his focus on intelligent automation:
 
-- **IBM Bob Shell Harness**: Contenedor Docker que ejecuta IBM Bob Shell en modo sin restricciones y lo expone mediante REST API
-- **Strava Agent**: Agente conversacional con BeeAI que analiza rendimiento atlético directamente desde la API de Strava
-- **X Trends Agent**: Mismo agente de análisis de tendencias implementado en tres frameworks diferentes (BeeAI, CrewAI, LangGraph)
+- **IBM Bob Shell Harness**: Docker container that runs IBM Bob Shell in unrestricted mode and exposes it via REST API
+- **Strava Agent**: Conversational agent with BeeAI that analyzes athletic performance directly from the Strava API
+- **X Trends Agent**: Same trend analysis agent implemented in three different frameworks (BeeAI, CrewAI, LangGraph)
 
-#### Más Allá del Código
+#### Beyond Code
 
-Cuando no está frente a un teclado: corriendo 5K en menos de 21 minutos, escuchando música pesada, viendo lanzamientos espaciales.
+When not in front of a keyboard: running 5K in under 21 minutes, listening to heavy music, watching space launches.
 
 `Certified IBM AI Expert` &nbsp;·&nbsp; `AWS Serverless` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `5K Runner` &nbsp;·&nbsp; `Open Source`
 
-<sub>ℹ️ Esta biografía fue compilada a partir de información disponible públicamente en internet y escrita con la ayuda de IA.</sub>
+<sub>ℹ️ This biography was compiled from publicly available information on the internet and written with the help of AI.</sub>
 
 <br clear="right" />
 
@@ -132,8 +132,8 @@ Cuando no está frente a un teclado: corriendo 5K en menos de 21 minutos, escuch
 <div align="center">
 <sub>
 
-🤖 **Actualizado automáticamente por IA** el **2026-08-03**
-Toda la información fue recolectada por IA a partir de fuentes públicas disponibles en internet.
+🤖 **Automatically updated by AI** on **2026-08-03**
+All information was collected by AI from publicly available sources on the internet.
 
 </sub>
 </div>
