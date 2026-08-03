@@ -20,15 +20,34 @@
 
 <img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />
 
-**Edgar Bruney** — IBM engineer, AI agent enthusiast, and occasional quantum tinkerer operating out of **Zapopan, Mexico**. I've been pushing commits since **2013**.
+**Edgar Bruney** — Ingeniero en IBM, entusiasta de agentes de IA, y ocasional experimentador en computación cuántica operando desde **Zapopan, México**. Ha estado contribuyendo código desde **2013**.
 
-My work sits at the intersection of **enterprise cloud** and **agentic AI**. Inside IBM I design microservices and cloud solutions; outside work hours I prototype AI agents with **BeeAI**, **CrewAI**, and **LangGraph** — including a [conversational Strava coach](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) and multi-platform X trend analyzers. I'm also co-building a **quantum computing community** in Guadalajara through IBM.
+#### Trayectoria Profesional
 
-When I'm not at a keyboard: running sub-21' 5K, listening to heavy music, watching space launches.
+Edgar trabaja en la intersección de **cloud empresarial** e **IA agéntica**. Dentro de IBM diseña microservicios y soluciones en la nube; fuera del horario laboral desarrolla prototipos de agentes de IA con **BeeAI**, **CrewAI**, y **LangGraph** — incluyendo un [coach conversacional para Strava](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) y analizadores de tendencias en X multiplataforma. También está co-construyendo una **comunidad de computación cuántica** en Guadalajara a través de IBM.
+
+#### Expertise Técnico
+
+- **Cloud & Enterprise**: Arquitectura de microservicios, soluciones serverless en AWS, infraestructura en IBM Cloud y GCP
+- **Inteligencia Artificial**: Desarrollo de agentes autónomos, integración con Watson, Gemini y Claude, frameworks como BeeAI y LangGraph
+- **Computación Cuántica**: Trabajo con Qiskit, divulgación y construcción de comunidad en el ecosistema quantum
+- **Full Stack Development**: Java, TypeScript, Python, Node.js, React, Docker, Linux
+
+#### Proyectos Destacados
+
+Edgar ha construido y publicado varios proyectos open source que demuestran su enfoque en automatización inteligente:
+
+- **IBM Bob Shell Harness**: Contenedor Docker que ejecuta IBM Bob Shell en modo sin restricciones y lo expone mediante REST API
+- **Strava Agent**: Agente conversacional con BeeAI que analiza rendimiento atlético directamente desde la API de Strava
+- **X Trends Agent**: Mismo agente de análisis de tendencias implementado en tres frameworks diferentes (BeeAI, CrewAI, LangGraph)
+
+#### Más Allá del Código
+
+Cuando no está frente a un teclado: corriendo 5K en menos de 21 minutos, escuchando música pesada, viendo lanzamientos espaciales.
 
 `Certified IBM AI Expert` &nbsp;·&nbsp; `AWS Serverless` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `5K Runner` &nbsp;·&nbsp; `Open Source`
 
-<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
+<sub>ℹ️ Esta biografía fue compilada a partir de información disponible públicamente en internet y escrita con la ayuda de IA.</sub>
 
 <br clear="right" />
 
@@ -113,9 +132,8 @@ When I'm not at a keyboard: running sub-21' 5K, listening to heavy music, watchi
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-02** at **2026-08-02 13:01:26 UTC**
-All information gathered from publicly available sources across the internet.
-Content rotates daily — layout variant 5/7.
+🤖 **Actualizado automáticamente por IA** el **2026-08-03**
+Toda la información fue recolectada por IA a partir de fuentes públicas disponibles en internet.
 
 </sub>
 </div>
