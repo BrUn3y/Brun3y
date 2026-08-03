@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Edgar Bruney — Full Stack × AI Agents × Quantum Computing · IBM Engineer" width="100%" />
+<img src="./assets/banner.svg" alt="Edgar Bruney — 10+ years shipping code · Now building the agentic layer" width="100%" />
 
 <div align="center">
 
@@ -9,51 +9,33 @@
 
 ---
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
+### Currently Playing
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
 
 </div>
 
 ---
 
-### The Person
+### About Me
 
 <img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />
 
-**Edgar Bruney** — IBM Engineer, AI agent enthusiast, and occasional quantum computing experimenter operating from **Zapopan, Mexico**. Has been contributing code since **2013**.
+You're looking at the GitHub profile of **Edgar Bruney Castañeda Torres** — a Full Stack Engineer at **IBM's CIO Organization**, based in **Zapopan, Mexico**, building since **2013**.
 
-#### Professional Journey
+Certified **IBM Generative & Agentic AI Expert Developer**, **AWS Serverless** badge holder, and **Hybrid Cloud Microservices Architect** — but the thing I'm most proud of is shipping agents that work in the real world. My open-source projects range from a containerized **IBM Bob Shell REST API** to a **Strava performance agent** that helped me improve my actual race times.
 
-Edgar works at the intersection of **enterprise cloud** and **agentic AI**. Within IBM he designs microservices and cloud solutions; outside work hours he develops AI agent prototypes with **BeeAI**, **CrewAI**, and **LangGraph** — including a [conversational coach for Strava](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) and cross-platform X trend analyzers. He's also co-building a **quantum computing community** in Guadalajara through IBM.
+Also: quantum nerd, heavy music fan, sub-21' 5K chaser.
 
-#### Technical Expertise
+`Cloud-Native` &nbsp;·&nbsp; `Agentic` &nbsp;·&nbsp; `Quantum` &nbsp;·&nbsp; `Strava Agent` &nbsp;·&nbsp; `Heavy Music`
 
-- **Cloud & Enterprise**: Microservices architecture, serverless solutions on AWS, infrastructure on IBM Cloud and GCP
-- **Artificial Intelligence**: Autonomous agent development, integration with Watson, Gemini and Claude, frameworks like BeeAI and LangGraph
-- **Quantum Computing**: Work with Qiskit, outreach and community building in the quantum ecosystem
-- **Full Stack Development**: Java, TypeScript, Python, Node.js, React, Docker, Linux
-
-#### Featured Projects
-
-Edgar has built and published several open source projects that demonstrate his focus on intelligent automation:
-
-- **IBM Bob Shell Harness**: Docker container that runs IBM Bob Shell in unrestricted mode and exposes it via REST API
-- **Strava Agent**: Conversational agent with BeeAI that analyzes athletic performance directly from the Strava API
-- **X Trends Agent**: Same trend analysis agent implemented in three different frameworks (BeeAI, CrewAI, LangGraph)
-
-#### Beyond Code
-
-When not in front of a keyboard: running 5K in under 21 minutes, listening to heavy music, watching space launches.
-
-`Certified IBM AI Expert` &nbsp;·&nbsp; `AWS Serverless` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `5K Runner` &nbsp;·&nbsp; `Open Source`
-
-<sub>ℹ️ This biography was compiled from publicly available information on the internet and written with the help of AI.</sub>
+<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 <br clear="right" />
 
 ---
 
-### Technologies
+### Stack
 
 <div>
 
@@ -67,7 +49,7 @@ When not in front of a keyboard: running 5K in under 21 minutes, listening to he
 
 ---
 
-### Built & Shipped
+### Projects
 
 - **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
 - **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
@@ -75,7 +57,7 @@ When not in front of a keyboard: running 5K in under 21 minutes, listening to he
 
 ---
 
-### Writing
+### Reads
 
 <table>
   <tr>
@@ -108,9 +90,10 @@ When not in front of a keyboard: running 5K in under 21 minutes, listening to he
 
 <div align="center">
 
-### Music
+### GitHub
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
 
 </div>
 
@@ -118,7 +101,7 @@ When not in front of a keyboard: running 5K in under 21 minutes, listening to he
 
 <div align="center">
 
-**Building at the intersection of AI, cloud, and quantum.**
+**Ship fast. Stay curious. Build things that matter.**
 
 <a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
@@ -132,8 +115,9 @@ When not in front of a keyboard: running 5K in under 21 minutes, listening to he
 <div align="center">
 <sub>
 
-🤖 **Automatically updated by AI** on **2026-08-03**
-All information was collected by AI from publicly available sources on the internet.
+🤖 **Auto-updated by AI** on **2026-08-03** at **2026-08-03 13:01:44 UTC**
+All information gathered from publicly available sources across the internet.
+Content rotates daily — layout variant 6/7.
 
 </sub>
 </div>
