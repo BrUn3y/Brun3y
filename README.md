@@ -23,13 +23,33 @@
 
 You're looking at the GitHub profile of **Edgar Bruney Castañeda Torres** — a Full Stack Engineer at **IBM's CIO Organization**, based in **Zapopan, Mexico**, building since **2013**.
 
-Certified **IBM Generative & Agentic AI Expert Developer**, **AWS Serverless** badge holder, and **Hybrid Cloud Microservices Architect** — but the thing I'm most proud of is shipping agents that work in the real world. My open-source projects range from a containerized **IBM Bob Shell REST API** to a **Strava performance agent** that helped me improve my actual race times.
+#### Professional Journey
 
-Also: quantum nerd, heavy music fan, sub-21' 5K chaser.
+Edgar Bruney Castañeda Torres is a **Full Stack Engineer at IBM's CIO Organization** based in **Zapopan, Jalisco, Mexico**, and has been building software since **2013**. His public work centers on **cloud-native engineering**, **hybrid cloud microservices**, and **agentic AI**, with a profile focused on shipping practical systems that work in real-world scenarios.
 
-`Cloud-Native` &nbsp;·&nbsp; `Agentic` &nbsp;·&nbsp; `Quantum` &nbsp;·&nbsp; `Strava Agent` &nbsp;·&nbsp; `Heavy Music`
+#### Technical Expertise
 
-<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
+- **Cloud & Enterprise**: Hybrid cloud microservices architecture, cloud-native application design, and serverless development
+- **Artificial Intelligence**: Agentic AI systems, conversational agents, and applied automation workflows
+- **Credentials & Focus Areas**: Certified IBM Generative & Agentic AI Expert Developer, AWS Serverless badge holder, Hybrid Cloud Microservices Architect
+- **Hands-On Stack**: Python, JavaScript, Shell, Docker, Linux, and full-stack engineering practices
+
+#### Featured Projects
+
+Edgar's recent public repositories highlight a strong focus on intelligent tooling and applied AI:
+
+- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)**: Dockerized harness that runs IBM Bob Shell headless in unrestricted mode and exposes it through a REST API
+- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)**: Conversational AI agent built with BeeAI that connects to the full Strava API to analyze athletic performance data
+- **X Trends Agent**: AI-powered trend analysis project implemented across multiple frameworks, including [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI), [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI), and [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph)
+- **Qiskit Translations**: Public contribution to the Qiskit documentation translation effort, reflecting continued interest in the quantum ecosystem
+
+#### Beyond Code
+
+Outside of engineering, Edgar's public profile highlights interests in **running**, **heavy music**, and **quantum topics**, including a personal goal of chasing a **sub-21-minute 5K**.
+
+`IBM Generative & Agentic AI Expert Developer` &nbsp;·&nbsp; `AWS Serverless` &nbsp;·&nbsp; `Hybrid Cloud Microservices Architect` &nbsp;·&nbsp; `Sub-21 5K Chaser` &nbsp;·&nbsp; `Open Source`
+
+<sub>ℹ️ This biography was compiled from publicly available information on the internet and written with the help of AI.</sub>
 
 <br clear="right" />
 
@@ -115,9 +135,8 @@ Also: quantum nerd, heavy music fan, sub-21' 5K chaser.
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-03** at **2026-08-03 13:01:44 UTC**
-All information gathered from publicly available sources across the internet.
-Content rotates daily — layout variant 6/7.
+🤖 **Automatically updated by AI** on **2026-08-04**
+All information was collected by AI from publicly available sources on the internet.
 
 </sub>
 </div>
