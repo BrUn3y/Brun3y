@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Edgar Bruney — 10+ years shipping code · Now building the agentic layer" width="100%" />
+<img src="./assets/banner.svg" alt="Edgar Bruney — IBM Engineer · Runner chasing sub-21 · Heavy music · AI labs" width="100%" />
 
 <div align="center">
 
@@ -7,55 +7,27 @@
 <a href="https://x.com/BrUn3y"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
 <img src="https://komarev.com/ghpvc/?username=BrUn3y&label=Views&color=000000&style=flat" alt="Views" />
 
----
-
-### Currently Playing
-
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
-
 </div>
 
 ---
 
-### About Me
+I'm **Edgar Bruney**, a decade-long engineer now at **IBM** focusing on agentic AI systems. Zapopan-based, cloud-native, GitHub-resident since **2013**.
 
 <img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />
 
-You're looking at the GitHub profile of **Edgar Bruney Castañeda Torres** — a Full Stack Engineer at **IBM's CIO Organization**, based in **Zapopan, Mexico**, building since **2013**.
+My journey from Java/Web dev to AI agent architect runs through 10+ years at **IBM** and hundreds of GitHub commits. Today I build production-grade autonomous systems with **BeeAI**, **CrewAI**, and **LangGraph**, containerize AI workloads with **Docker**, and push the boundaries of **Qiskit** experiments in the **IBM Quantum Guadalajara** community.
 
-#### Professional Journey
+Life outside code: marathon-adjacent running (5K target: sub-21'), heavy music, and space obsession.
 
-Edgar Bruney Castañeda Torres is a **Full Stack Engineer at IBM's CIO Organization** based in **Zapopan, Jalisco, Mexico**, and has been building software since **2013**. His public work centers on **cloud-native engineering**, **hybrid cloud microservices**, and **agentic AI**, with a profile focused on shipping practical systems that work in real-world scenarios.
+`Multi-Cloud` &nbsp;·&nbsp; `BeeAI` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `Sub-21' 5K` &nbsp;·&nbsp; `Zapopan MX`
 
-#### Technical Expertise
-
-- **Cloud & Enterprise**: Hybrid cloud microservices architecture, cloud-native application design, and serverless development
-- **Artificial Intelligence**: Agentic AI systems, conversational agents, and applied automation workflows
-- **Credentials & Focus Areas**: Certified IBM Generative & Agentic AI Expert Developer, AWS Serverless badge holder, Hybrid Cloud Microservices Architect
-- **Hands-On Stack**: Python, JavaScript, Shell, Docker, Linux, and full-stack engineering practices
-
-#### Featured Projects
-
-Edgar's recent public repositories highlight a strong focus on intelligent tooling and applied AI:
-
-- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)**: Dockerized harness that runs IBM Bob Shell headless in unrestricted mode and exposes it through a REST API
-- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)**: Conversational AI agent built with BeeAI that connects to the full Strava API to analyze athletic performance data
-- **X Trends Agent**: AI-powered trend analysis project implemented across multiple frameworks, including [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI), [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI), and [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph)
-- **Qiskit Translations**: Public contribution to the Qiskit documentation translation effort, reflecting continued interest in the quantum ecosystem
-
-#### Beyond Code
-
-Outside of engineering, Edgar's public profile highlights interests in **running**, **heavy music**, and **quantum topics**, including a personal goal of chasing a **sub-21-minute 5K**.
-
-`IBM Generative & Agentic AI Expert Developer` &nbsp;·&nbsp; `AWS Serverless` &nbsp;·&nbsp; `Hybrid Cloud Microservices Architect` &nbsp;·&nbsp; `Sub-21 5K Chaser` &nbsp;·&nbsp; `Open Source`
-
-<sub>ℹ️ This biography was compiled from publicly available information on the internet and written with the help of AI.</sub>
+<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 <br clear="right" />
 
 ---
 
-### Stack
+#### Tech I Use
 
 <div>
 
@@ -69,7 +41,7 @@ Outside of engineering, Edgar's public profile highlights interests in **running
 
 ---
 
-### Projects
+#### Side Projects
 
 - **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
 - **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
@@ -77,7 +49,7 @@ Outside of engineering, Edgar's public profile highlights interests in **running
 
 ---
 
-### Reads
+#### Medium Posts
 
 <table>
   <tr>
@@ -110,18 +82,20 @@ Outside of engineering, Edgar's public profile highlights interests in **running
 
 <div align="center">
 
-### GitHub
+#### Stats & Streaks
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
 
-</div>
+---
+
+#### Playlist
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
 
 ---
 
-<div align="center">
-
-**Ship fast. Stay curious. Build things that matter.**
+**Reach out — let's build something.**
 
 <a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
@@ -135,8 +109,9 @@ Outside of engineering, Edgar's public profile highlights interests in **running
 <div align="center">
 <sub>
 
-🤖 **Automatically updated by AI** on **2026-08-04**
-All information was collected by AI from publicly available sources on the internet.
+🤖 **Auto-updated by AI** on **2026-08-04** at **2026-08-04 13:01:48 UTC**
+All information gathered from publicly available sources across the internet.
+Content rotates daily — layout variant 7/7.
 
 </sub>
 </div>
