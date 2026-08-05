@@ -11,17 +11,17 @@
 
 ---
 
-I'm **Edgar Bruney**, a decade-long engineer now at **IBM** focusing on agentic AI systems. Zapopan-based, cloud-native, GitHub-resident since **2013**.
+I'm **Edgar Bruney**, a Full Stack Engineer at **IBM's CIO Organization** with over **13 years of experience** building production systems since **2013**. Based in **Zapopan, Mexico**, I specialize in cloud-native engineering, hybrid cloud microservices, and agentic AI systems.
 
 <img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />
 
-My journey from Java/Web dev to AI agent architect runs through 10+ years at **IBM** and hundreds of GitHub commits. Today I build production-grade autonomous systems with **BeeAI**, **CrewAI**, and **LangGraph**, containerize AI workloads with **Docker**, and push the boundaries of **Qiskit** experiments in the **IBM Quantum Guadalajara** community.
+My professional journey spans enterprise-scale cloud architectures, AI-driven automation, and intelligent tooling. At IBM, I work on digital transformation initiatives leveraging modern cloud platforms and agentic AI frameworks. I hold certifications as an **IBM Generative & Agentic AI Expert Developer**, **AWS Serverless** badge holder, and **Hybrid Cloud Microservices Architect**.
 
-Life outside code: marathon-adjacent running (5K target: sub-21'), heavy music, and space obsession.
+My technical expertise includes **Python**, **JavaScript/TypeScript**, **Java**, **Node.js**, **React**, containerization with **Docker/Kubernetes**, and AI frameworks like **IBM Watson**, **BeeAI**, **Gemini**, **Claude**, **LangGraph**, and **CrewAI**. I build production-grade autonomous systems and push boundaries with **Qiskit** experiments in the **IBM Quantum Guadalajara** community.
+
+Beyond code: I'm a distance runner chasing a **sub-21-minute 5K**, passionate about heavy music, and fascinated by quantum computing and space exploration.
 
 `Multi-Cloud` &nbsp;·&nbsp; `BeeAI` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `Sub-21' 5K` &nbsp;·&nbsp; `Zapopan MX`
-
-<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 <br clear="right" />
 
@@ -43,9 +43,10 @@ Life outside code: marathon-adjacent running (5K target: sub-21'), heavy music, 
 
 #### Side Projects
 
-- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
-- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
-- **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
+- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Production-ready Dockerized harness running IBM's Bob Shell headless in unrestricted mode with REST API and Slack integration for autonomous AI operations.
+- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent providing intelligent athletic performance analysis and training recommendations via the Strava API.
+- **X Trends Agent** — Multi-framework AI trend analysis system: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph) — demonstrating framework-agnostic AI engineering.
+- **Qiskit Translations** — Active contributor to Qiskit documentation translation, supporting the quantum computing community.
 
 ---
 
@@ -109,9 +110,8 @@ Life outside code: marathon-adjacent running (5K target: sub-21'), heavy music, 
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-04** at **2026-08-04 13:01:48 UTC**
+🤖 **Auto-updated by AI** on **2026-08-05**  
 All information gathered from publicly available sources across the internet.
-Content rotates daily — layout variant 7/7.
 
 </sub>
 </div>
