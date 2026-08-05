@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Edgar Bruney — IBM Engineer · Runner chasing sub-21 · Heavy music · AI labs" width="100%" />
+<img src="./assets/banner.svg" alt="Edgar Bruney — Full Stack Engineer & AI Agent Builder @ IBM" width="100%" />
 
 <div align="center">
 
@@ -11,23 +11,25 @@
 
 ---
 
-I'm **Edgar Bruney**, a Full Stack Engineer at **IBM's CIO Organization** with over **13 years of experience** building production systems since **2013**. Based in **Zapopan, Mexico**, I specialize in cloud-native engineering, hybrid cloud microservices, and agentic AI systems.
+### About
 
 <img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />
 
-My professional journey spans enterprise-scale cloud architectures, AI-driven automation, and intelligent tooling. At IBM, I work on digital transformation initiatives leveraging modern cloud platforms and agentic AI frameworks. I hold certifications as an **IBM Generative & Agentic AI Expert Developer**, **AWS Serverless** badge holder, and **Hybrid Cloud Microservices Architect**.
+I'm **Edgar Bruney** — a Full Stack & Systems Engineer based in **Zapopan, Mexico**, building production AI systems inside **IBM's CIO Organization**. On GitHub since **2013**, with a decade of shipping scalable cloud applications behind me.
 
-My technical expertise includes **Python**, **JavaScript/TypeScript**, **Java**, **Node.js**, **React**, containerization with **Docker/Kubernetes**, and AI frameworks like **IBM Watson**, **BeeAI**, **Gemini**, **Claude**, **LangGraph**, and **CrewAI**. I build production-grade autonomous systems and push boundaries with **Qiskit** experiments in the **IBM Quantum Guadalajara** community.
+My current focus is **AI agents**: autonomous systems built on **BeeAI, CrewAI, and LangGraph** that solve real problems — a [Strava performance coach](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) that trained me toward a **sub-21' 5K**, containerized **IBM Bob Shell** workflows, and X trend-analysis tools. I also explore **quantum computing** with **Qiskit** and co-lead Guadalajara's IBM Quantum community (60+ attendees at our first session).
 
-Beyond code: I'm a distance runner chasing a **sub-21-minute 5K**, passionate about heavy music, and fascinated by quantum computing and space exploration.
+Off the keyboard I chase running PRs and code to **heavy music**.
 
-`Multi-Cloud` &nbsp;·&nbsp; `BeeAI` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `Sub-21' 5K` &nbsp;·&nbsp; `Zapopan MX`
+`AI Agents` &nbsp;·&nbsp; `Quantum / Qiskit` &nbsp;·&nbsp; `Multi-Cloud` &nbsp;·&nbsp; `Space` &nbsp;·&nbsp; `Sub-21' 5K` &nbsp;·&nbsp; `Heavy Music`
+
+<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 <br clear="right" />
 
 ---
 
-#### Tech I Use
+### Stack
 
 <div>
 
@@ -41,16 +43,17 @@ Beyond code: I'm a distance runner chasing a **sub-21-minute 5K**, passionate ab
 
 ---
 
-#### Side Projects
+### Projects
 
-- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Production-ready Dockerized harness running IBM's Bob Shell headless in unrestricted mode with REST API and Slack integration for autonomous AI operations.
-- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent providing intelligent athletic performance analysis and training recommendations via the Strava API.
-- **X Trends Agent** — Multi-framework AI trend analysis system: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph) — demonstrating framework-agnostic AI engineering.
-- **Qiskit Translations** — Active contributor to Qiskit documentation translation, supporting the quantum computing community.
+- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
+- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
+- **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
 
 ---
 
-#### Medium Posts
+### Writing
+
+I write about AI agents, fitness data, and personal tooling on [Medium](https://medium.com/@brun3y).
 
 <table>
   <tr>
@@ -83,20 +86,26 @@ Beyond code: I'm a distance runner chasing a **sub-21-minute 5K**, passionate ab
 
 <div align="center">
 
-#### Stats & Streaks
+### GitHub Activity
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
 
 ---
 
-#### Playlist
+### Now Playing
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
 
+</div>
+
 ---
 
-**Reach out — let's build something.**
+<div align="center">
+
+**Let's build something.**
+
+Open to collaborating on AI agents, cloud, and quantum experiments.
 
 <a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
@@ -110,8 +119,9 @@ Beyond code: I'm a distance runner chasing a **sub-21-minute 5K**, passionate ab
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-05**  
+🤖 **Auto-updated by AI** on **2026-08-05** at **2026-08-05 13:01:50 UTC**
 All information gathered from publicly available sources across the internet.
+Content rotates daily — layout variant 1/7.
 
 </sub>
 </div>
