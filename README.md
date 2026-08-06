@@ -15,11 +15,13 @@
 
 <img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />
 
-I'm **Edgar Bruney** — a Full Stack & Systems Engineer based in **Zapopan, Mexico**, building production AI systems inside **IBM's CIO Organization**. On GitHub since **2013**, with a decade of shipping scalable cloud applications behind me.
+I'm **Edgar Bruney** — a Full Stack & Systems Engineer based in **Zapopan, Jalisco, Mexico**, building production AI systems inside **IBM's CIO Organization**. On GitHub since **2013**, with over a decade of shipping scalable cloud applications and **43 public repositories** earning **46 stars**.
 
-My current focus is **AI agents**: autonomous systems built on **BeeAI, CrewAI, and LangGraph** that solve real problems — a [Strava performance coach](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) that trained me toward a **sub-21' 5K**, containerized **IBM Bob Shell** workflows, and X trend-analysis tools. I also explore **quantum computing** with **Qiskit** and co-lead Guadalajara's IBM Quantum community (60+ attendees at our first session).
+My current focus is **AI agents**: autonomous systems built on **BeeAI, CrewAI, and LangGraph** that solve real problems — a [Strava performance coach](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) that trained me toward a **sub-21' 5K**, containerized **IBM Bob Shell** workflows with REST API integration, and X trend-analysis tools demonstrating framework-agnostic engineering. I also explore **quantum computing** with **Qiskit** and co-lead **Guadalajara's IBM Quantum community** (60+ attendees at our first session).
 
-Off the keyboard I chase running PRs and code to **heavy music**.
+I hold certifications as an **IBM Generative & Agentic AI Expert Developer**, **AWS Serverless** badge holder, and **Hybrid Cloud Microservices Architect**. I actively contribute to open-source projects including Qiskit documentation translations, supporting the global quantum computing community.
+
+Off the keyboard I chase running PRs and code to **heavy music**. My personal website: [brun3y-d3d2a.firebaseapp.com](https://brun3y-d3d2a.firebaseapp.com/)
 
 `AI Agents` &nbsp;·&nbsp; `Quantum / Qiskit` &nbsp;·&nbsp; `Multi-Cloud` &nbsp;·&nbsp; `Space` &nbsp;·&nbsp; `Sub-21' 5K` &nbsp;·&nbsp; `Heavy Music`
 
@@ -45,9 +47,10 @@ Off the keyboard I chase running PRs and code to **heavy music**.
 
 ### Projects
 
-- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
-- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
+- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API with Slack integration for autonomous AI operations.
+- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐) — Advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API.
 - **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
+- **Qiskit Translations** — Active contributor to Qiskit documentation translation, supporting the quantum computing community.
 
 ---
 
@@ -119,9 +122,8 @@ Open to collaborating on AI agents, cloud, and quantum experiments.
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-05** at **2026-08-05 13:01:50 UTC**
+🤖 **Auto-updated by AI** on **2026-08-06**  
 All information gathered from publicly available sources across the internet.
-Content rotates daily — layout variant 1/7.
 
 </sub>
 </div>
