@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Edgar Bruney — Full Stack Engineer & AI Agent Builder @ IBM" width="100%" />
+<img src="./assets/banner.svg" alt="Edgar Bruney — Agentic AI Engineer · Cloud Architect · Quantum Explorer" width="100%" />
 
 <div align="center">
 
@@ -11,27 +11,7 @@
 
 ---
 
-### About
-
-<img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />
-
-I'm **Edgar Bruney** — a Full Stack & Systems Engineer based in **Zapopan, Jalisco, Mexico**, building production AI systems inside **IBM's CIO Organization**. On GitHub since **2013**, with over a decade of shipping scalable cloud applications and **43 public repositories** earning **46 stars**.
-
-My current focus is **AI agents**: autonomous systems built on **BeeAI, CrewAI, and LangGraph** that solve real problems — a [Strava performance coach](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) that trained me toward a **sub-21' 5K**, containerized **IBM Bob Shell** workflows with REST API integration, and X trend-analysis tools demonstrating framework-agnostic engineering. I also explore **quantum computing** with **Qiskit** and co-lead **Guadalajara's IBM Quantum community** (60+ attendees at our first session).
-
-I hold certifications as an **IBM Generative & Agentic AI Expert Developer**, **AWS Serverless** badge holder, and **Hybrid Cloud Microservices Architect**. I actively contribute to open-source projects including Qiskit documentation translations, supporting the global quantum computing community.
-
-Off the keyboard I chase running PRs and code to **heavy music**. My personal website: [brun3y-d3d2a.firebaseapp.com](https://brun3y-d3d2a.firebaseapp.com/)
-
-`AI Agents` &nbsp;·&nbsp; `Quantum / Qiskit` &nbsp;·&nbsp; `Multi-Cloud` &nbsp;·&nbsp; `Space` &nbsp;·&nbsp; `Sub-21' 5K` &nbsp;·&nbsp; `Heavy Music`
-
-<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
-
-<br clear="right" />
-
----
-
-### Stack
+### Tech Stack
 
 <div>
 
@@ -45,18 +25,41 @@ Off the keyboard I chase running PRs and code to **heavy music**. My personal we
 
 ---
 
-### Projects
+### Who I Am
 
-- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API with Slack integration for autonomous AI operations.
-- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐) — Advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API.
-- **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
-- **Qiskit Translations** — Active contributor to Qiskit documentation translation, supporting the quantum computing community.
+Meet **Edgar Bruney** — an engineer who joined GitHub in **2013** and never stopped shipping. Today I work inside **IBM's CIO Organization** in **Zapopan, Mexico**, translating research-grade AI into real production systems.
+
+Right now I'm deep in **agentic AI** — designing multi-agent pipelines with **BeeAI**, **CrewAI**, and **LangGraph** that go from idea to deployed REST API. I built a [personal running coach agent](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) on top of the **Strava API** that actually moved my 5K time, and I containerized **IBM Bob Shell** into a headless REST harness. Beyond that: **Qiskit** experiments, multi-cloud architecture, and co-organizing **quantum computing meetups** in Guadalajara.
+
+When I step away from the screen, I run — targeting **sub-21 minutes** for 5K — and listen to **heavy music**.
+
+`BeeAI · CrewAI · LangGraph` &nbsp;·&nbsp; `IBM Cloud` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `Running` &nbsp;·&nbsp; `Heavy Music`
+
+<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 ---
 
-### Writing
+<div align="center">
 
-I write about AI agents, fitness data, and personal tooling on [Medium](https://medium.com/@brun3y).
+<img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" width="70%" />
+
+<br clear="right" />
+
+</div>
+
+---
+
+### Open Source
+
+- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API.
+- **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational BeeAI agent that analyzes athletic performance directly from the Strava API.
+- **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
+
+---
+
+### On Medium
+
+I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic performance data, and cloud tooling.
 
 <table>
   <tr>
@@ -89,14 +92,14 @@ I write about AI agents, fitness data, and personal tooling on [Medium](https://
 
 <div align="center">
 
-### GitHub Activity
+### Stats
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
 
 ---
 
-### Now Playing
+### Listening To
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
 
@@ -106,9 +109,7 @@ I write about AI agents, fitness data, and personal tooling on [Medium](https://
 
 <div align="center">
 
-**Let's build something.**
-
-Open to collaborating on AI agents, cloud, and quantum experiments.
+**Open to collaborating on AI agents, cloud, and quantum experiments.**
 
 <a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
@@ -122,8 +123,9 @@ Open to collaborating on AI agents, cloud, and quantum experiments.
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-06**  
+🤖 **Auto-updated by AI** on **2026-08-06** at **2026-08-06 13:01:39 UTC**
 All information gathered from publicly available sources across the internet.
+Content rotates daily — layout variant 2/7.
 
 </sub>
 </div>
