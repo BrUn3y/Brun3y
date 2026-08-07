@@ -100,9 +100,9 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 | 👟 Steps | 🔥 Calories | 📏 Distance | ⏱️ Active Minutes |
 |:--------:|:-----------:|:-----------:|:-----------------:|
-| **0** | **0** | **0.0 km** | **0** |
+| **99,677** | **13,138** | **69.2 km** | **1,262** |
 
-**Last Activity:** No recent activity
+**Last Activity:** Activity 54 · 28 days ago
 
 <sub>Updated automatically via Google Fit API</sub>
 
