@@ -96,54 +96,8 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 <!-- FITNESS_WIDGET_START -->
 ### 🏃 Fitness Stats (August 2026)
 
-<div align="center">
-
 | 👟 Steps | 🔥 Calories | 📏 Distance | ⏱️ Active Minutes |
-|:--------:|:-----------:|:-----------:|:-----------------:|
-| **99,677** | **13,138** | **69.2 km** | **1,262** |
+|----------|-------------|-------------|-------------------|
+| 99,677 | 13,138 | 69.2 km | 1,262 |
 
-<sub>Updated automatically via Google Fit API</sub>
-
-</div>
-<!-- FITNESS_WIDGET_END -->
-
----
-
-<div align="center">
-
-### Stats
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />
-
----
-
-### Listening To
-
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
-
-</div>
-
----
-
-<div align="center">
-
-**Open to collaborating on AI agents, cloud, and quantum experiments.**
-
-<a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
-<a href="https://x.com/BrUn3y"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
-<a href="https://wa.me/Brun3y"><img src="https://img.shields.io/badge/WhatsApp-Brun3y-000000?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp: Brun3y" /></a>
-
-</div>
-
----
-
-<div align="center">
-<sub>
-
-🤖 **Auto-updated by AI** on **2026-08-07**  
-All information gathered from publicly available sources across the internet.
-
-</sub>
-</div>
+*Updated automatically via Google Fit API*
