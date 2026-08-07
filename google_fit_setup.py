@@ -67,7 +67,26 @@ def authenticate():
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
                 'credentials.json', SCOPES)
-            creds = flow.run_local_server(port=8080)
+            
+            # Intentar método local primero, si falla usar OOB
+            try:
+                creds = flow.run_local_server(port=8080, open_browser=False)
+            except Exception as e:
+                print(f"\n⚠️  Método local falló, usando método OOB (out-of-band)...")
+                print(f"Error: {e}\n")
+                
+                # Usar método OOB para Cloud Shell y ambientes sin navegador
+                flow.redirect_uri = 'urn:ietf:wg:oauth:2.0:oob'
+                auth_url, _ = flow.authorization_url(prompt='consent')
+                
+                print('Por favor visita esta URL para autorizar la aplicación:')
+                print(auth_url)
+                print('\nDespués de autorizar, Google te mostrará un código.')
+                print('Copia ese código y pégalo aquí:')
+                code = input('Código de autorización: ').strip()
+                
+                flow.fetch_token(code=code)
+                creds = flow.credentials
         
         # Guarda las credenciales para la próxima ejecución
         with open('token.json', 'w') as token:
