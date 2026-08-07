@@ -93,6 +93,24 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 ---
 
+<!-- FITNESS_WIDGET_START -->
+### 🏃 Fitness Stats (August 2026)
+
+<div align="center">
+
+| 👟 Steps | 🔥 Calories | 📏 Distance | ⏱️ Active Minutes |
+|:--------:|:-----------:|:-----------:|:-----------------:|
+| **0** | **0** | **0.0 km** | **0** |
+
+**Last Activity:** No recent activity
+
+<sub>Updated automatically via Google Fit API</sub>
+
+</div>
+<!-- FITNESS_WIDGET_END -->
+
+---
+
 <div align="center">
 
 ### Stats
