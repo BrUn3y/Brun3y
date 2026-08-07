@@ -82,60 +82,13 @@ def get_fitness_data(service, start_time_ns, end_time_ns):
     
     return stats
 
-def get_last_activity(service):
-    """Get the most recent activity session"""
-    try:
-        # Get sessions from last 30 days
-        now = datetime.now()
-        start_time = now - timedelta(days=30)
-        
-        start_time_ms = int(start_time.timestamp() * 1000)
-        end_time_ms = int(now.timestamp() * 1000)
-        
-        sessions = service.users().sessions().list(
-            userId='me',
-            startTime=datetime.fromtimestamp(start_time_ms/1000).isoformat() + 'Z',
-            endTime=datetime.fromtimestamp(end_time_ms/1000).isoformat() + 'Z'
-        ).execute()
-        
-        if 'session' in sessions and len(sessions['session']) > 0:
-            # Get the most recent session
-            last_session = sessions['session'][0]
-            activity_type = last_session.get('activityType', 'Unknown')
-            start_time = datetime.fromtimestamp(int(last_session['startTimeMillis'])/1000)
-            
-            # Activity type mapping
-            activity_names = {
-                1: 'Running',
-                8: 'Walking',
-                7: 'Cycling',
-                9: 'Hiking',
-                119: 'Strength Training',
-                # Add more as needed
-            }
-            
-            activity_name = activity_names.get(activity_type, f'Activity {activity_type}')
-            days_ago = (datetime.now() - start_time).days
-            
-            if days_ago == 0:
-                time_str = 'Today'
-            elif days_ago == 1:
-                time_str = 'Yesterday'
-            else:
-                time_str = f'{days_ago} days ago'
-            
-            return f'{activity_name} · {time_str}'
-        
-        return 'No recent activity'
-    except Exception as e:
-        print(f"Error fetching last activity: {e}")
-        return 'No recent activity'
+
 
 def format_number(num):
     """Format numbers with commas"""
     return f'{int(num):,}'
 
-def generate_widget_markdown(stats, last_activity):
+def generate_widget_markdown(stats):
     """Generate markdown for the fitness widget"""
     
     steps = format_number(stats.get('steps', 0))
@@ -152,8 +105,6 @@ def generate_widget_markdown(stats, last_activity):
 | 👟 Steps | 🔥 Calories | 📏 Distance | ⏱️ Active Minutes |
 |:--------:|:-----------:|:-----------:|:-----------------:|
 | **{steps}** | **{calories}** | **{distance} km** | **{active_mins}** |
-
-**Last Activity:** {last_activity}
 
 <sub>Updated automatically via Google Fit API</sub>
 
@@ -214,11 +165,8 @@ def main():
         start_time_ns, end_time_ns = get_month_timestamps()
         stats = get_fitness_data(service, start_time_ns, end_time_ns)
         
-        print("🔄 Fetching last activity...")
-        last_activity = get_last_activity(service)
-        
         print("🔄 Generating widget...")
-        widget = generate_widget_markdown(stats, last_activity)
+        widget = generate_widget_markdown(stats)
         
         print("🔄 Updating README...")
         readme_path = os.getenv('README_PATH', 'README.md')
@@ -230,7 +178,6 @@ def main():
         print(f"  Calories: {format_number(stats['calories'])}")
         print(f"  Distance: {stats['distance']/1000:.1f} km")
         print(f"  Active Minutes: {format_number(stats['active_minutes'])}")
-        print(f"  Last Activity: {last_activity}")
         
     except Exception as e:
         print(f"❌ Error: {e}")
