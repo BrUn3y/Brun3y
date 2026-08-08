@@ -38,3 +38,38 @@ jobs:
         with:
           commit_message: "chore: refresh Medium cards"
           file_pattern: assets/medium/*.svg
+
+  # Refresh Google Fit stats in the profile README on the same schedule
+  fitness-widget:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: profile-repo
+      - uses: actions/checkout@v4
+        with:
+          repository: BrUn3y/google-fit-api-setup
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: fitness-repo
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: |
+          pip install --upgrade pip
+          pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+      - name: Create and validate Google Fit token
+        env:
+          GOOGLE_FIT_TOKEN: ${{ secrets.GOOGLE_FIT_TOKEN }}
+        run: |
+          printf '%s' "$GOOGLE_FIT_TOKEN" > fitness-repo/token.json
+          python3 -m json.tool fitness-repo/token.json > /dev/null
+      - run: python fitness-repo/update_fitness_widget.py
+        env:
+          README_PATH: profile-repo/README.md
+      - run: |
+          cd profile-repo
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats [automated]" && git push)
