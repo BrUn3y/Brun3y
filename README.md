@@ -25,19 +25,46 @@
 
 ---
 
-### Who I Am
+### Professional Journey
 
-Meet **Edgar Bruney** — an engineer who joined GitHub in **2013** and never stopped shipping. Today I work inside **IBM's CIO Organization** in **Zapopan, Mexico**, translating research-grade AI into real production systems.
+**Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013**, he has built a career focused on cutting-edge technology implementation and open-source contribution.
 
-Right now I'm deep in **agentic AI development** — designing multi-agent pipelines with **BeeAI**, **CrewAI**, and **LangGraph** that go from concept to deployed REST APIs. I built a [personal running coach agent](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) on top of the **Strava API** using **AgentStack SDK** that actually moved my 5K time toward **sub-21 minutes**, and I containerized **IBM Bob Shell** into a headless REST harness with Slack integration for autonomous operations. My work spans **A2A protocol** implementations and framework-agnostic agent engineering.
+Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs, with a focus on practical applications that solve real-world problems.
 
-Beyond AI agents: **Qiskit** experiments, multi-cloud architecture, and co-organizing **quantum computing meetups** in Guadalajara (60+ attendees at our inaugural session). I hold certifications as an **IBM Generative & Agentic AI Expert Developer**, **AWS Serverless** badge holder, and **Hybrid Cloud Microservices Architect**. I actively contribute to open-source projects including Qiskit documentation translations, supporting the global quantum computing community.
+### Technical Expertise
 
-When I step away from the screen, I run and listen to **heavy music**.
+Edgar holds multiple industry certifications:
+- **IBM Generative & Agentic AI Expert Developer**
+- **AWS Serverless Badge Holder**
+- **Hybrid Cloud Microservices Architect**
+
+His technical stack includes:
+- **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, AgentStack SDK, A2A protocol
+- **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture
+- **Quantum Computing:** Qiskit experiments and community contributions
+- **Integration Technologies:** REST API design, Docker containerization, Slack integration, Strava API, Google Fit API
+
+### Featured Projects
+
+**[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐, 1 fork) — An advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API. This personal project helped improve his 5K running time toward sub-21 minutes, demonstrating the practical application of AI in personal fitness optimization.
+
+**[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — A Dockerized harness running IBM's Bob Shell headless in unrestricted mode, exposed via REST API with Slack integration for autonomous AI operations. This project showcases expertise in containerization and API development.
+
+**X Trends Agent** — A trend-analysis agent implemented across three different frameworks ([BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI), [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI), [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph)), demonstrating framework-agnostic agent engineering capabilities and deep understanding of different AI architectures.
+
+**Qiskit Translations** — Active contributor to Qiskit documentation translation project, supporting the global quantum computing community and making quantum computing more accessible worldwide.
+
+### Beyond Code
+
+Edgar is actively engaged in the tech community:
+- **Co-organizing quantum computing meetups** in Guadalajara, with 60+ attendees at the inaugural session
+- **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling
+- **Open-source contributions** across multiple projects, with 48 repositories and 46 starred projects
+- **Community building** with 12 followers and 28 following on GitHub
+
+When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K) and enjoys **heavy music**.
 
 `BeeAI · CrewAI · LangGraph` &nbsp;·&nbsp; `IBM Cloud` &nbsp;·&nbsp; `Qiskit` &nbsp;·&nbsp; `Running` &nbsp;·&nbsp; `Heavy Music`
-
-<sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 ---
 
@@ -101,3 +128,8 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 | 99,677 | 13,138 | 69.2 km | 1,262 |
 
 *Updated automatically via Google Fit API*
+<!-- FITNESS_WIDGET_END -->
+
+---
+
+<sub>ℹ️ This profile information was collected by AI from publicly available sources and last updated on August 8, 2026.</sub>
