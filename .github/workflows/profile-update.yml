@@ -64,9 +64,11 @@ jobs:
         run: |
           printf '%s' "$GOOGLE_FIT_TOKEN" > fitness-repo/token.json
           python3 -m json.tool fitness-repo/token.json > /dev/null
-      - run: python fitness-repo/update_fitness_widget.py
+      - run: |
+          cd fitness-repo
+          python update_fitness_widget.py
         env:
-          README_PATH: profile-repo/README.md
+          README_PATH: ../profile-repo/README.md
       - run: |
           cd profile-repo
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
