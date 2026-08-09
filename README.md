@@ -132,4 +132,4 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 ---
 
-<sub>ℹ️ This profile information was collected by AI from publicly available sources and last updated on August 8, 2026.</sub>
+<sub>ℹ️ This profile information was collected by AI from publicly available sources and last updated on August 9, 2026.</sub>
