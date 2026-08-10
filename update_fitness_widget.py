@@ -122,7 +122,7 @@ def calculate_progress(value, goal, max_width=200):
 
 def generate_svg_widget(stats, week_range, days_elapsed):
     """Genera el SVG widget con las estadísticas"""
-    template_path = './assets/fitness-widget.svg'
+    template_path = './assets/fitness-widget-template.svg'
     output_path = './assets/fitness-widget.svg'
     
     if not os.path.exists(template_path):
