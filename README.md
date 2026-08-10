@@ -124,14 +124,14 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ---
 
 <!-- FITNESS_WIDGET_START -->
-### 🏃 Fitness Stats (August 2026)
+### 🏃 Fitness Stats - August 2026 (Totales)
 
 | Metric | Value |
 |--------|-------|
-| 👟 Steps | 45,981 |
+| 👟 Steps | 47,057 |
 | 🔥 Calories | 2,071 |
-| 📏 Distance | 0.0 km |
 | ⏱️ Active Minutes | 730 |
+| ❤️ Heart Rate | N/A |
 
-*Last updated: 2026-08-10 19:47 UTC*  
+*Last updated: 2026-08-10 19:54 UTC*  
 *Data source: Google Health API (Fitbit)*
