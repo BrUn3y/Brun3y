@@ -28,7 +28,7 @@ jobs:
       
       - name: Create token.json from secret
         run: |
-          echo '${{ secrets.GOOGLE_FIT_TOKEN }}' > token.json
+          echo '${{ secrets.GOOGLE_HEALTH_TOKEN }}' > token.json
       
       - name: Update fitness widget
         run: |
@@ -40,5 +40,5 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
+          git add README.md assets/fitness-widget.svg
           git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats [automated]" && git push)
