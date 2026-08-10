@@ -123,6 +123,13 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 ---
 
+### 🎵 Now Playing
+
+<!-- Spotify widget via kittinan/spotify-github-profile -->
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
+
+---
+
 <!-- FITNESS_WIDGET_START -->
 ### 🏃 Fitness Stats
 
