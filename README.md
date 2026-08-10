@@ -128,10 +128,9 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 | Metric | Value |
 |--------|-------|
-| 👟 Steps | 47,057 |
-| 🔥 Calories | 2,071 |
-| ⏱️ Active Minutes | 730 |
-| ❤️ Heart Rate | N/A |
+| 👟 Steps | 19,140 |
+| 🔥 Calories | 2,817 |
+| ⏱️ Active Minutes | 678 |
 
-*Last updated: 2026-08-10 19:54 UTC*  
+*Last updated: 2026-08-10 19:59 UTC*  
 *Data source: Google Health API (Fitbit)*
