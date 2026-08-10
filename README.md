@@ -126,13 +126,12 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 <!-- FITNESS_WIDGET_START -->
 ### 🏃 Fitness Stats (August 2026)
 
-| 👟 Steps | 🔥 Calories | 📏 Distance | ⏱️ Active Minutes |
-|----------|-------------|-------------|-------------------|
-| 99,677 | 13,138 | 69.2 km | 1,262 |
+| Metric | Value |
+|--------|-------|
+| 👟 Steps | 45,981 |
+| 🔥 Calories | 2,071 |
+| 📏 Distance | 0.0 km |
+| ⏱️ Active Minutes | 730 |
 
-*Updated automatically via Google Fit API*
-<!-- FITNESS_WIDGET_END -->
-
----
-
-<sub>ℹ️ This profile information was collected by AI from publicly available sources and last updated on August 10, 2026.</sub>
+*Last updated: 2026-08-10 19:47 UTC*  
+*Data source: Google Health API (Fitbit)*
