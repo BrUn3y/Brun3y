@@ -72,14 +72,22 @@ def get_fitness_data(creds, start_date, end_date):
         data_points = data.get('dataPoints', [])
         print(f"  • Puntos de datos de ejercicio: {len(data_points)}")
         
-        for point in data_points:
+        # Debug: mostrar detalles de cada punto
+        for i, point in enumerate(data_points):
             exercise = point.get('exercise', {})
             metrics = exercise.get('metricsSummary', {})
             
             # Sumar métricas
             steps = metrics.get('steps', '0')
-            total_steps += int(steps) if steps else 0
-            total_calories += metrics.get('caloriesKcal', 0)
+            steps_int = int(steps) if steps else 0
+            calories = metrics.get('caloriesKcal', 0)
+            
+            # Debug log
+            start_time = exercise.get('interval', {}).get('civil_start_time', 'N/A')
+            print(f"    [{i+1}] {start_time}: {steps_int:,} pasos, {int(calories)} cal")
+            
+            total_steps += steps_int
+            total_calories += calories
             
             # Calcular minutos activos desde activeDuration (formato: "900s" o "3023.500s")
             duration = exercise.get('activeDuration', '0s')
