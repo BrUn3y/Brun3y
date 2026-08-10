@@ -114,8 +114,8 @@ def calculate_progress(value, goal, max_width=200):
 
 def generate_svg_widget(stats, week_range, days_elapsed):
     """Genera el SVG widget con las estadísticas"""
-    template_path = '../profile-repo/assets/fitness-widget.svg'
-    output_path = '../profile-repo/assets/fitness-widget.svg'
+    template_path = './assets/fitness-widget.svg'
+    output_path = './assets/fitness-widget.svg'
     
     if not os.path.exists(template_path):
         print(f"⚠️  No se encontró template en {template_path}")
@@ -160,7 +160,7 @@ def generate_svg_widget(stats, week_range, days_elapsed):
 
 def update_readme():
     """Actualiza el README para usar el SVG widget"""
-    readme_path = '../profile-repo/README.md'
+    readme_path = './README.md'
     
     if not os.path.exists(readme_path):
         print(f"⚠️  No se encontró {readme_path}")
