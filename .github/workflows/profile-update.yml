@@ -39,7 +39,7 @@ jobs:
           commit_message: "chore: refresh Medium cards"
           file_pattern: assets/medium/*.svg
 
-  # Refresh Google Fit stats in the profile README on the same schedule
+  # Refresh Google Health API (Fitbit) stats in the profile README on the same schedule
   fitness-widget:
     runs-on: ubuntu-latest
     steps:
@@ -49,29 +49,27 @@ jobs:
           path: profile-repo
       - uses: actions/checkout@v4
         with:
-          repository: BrUn3y/google-fit-api-setup
+          repository: BrUn3y/google-health-api-setup
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: fitness-repo
+          path: health-repo
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - run: |
           pip install --upgrade pip
-          pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
-      - name: Create and validate Google Fit token
+          pip install -r health-repo/requirements.txt
+      - name: Create Google Health API token
         env:
-          GOOGLE_FIT_TOKEN: ${{ secrets.GOOGLE_FIT_TOKEN }}
+          GOOGLE_HEALTH_TOKEN: ${{ secrets.GOOGLE_HEALTH_TOKEN }}
         run: |
-          printf '%s' "$GOOGLE_FIT_TOKEN" > fitness-repo/token.json
-          python3 -m json.tool fitness-repo/token.json > /dev/null
+          printf '%s' "$GOOGLE_HEALTH_TOKEN" > health-repo/token.json
+          python3 -m json.tool health-repo/token.json > /dev/null
       - run: |
-          cd fitness-repo
+          cd health-repo
           python update_fitness_widget.py
-        env:
-          README_PATH: ../profile-repo/README.md
       - run: |
           cd profile-repo
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats [automated]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats from Google Health API [automated]" && git push)
