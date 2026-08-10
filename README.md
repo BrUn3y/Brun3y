@@ -27,9 +27,9 @@
 
 ### Professional Journey
 
-**Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013**, he has built a career focused on cutting-edge technology implementation and open-source contribution.
+**Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013**, he has built a career spanning over a decade focused on cutting-edge technology implementation and open-source contribution.
 
-Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs, with a focus on practical applications that solve real-world problems.
+Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with a focus on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems.
 
 ### Technical Expertise
 
@@ -41,16 +41,18 @@ Edgar holds multiple industry certifications:
 His technical stack includes:
 - **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, AgentStack SDK, A2A protocol
 - **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture
-- **Quantum Computing:** Qiskit experiments and community contributions
-- **Integration Technologies:** REST API design, Docker containerization, Slack integration, Strava API, Google Fit API
+- **Quantum Computing:** Qiskit experiments and community contributions, active contributor to IBM's Qiskit Runtime
+- **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API
 
 ### Featured Projects
 
 **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐, 1 fork) — An advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API. This personal project helped improve his 5K running time toward sub-21 minutes, demonstrating the practical application of AI in personal fitness optimization.
 
-**[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — A Dockerized harness running IBM's Bob Shell headless in unrestricted mode, exposed via REST API with Slack integration for autonomous AI operations. This project showcases expertise in containerization and API development.
+**[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** (21⭐, 5 forks) — A Dockerized harness running IBM's Bob Shell headless in unrestricted mode, exposed via REST API with async jobs and live SSE streaming. Features Slack integration for autonomous AI operations with verify-and-retry orchestration loops. This project showcases expertise in containerization, API development, and production-grade AI deployment.
 
 **X Trends Agent** — A trend-analysis agent implemented across three different frameworks ([BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI), [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI), [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph)), demonstrating framework-agnostic agent engineering capabilities and deep understanding of different AI architectures.
+
+**[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** — Quantum computing-related project exploring the intersection of AI agents and quantum computing technologies.
 
 **Qiskit Translations** — Active contributor to Qiskit documentation translation project, supporting the global quantum computing community and making quantum computing more accessible worldwide.
 
@@ -80,9 +82,10 @@ When stepping away from the screen, Edgar pursues his passion for **running** (a
 
 ### Open Source
 
-- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API with Slack integration for autonomous AI operations.
+- **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** (21⭐, 5 forks) — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API with Slack integration for autonomous AI operations.
 - **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐) — Advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API.
 - **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
+- **[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** — Quantum computing-related project exploring AI and quantum technologies.
 - **Qiskit Translations** — Active contributor to Qiskit documentation translation, supporting the quantum computing community.
 
 ---
@@ -132,4 +135,4 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 ---
 
-<sub>ℹ️ This profile information was collected by AI from publicly available sources and last updated on August 9, 2026.</sub>
+<sub>ℹ️ This profile information was collected by AI from publicly available sources and last updated on August 10, 2026.</sub>
