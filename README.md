@@ -29,7 +29,7 @@
 
 **Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013**, he has built a career spanning over a decade focused on cutting-edge technology implementation and open-source contribution.
 
-Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with a focus on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems.
+Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with a focus on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems that bridge the gap between research and enterprise deployment.
 
 ### Technical Expertise
 
@@ -41,28 +41,28 @@ Edgar holds multiple industry certifications:
 His technical stack includes:
 - **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, AgentStack SDK, A2A protocol
 - **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture
-- **Quantum Computing:** Qiskit experiments and community contributions, active contributor to IBM's Qiskit Runtime
+- **Quantum Computing:** Qiskit experiments and community contributions, active contributor to IBM's Qiskit Runtime (235⭐, 218 forks)
 - **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API
 
 ### Featured Projects
 
-**[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐, 1 fork) — An advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API. This personal project helped improve his 5K running time toward sub-21 minutes, demonstrating the practical application of AI in personal fitness optimization.
+**[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** (21⭐, 5 forks) — A Dockerized harness running IBM's Bob Shell headless in unrestricted mode, exposed via REST API with async jobs and live SSE streaming. Features Slack integration for autonomous AI operations with verify-and-retry orchestration loops. This project showcases expertise in containerization, API development, and production-grade AI deployment, representing a bridge between enterprise AI tools and practical automation.
 
-**[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** (21⭐, 5 forks) — A Dockerized harness running IBM's Bob Shell headless in unrestricted mode, exposed via REST API with async jobs and live SSE streaming. Features Slack integration for autonomous AI operations with verify-and-retry orchestration loops. This project showcases expertise in containerization, API development, and production-grade AI deployment.
+**[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐, 1 fork) — An advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API. This personal project helped improve his 5K running time toward sub-21 minutes, demonstrating the practical application of AI in personal fitness optimization and data-driven athletic training.
 
-**X Trends Agent** — A trend-analysis agent implemented across three different frameworks ([BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI), [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI), [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph)), demonstrating framework-agnostic agent engineering capabilities and deep understanding of different AI architectures.
+**X Trends Agent** — A trend-analysis agent implemented across three different frameworks ([BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI), [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI), [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph)), demonstrating framework-agnostic agent engineering capabilities and deep understanding of different AI architectures. This multi-framework approach showcases adaptability and comprehensive knowledge of the agentic AI ecosystem.
 
-**[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** — Quantum computing-related project exploring the intersection of AI agents and quantum computing technologies.
+**[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** — Quantum computing-related project exploring the intersection of AI agents and quantum computing technologies, pushing the boundaries of what's possible when combining classical AI with quantum capabilities.
 
-**Qiskit Translations** — Active contributor to Qiskit documentation translation project, supporting the global quantum computing community and making quantum computing more accessible worldwide.
+**Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime and documentation translation projects, supporting the global quantum computing community and making quantum computing more accessible worldwide through multilingual documentation efforts.
 
 ### Beyond Code
 
 Edgar is actively engaged in the tech community:
-- **Co-organizing quantum computing meetups** in Guadalajara, with 60+ attendees at the inaugural session
-- **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling
-- **Open-source contributions** across multiple projects, with 48 repositories and 46 starred projects
-- **Community building** with 12 followers and 28 following on GitHub
+- **Co-organizing quantum computing meetups** in Guadalajara, with 60+ attendees at the inaugural session, fostering local quantum computing education and networking
+- **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling, sharing practical insights from real-world implementations
+- **Open-source contributions** across multiple projects, with 50 repositories and 46 starred projects, demonstrating active participation in the developer community
+- **Community building** with 12 followers and 28 following on GitHub, maintaining connections across the global tech ecosystem
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K) and enjoys **heavy music**.
 
@@ -86,7 +86,7 @@ When stepping away from the screen, Edgar pursues his passion for **running** (a
 - **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐) — Advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API.
 - **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
 - **[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** — Quantum computing-related project exploring AI and quantum technologies.
-- **Qiskit Translations** — Active contributor to Qiskit documentation translation, supporting the quantum computing community.
+- **Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (235⭐, 218 forks) and documentation translation, supporting the quantum computing community.
 
 ---
 
@@ -134,3 +134,11 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ### 🏃 Fitness Stats
 
 <img src="./assets/fitness-widget.svg" alt="Fitness Stats" width="100%" />
+
+<!-- FITNESS_WIDGET_END -->
+
+---
+
+<div align="center">
+<sub>ℹ️ Profile information collected and updated by AI assistant on August 11, 2026</sub>
+</div>
