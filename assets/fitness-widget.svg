@@ -41,7 +41,7 @@
     <text x="70" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">32,834</text>
     <rect x="10" y="90" width="200" height="4" rx="2" fill="#3a3a3a"/>
     <rect x="10" y="90" width="93" height="4" rx="2" fill="url(#stepsGradient)"/>
-    <text x="10" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#808080">Daily avg: 2,984</text>
+    <text x="10" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#808080">Daily avg: 2,736</text>
   </g>
   
   <!-- Calories Card -->
@@ -53,7 +53,7 @@
     <text x="70" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">1,642</text>
     <rect x="10" y="90" width="200" height="4" rx="2" fill="#3a3a3a"/>
     <rect x="10" y="90" width="23" height="4" rx="2" fill="url(#caloriesGradient)"/>
-    <text x="10" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#808080">Daily avg: 149</text>
+    <text x="10" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#808080">Daily avg: 136</text>
   </g>
   
   <!-- Active Minutes Card -->
@@ -65,11 +65,11 @@
     <text x="70" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">625</text>
     <rect x="10" y="90" width="200" height="4" rx="2" fill="#3a3a3a"/>
     <rect x="10" y="90" width="200" height="4" rx="2" fill="url(#activeGradient)"/>
-    <text x="10" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#808080">Daily avg: 56</text>
+    <text x="10" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#808080">Daily avg: 52</text>
   </g>
   
   <!-- Footer -->
   <text x="40" y="265" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#606060">
-    Last updated: 2026-08-11 02:09 UTC • Data source: Google Health API (Fitbit)
+    Last updated: 2026-08-12 02:27 UTC • Data source: Google Health API (Fitbit)
   </text>
 </svg>
