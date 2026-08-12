@@ -29,7 +29,7 @@
 
 **Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013**, he has built a career spanning over a decade focused on cutting-edge technology implementation and open-source contribution.
 
-Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with a focus on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems that bridge the gap between research and enterprise deployment.
+Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with emphasis on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems that bridge the gap between research and enterprise deployment.
 
 ### Technical Expertise
 
@@ -137,5 +137,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ---
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on August 11, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on August 12, 2026</sub>
 </div>
