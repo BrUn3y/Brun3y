@@ -135,8 +135,6 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ### 🏃 Fitness Stats
 
 <img src="./assets/fitness-widget.svg" alt="Fitness Stats" width="100%" />
-<!-- FITNESS_WIDGET_END -->
-
 ---
 
 <div align="center">
