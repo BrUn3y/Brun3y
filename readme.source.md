@@ -290,85 +290,107 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 <div align="center">
 
-```aura width=800 height=280
-<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #12121a 100%)', borderRadius: 24, overflow: 'hidden', fontFamily: 'Inter, sans-serif', padding: '24px', border: '1px solid rgba(255,255,255,0.08)' }}>
+```aura width=900 height=320
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #12121a 100%)', borderRadius: 28, overflow: 'hidden', fontFamily: 'Inter, sans-serif', padding: '28px', border: '1.5px solid rgba(255,255,255,0.1)' }}>
   <style>{`
-    @keyframes orb-drift-1 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.7; } 50% { transform: translate(35px,-25px) scale(1.2); opacity: 1; } }
-    @keyframes orb-drift-2 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.65; } 50% { transform: translate(-30px,20px) scale(1.18); opacity: 0.95; } }
-    @keyframes orb-drift-3 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.6; } 50% { transform: translate(28px,-18px) scale(1.15); opacity: 0.9; } }
-    @keyframes ring-expand { 0%, 100% { opacity: 0.15; transform: scale(1); } 50% { opacity: 0.35; transform: scale(1.08); } }
-    @keyframes ring-expand-slow { 0%, 100% { opacity: 0.1; transform: scale(1); } 50% { opacity: 0.25; transform: scale(1.05); } }
-    @keyframes card-glow { 0%, 100% { box-shadow: 0 0 20px rgba(255,255,255,0.08); filter: brightness(1); } 50% { box-shadow: 0 0 35px rgba(255,255,255,0.18); filter: brightness(1.15); } }
-    @keyframes title-pulse { 0%, 100% { opacity: 0.95; } 50% { opacity: 1; } }
-    #fo1 { animation: orb-drift-1 11s ease-in-out infinite; }
-    #fo2 { animation: orb-drift-2 13s ease-in-out infinite 1.8s; }
-    #fo3 { animation: orb-drift-3 10s ease-in-out infinite 3.2s; }
-    #fr1 { animation: ring-expand 9s ease-in-out infinite; }
-    #fr2 { animation: ring-expand 9s ease-in-out infinite 3s; }
-    #fr3 { animation: ring-expand-slow 9s ease-in-out infinite 6s; }
-    #fr4 { animation: ring-expand-slow 9s ease-in-out infinite 1.5s; }
-    .stat-card { animation: card-glow 6s ease-in-out infinite; }
-    .title-text { animation: title-pulse 5s ease-in-out infinite; }
+    @keyframes orb-float-fitness-1 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.75; } 50% { transform: translate(40px,-30px) scale(1.25); opacity: 1.1; } }
+    @keyframes orb-float-fitness-2 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.7; } 50% { transform: translate(-35px,25px) scale(1.22); opacity: 1.05; } }
+    @keyframes orb-float-fitness-3 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.65; } 50% { transform: translate(32px,-22px) scale(1.18); opacity: 1; } }
+    @keyframes ring-pulse-fitness-1 { 0%, 100% { opacity: 0.18; transform: scale(1) rotate(0deg); } 50% { opacity: 0.4; transform: scale(1.1) rotate(180deg); } }
+    @keyframes ring-pulse-fitness-2 { 0%, 100% { opacity: 0.15; transform: scale(1) rotate(0deg); } 50% { opacity: 0.32; transform: scale(1.08) rotate(-180deg); } }
+    @keyframes ring-pulse-fitness-3 { 0%, 100% { opacity: 0.1; transform: scale(1); } 50% { opacity: 0.25; transform: scale(1.06); } }
+    @keyframes ring-pulse-fitness-4 { 0%, 100% { opacity: 0.06; transform: scale(1); } 50% { opacity: 0.18; transform: scale(1.04); } }
+    @keyframes card-glow-fitness { 0%, 100% { box-shadow: 0 0 25px rgba(255,255,255,0.1), inset 0 0 15px rgba(255,255,255,0.04); transform: translateY(0px) scale(1); } 50% { box-shadow: 0 0 45px rgba(255,255,255,0.22), inset 0 0 25px rgba(255,255,255,0.1); transform: translateY(-3px) scale(1.02); } }
+    @keyframes title-glow-fitness { 0%, 100% { opacity: 0.95; text-shadow: 0 0 20px rgba(255,255,255,0.3); } 50% { opacity: 1; text-shadow: 0 0 35px rgba(255,255,255,0.5); } }
+    @keyframes icon-bounce-fitness { 0%, 100% { transform: scale(1) rotate(0deg); } 50% { transform: scale(1.2) rotate(8deg); } }
+    @keyframes progress-fill { 0% { width: 0%; } 100% { width: var(--progress-width); } }
+    #fito1 { animation: orb-float-fitness-1 12s ease-in-out infinite; }
+    #fito2 { animation: orb-float-fitness-2 14s ease-in-out infinite 2s; }
+    #fito3 { animation: orb-float-fitness-3 11s ease-in-out infinite 3.5s; }
+    #fitr1 { animation: ring-pulse-fitness-1 10s ease-in-out infinite; }
+    #fitr2 { animation: ring-pulse-fitness-2 10s ease-in-out infinite 2.5s; }
+    #fitr3 { animation: ring-pulse-fitness-3 10s ease-in-out infinite 5s; }
+    #fitr4 { animation: ring-pulse-fitness-4 10s ease-in-out infinite 7.5s; }
+    .fitness-card { animation: card-glow-fitness 7s ease-in-out infinite; transition: all 0.4s ease; }
+    .fitness-card:hover { transform: translateY(-6px) scale(1.05); }
+    .fitness-title { animation: title-glow-fitness 6s ease-in-out infinite; }
+    .fitness-icon { animation: icon-bounce-fitness 5s ease-in-out infinite; }
   `}</style>
 
-  <svg width="800" height="280" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="900" height="320" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
-      <radialGradient id="fog1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(108,195,130,0.75)" />
-        <stop offset="40%" stopColor="rgba(108,195,130,0.35)" />
+      <radialGradient id="fitog1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(108,195,130,0.8)" />
+        <stop offset="45%" stopColor="rgba(108,195,130,0.4)" />
         <stop offset="100%" stopColor="rgba(108,195,130,0)" />
       </radialGradient>
-      <radialGradient id="fog2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(230,100,115,0.7)" />
-        <stop offset="40%" stopColor="rgba(230,100,115,0.32)" />
+      <radialGradient id="fitog2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(230,100,115,0.75)" />
+        <stop offset="45%" stopColor="rgba(230,100,115,0.35)" />
         <stop offset="100%" stopColor="rgba(230,100,115,0)" />
       </radialGradient>
-      <radialGradient id="fog3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(80,160,220,0.65)" />
-        <stop offset="40%" stopColor="rgba(80,160,220,0.3)" />
+      <radialGradient id="fitog3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(80,160,220,0.7)" />
+        <stop offset="45%" stopColor="rgba(80,160,220,0.32)" />
         <stop offset="100%" stopColor="rgba(80,160,220,0)" />
       </radialGradient>
+      <filter id="glow-filter-fitness">
+        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
     </defs>
-    <ellipse id="fo1" cx="140" cy="220" rx="220" ry="170" fill="url(#fog1)" />
-    <ellipse id="fo2" cx="660" cy="80" rx="210" ry="160" fill="url(#fog2)" />
-    <ellipse id="fo3" cx="520" cy="240" rx="200" ry="150" fill="url(#fog3)" />
-    <circle id="fr1" cx="400" cy="140" r="60" fill="none" stroke="rgba(255,255,255,0.2)" strokeWidth="1.2" />
-    <circle id="fr2" cx="400" cy="140" r="95" fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth="1" />
-    <circle id="fr3" cx="400" cy="140" r="135" fill="none" stroke="rgba(255,255,255,0.12)" strokeWidth="0.8" />
-    <circle id="fr4" cx="400" cy="140" r="175" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.6" />
+    <ellipse id="fito1" cx="180" cy="240" rx="240" ry="190" fill="url(#fitog1)" filter="url(#glow-filter-fitness)" />
+    <ellipse id="fito2" cx="720" cy="100" rx="230" ry="180" fill="url(#fitog2)" filter="url(#glow-filter-fitness)" />
+    <ellipse id="fito3" cx="560" cy="260" rx="220" ry="170" fill="url(#fitog3)" filter="url(#glow-filter-fitness)" />
+    <circle id="fitr1" cx="450" cy="160" r="70" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="1.5" />
+    <circle id="fitr2" cx="450" cy="160" r="110" fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth="1.2" />
+    <circle id="fitr3" cx="450" cy="160" r="155" fill="none" stroke="rgba(255,255,255,0.14)" strokeWidth="1" />
+    <circle id="fitr4" cx="450" cy="160" r="205" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.7" />
   </svg>
 
   <div style={{ position: 'relative', zIndex: 10, width: '100%', display: 'flex', flexDirection: 'column' }}>
-    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10, marginBottom: 24 }}>
-      <span style={{ fontSize: 32, fontWeight: 700 }}>🏃</span>
-      <span className="title-text" style={{ fontSize: 22, fontWeight: 800, color: '#ffffff', letterSpacing: '1.2px', textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>Fitness Stats - August 2026</span>
+    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 12, marginBottom: 28 }}>
+      <span className="fitness-icon" style={{ fontSize: 38, fontWeight: 700 }}>🏃</span>
+      <span className="fitness-title" style={{ fontSize: 26, fontWeight: 900, color: '#ffffff', letterSpacing: '1.5px' }}>Fitness Stats - August 2026</span>
     </div>
 
-    <div style={{ display: 'flex', flexDirection: 'row', gap: 20, justifyContent: 'center', flexWrap: 'wrap' }}>
-      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px 28px', background: 'rgba(108,195,130,0.15)', border: '2px solid rgba(108,195,130,0.4)', borderRadius: 20, minWidth: 160, backdropFilter: 'blur(12px)' }}>
-        <span style={{ fontSize: 36, marginBottom: 6 }}>👟</span>
-        <span style={{ fontSize: 32, fontWeight: 800, color: 'rgba(108,195,130,1)', marginBottom: 6, textShadow: '0 0 15px rgba(108,195,130,0.5)' }}>32,834</span>
-        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: 700 }}>Steps</span>
-        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.4)', marginTop: 6, fontWeight: 600 }}>3,283/day</span>
+    <div style={{ display: 'flex', flexDirection: 'row', gap: 24, justifyContent: 'center', flexWrap: 'wrap' }}>
+      <div className="fitness-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '24px 32px', background: 'rgba(108,195,130,0.16)', border: '2.5px solid rgba(108,195,130,0.45)', borderRadius: 22, minWidth: 180, backdropFilter: 'blur(15px)' }}>
+        <span className="fitness-icon" style={{ fontSize: 42, marginBottom: 8 }}>👟</span>
+        <span style={{ fontSize: 38, fontWeight: 900, color: 'rgba(108,195,130,1)', marginBottom: 8, textShadow: '0 0 20px rgba(108,195,130,0.6)' }}>32,834</span>
+        <span style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 800, marginBottom: 10 }}>Steps</span>
+        <div style={{ width: '100%', height: 6, background: 'rgba(108,195,130,0.2)', borderRadius: 10, overflow: 'hidden', marginBottom: 8 }}>
+          <div style={{ width: '65%', height: '100%', background: 'linear-gradient(90deg, rgba(108,195,130,0.8), rgba(108,195,130,1))', borderRadius: 10 }}></div>
+        </div>
+        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', fontWeight: 700 }}>3,283/day avg</span>
       </div>
 
-      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px 28px', background: 'rgba(230,100,115,0.15)', border: '2px solid rgba(230,100,115,0.4)', borderRadius: 20, minWidth: 160, backdropFilter: 'blur(12px)' }}>
-        <span style={{ fontSize: 36, marginBottom: 6 }}>🔥</span>
-        <span style={{ fontSize: 32, fontWeight: 800, color: 'rgba(230,100,115,1)', marginBottom: 6, textShadow: '0 0 15px rgba(230,100,115,0.5)' }}>1,642</span>
-        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: 700 }}>Calories</span>
-        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.4)', marginTop: 6, fontWeight: 600 }}>164/day</span>
+      <div className="fitness-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '24px 32px', background: 'rgba(230,100,115,0.16)', border: '2.5px solid rgba(230,100,115,0.45)', borderRadius: 22, minWidth: 180, backdropFilter: 'blur(15px)' }}>
+        <span className="fitness-icon" style={{ fontSize: 42, marginBottom: 8 }}>🔥</span>
+        <span style={{ fontSize: 38, fontWeight: 900, color: 'rgba(230,100,115,1)', marginBottom: 8, textShadow: '0 0 20px rgba(230,100,115,0.6)' }}>1,642</span>
+        <span style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 800, marginBottom: 10 }}>Calories</span>
+        <div style={{ width: '100%', height: 6, background: 'rgba(230,100,115,0.2)', borderRadius: 10, overflow: 'hidden', marginBottom: 8 }}>
+          <div style={{ width: '32%', height: '100%', background: 'linear-gradient(90deg, rgba(230,100,115,0.8), rgba(230,100,115,1))', borderRadius: 10 }}></div>
+        </div>
+        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', fontWeight: 700 }}>164/day avg</span>
       </div>
 
-      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px 28px', background: 'rgba(80,160,220,0.15)', border: '2px solid rgba(80,160,220,0.4)', borderRadius: 20, minWidth: 160, backdropFilter: 'blur(12px)' }}>
-        <span style={{ fontSize: 36, marginBottom: 6 }}>⏱️</span>
-        <span style={{ fontSize: 32, fontWeight: 800, color: 'rgba(80,160,220,1)', marginBottom: 6, textShadow: '0 0 15px rgba(80,160,220,0.5)' }}>625</span>
-        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: 700 }}>Active Min</span>
-        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.4)', marginTop: 6, fontWeight: 600 }}>62/day</span>
+      <div className="fitness-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '24px 32px', background: 'rgba(80,160,220,0.16)', border: '2.5px solid rgba(80,160,220,0.45)', borderRadius: 22, minWidth: 180, backdropFilter: 'blur(15px)' }}>
+        <span className="fitness-icon" style={{ fontSize: 42, marginBottom: 8 }}>⏱️</span>
+        <span style={{ fontSize: 38, fontWeight: 900, color: 'rgba(80,160,220,1)', marginBottom: 8, textShadow: '0 0 20px rgba(80,160,220,0.6)' }}>625</span>
+        <span style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 800, marginBottom: 10 }}>Active Min</span>
+        <div style={{ width: '100%', height: 6, background: 'rgba(80,160,220,0.2)', borderRadius: 10, overflow: 'hidden', marginBottom: 8 }}>
+          <div style={{ width: '78%', height: '100%', background: 'linear-gradient(90deg, rgba(80,160,220,0.8), rgba(80,160,220,1))', borderRadius: 10 }}></div>
+        </div>
+        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', fontWeight: 700 }}>62/day avg</span>
       </div>
     </div>
 
-    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 20 }}>
-      <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: '2.5px', textTransform: 'uppercase', fontWeight: 600 }}>Updated via Google Health API (Fitbit)</span>
+    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 24 }}>
+      <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 700 }}>Updated via Google Health API (Fitbit)</span>
     </div>
   </div>
 </div>
