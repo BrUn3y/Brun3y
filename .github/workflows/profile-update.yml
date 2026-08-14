@@ -74,11 +74,13 @@ jobs:
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
         run: |
           cd profile-repo
+          EXPIRES_AT=$(($(date +%s) + 21600))
           cat > strava_tokens.json << EOF
           {
             "client_id": "$STRAVA_CLIENT_ID",
             "client_secret": "$STRAVA_CLIENT_SECRET",
-            "refresh_token": "$STRAVA_REFRESH_TOKEN"
+            "refresh_token": "$STRAVA_REFRESH_TOKEN",
+            "expires_at": $EXPIRES_AT
           }
           EOF
       - run: |
