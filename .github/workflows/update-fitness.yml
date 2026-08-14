@@ -2,8 +2,8 @@ name: Update Fitness Widget
 
 on:
   schedule:
-    # Run every day at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Run every Sunday at 05:23 UTC
+    - cron: '23 5 * * 0'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -21,24 +21,33 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: Install dependencies
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+          pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests
       
       - name: Create token.json from secret
+        working-directory: ./google-health-api-setup
         run: |
           echo '${{ secrets.GOOGLE_HEALTH_TOKEN }}' > token.json
       
-      - name: Update fitness widget
+      - name: Update fitness widget in readme.source.md
+        working-directory: ./google-health-api-setup
         run: |
           python update_fitness_widget.py
-        env:
-          README_PATH: README.md
+      
+      - name: Build README with readme-aura
+        run: |
+          npx readme-aura build
       
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md assets/fitness-widget.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats [automated]" && git push)
+          git add readme.source.md README.md .github/assets/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats with DarkOrbs style [automated]" && git push)

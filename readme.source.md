@@ -69,14 +69,72 @@
 </div>
 ```
 
-<div align="center">
+---
 
-<a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
-<a href="https://x.com/BrUn3y"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
-<img src="https://komarev.com/ghpvc/?username=BrUn3y&label=Views&color=000000&style=flat" alt="Views" />
+```aura width=800 height=80
+<div style={{ position: 'relative', display: 'flex', gap: 16, alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 16, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
+  <style>{`
+    @keyframes social-orb-1 { 0%, 100% { transform: translate(0,0); opacity: 0.5; } 50% { transform: translate(18px,-10px); opacity: 0.8; } }
+    @keyframes social-orb-2 { 0%, 100% { transform: translate(0,0); opacity: 0.45; } 50% { transform: translate(-14px,8px); opacity: 0.75; } }
+    @keyframes social-orb-3 { 0%, 100% { transform: translate(0,0); opacity: 0.4; } 50% { transform: translate(12px,-8px); opacity: 0.7; } }
+    @keyframes social-orb-4 { 0%, 100% { transform: translate(0,0); opacity: 0.35; } 50% { transform: translate(-10px,6px); opacity: 0.65; } }
+    #so1 { animation: social-orb-1 8s ease-in-out infinite; }
+    #so2 { animation: social-orb-2 10s ease-in-out infinite 1s; }
+    #so3 { animation: social-orb-3 9s ease-in-out infinite 2s; }
+    #so4 { animation: social-orb-4 11s ease-in-out infinite 0.5s; }
+  `}</style>
+  
+  <svg width="800" height="80" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="sog1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(108,195,130,0.4)" />
+        <stop offset="100%" stopColor="rgba(108,195,130,0)" />
+      </radialGradient>
+      <radialGradient id="sog2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(230,100,115,0.35)" />
+        <stop offset="100%" stopColor="rgba(230,100,115,0)" />
+      </radialGradient>
+      <radialGradient id="sog3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(80,160,220,0.3)" />
+        <stop offset="100%" stopColor="rgba(80,160,220,0)" />
+      </radialGradient>
+      <radialGradient id="sog4" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(195,155,255,0.3)" />
+        <stop offset="100%" stopColor="rgba(195,155,255,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="so1" cx="100" cy="40" rx="120" ry="80" fill="url(#sog1)" />
+    <ellipse id="so2" cx="300" cy="40" rx="110" ry="75" fill="url(#sog2)" />
+    <ellipse id="so3" cx="500" cy="40" rx="100" ry="70" fill="url(#sog3)" />
+    <ellipse id="so4" cx="700" cy="40" rx="90" ry="65" fill="url(#sog4)" />
+  </svg>
 
+  <a href="https://linkedin.com/in/bruney" style={{ textDecoration: 'none', zIndex: 10 }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12, transition: 'all 0.3s' }}>
+      <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="20" height="20" />
+      <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>LinkedIn</span>
+    </div>
+  </a>
+
+  <a href="https://medium.com/@brun3y" style={{ textDecoration: 'none', zIndex: 10 }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12 }}>
+      <img src="https://cdn.simpleicons.org/medium/ffffff" width="20" height="20" />
+      <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>Medium</span>
+    </div>
+  </a>
+
+  <a href="https://x.com/BrUn3y" style={{ textDecoration: 'none', zIndex: 10 }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12 }}>
+      <img src="https://cdn.simpleicons.org/x/ffffff" width="20" height="20" />
+      <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>X</span>
+    </div>
+  </a>
+
+  <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12, zIndex: 10 }}>
+    <img src="https://komarev.com/ghpvc/?username=BrUn3y&label=&color=6e50dc&style=flat" alt="Views" />
+  </div>
 </div>
+```
 
 ---
 
@@ -200,12 +258,82 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 ---
 
-<!-- FITNESS_WIDGET_START -->
-### 🏃 Fitness Stats
+```aura width=800 height=240
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', padding: '20px' }}>
+  <style>{`
+    @keyframes fitness-orb-1 { 0%, 100% { transform: translate(0,0); opacity: 0.5; } 50% { transform: translate(20px,-15px); opacity: 0.85; } }
+    @keyframes fitness-orb-2 { 0%, 100% { transform: translate(0,0); opacity: 0.45; } 50% { transform: translate(-18px,12px); opacity: 0.75; } }
+    @keyframes fitness-orb-3 { 0%, 100% { transform: translate(0,0); opacity: 0.4; } 50% { transform: translate(15px,-10px); opacity: 0.7; } }
+    @keyframes fitness-ring { 0%, 100% { opacity: 0.08; } 50% { opacity: 0.22; } }
+    @keyframes fitness-ring-b { 0%, 100% { opacity: 0.05; } 50% { opacity: 0.15; } }
+    @keyframes pulse-glow { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.3); } }
+    #fo1 { animation: fitness-orb-1 9s ease-in-out infinite; }
+    #fo2 { animation: fitness-orb-2 11s ease-in-out infinite 1s; }
+    #fo3 { animation: fitness-orb-3 8s ease-in-out infinite 2s; }
+    #fr1 { animation: fitness-ring 7s ease-in-out infinite; }
+    #fr2 { animation: fitness-ring 7s ease-in-out infinite 2s; }
+    #fr3 { animation: fitness-ring-b 7s ease-in-out infinite 3.5s; }
+    .stat-card { animation: pulse-glow 4s ease-in-out infinite; }
+  `}</style>
 
-<img src="./assets/fitness-widget.svg" alt="Fitness Stats" width="100%" />
+  <svg width="800" height="240" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="fog1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(108,195,130,0.5)" />
+        <stop offset="100%" stopColor="rgba(108,195,130,0)" />
+      </radialGradient>
+      <radialGradient id="fog2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(230,100,115,0.45)" />
+        <stop offset="100%" stopColor="rgba(230,100,115,0)" />
+      </radialGradient>
+      <radialGradient id="fog3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(80,160,220,0.4)" />
+        <stop offset="100%" stopColor="rgba(80,160,220,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="fo1" cx="120" cy="200" rx="180" ry="140" fill="url(#fog1)" />
+    <ellipse id="fo2" cx="680" cy="60" rx="170" ry="130" fill="url(#fog2)" />
+    <ellipse id="fo3" cx="550" cy="210" rx="150" ry="120" fill="url(#fog3)" />
+    <circle id="fr1" cx="400" cy="120" r="45" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="fr2" cx="400" cy="120" r="75" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="fr3" cx="400" cy="120" r="110" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+  </svg>
 
-<!-- FITNESS_WIDGET_END -->
+  <div style={{ position: 'relative', zIndex: 10, width: '100%' }}>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 20 }}>
+      <span style={{ fontSize: 28, fontWeight: 700, color: '#ffffff' }}>🏃</span>
+      <span style={{ fontSize: 20, fontWeight: 700, color: '#ffffff', letterSpacing: 1 }}>Fitness Stats - August 2026</span>
+    </div>
+
+    <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
+      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '16px 24px', background: 'rgba(108,195,130,0.12)', border: '1px solid rgba(108,195,130,0.3)', borderRadius: 16, minWidth: 140 }}>
+        <span style={{ fontSize: 32, marginBottom: 4 }}>👟</span>
+        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(108,195,130,1)', marginBottom: 4 }}>{{STEPS}}</span>
+        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', letterSpacing: 1, textTransform: 'uppercase' }}>Steps</span>
+        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>{{STEPS_AVG}}/day</span>
+      </div>
+
+      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '16px 24px', background: 'rgba(230,100,115,0.12)', border: '1px solid rgba(230,100,115,0.3)', borderRadius: 16, minWidth: 140 }}>
+        <span style={{ fontSize: 32, marginBottom: 4 }}>🔥</span>
+        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(230,100,115,1)', marginBottom: 4 }}>{{CALORIES}}</span>
+        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', letterSpacing: 1, textTransform: 'uppercase' }}>Calories</span>
+        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>{{CALORIES_AVG}}/day</span>
+      </div>
+
+      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '16px 24px', background: 'rgba(80,160,220,0.12)', border: '1px solid rgba(80,160,220,0.3)', borderRadius: 16, minWidth: 140 }}>
+        <span style={{ fontSize: 32, marginBottom: 4 }}>⏱️</span>
+        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(80,160,220,1)', marginBottom: 4 }}>{{ACTIVE_MINUTES}}</span>
+        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', letterSpacing: 1, textTransform: 'uppercase' }}>Active Min</span>
+        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>{{ACTIVE_MINUTES_AVG}}/day</span>
+      </div>
+    </div>
+
+    <div style={{ display: 'flex', justifyContent: 'center', marginTop: 16 }}>
+      <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.25)', letterSpacing: 2, textTransform: 'uppercase' }}>Updated via Google Health API (Fitbit)</span>
+    </div>
+  </div>
+</div>
+```
 
 ---
 
