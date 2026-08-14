@@ -311,9 +311,9 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
       </div>
     </div>
 
-    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 4 }}>
+    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10 }}>
       <div style={{ flex: 1, height: 6, background: 'rgba(30,215,96,0.2)', borderRadius: 10, overflow: 'hidden', display: 'flex' }}>
-        <div style={{ width: '45%', height: '100%', background: 'linear-gradient(90deg, rgba(30,215,96,0.8), rgba(30,215,96,1))', borderRadius: 10 }}></div>
+        <div style={{ width: '45%', height: '100%', background: 'linear-gradient(90deg, rgba(30,215,96,0.8), rgba(30,215,96,1))', borderRadius: 10, display: 'flex' }}></div>
       </div>
       <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', fontWeight: 700, minWidth: 80, textAlign: 'right' }}>2:15 / 5:00</span>
     </div>
