@@ -67,19 +67,30 @@ jobs:
       - run: |
           cd health-repo
           python update_fitness_widget.py
-      - name: Create Strava tokens
+      - name: Create Strava tokens and refresh
         env:
           STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
           STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
         run: |
           cd profile-repo
-          EXPIRES_AT=$(($(date +%s) + 21600))
+          # Force token refresh to get valid access_token
+          RESPONSE=$(curl -s -X POST https://www.strava.com/oauth/token \
+            -d client_id="$STRAVA_CLIENT_ID" \
+            -d client_secret="$STRAVA_CLIENT_SECRET" \
+            -d refresh_token="$STRAVA_REFRESH_TOKEN" \
+            -d grant_type=refresh_token)
+          
+          ACCESS_TOKEN=$(echo "$RESPONSE" | python3 -c "import sys, json; print(json.load(sys.stdin)['access_token'])")
+          EXPIRES_AT=$(echo "$RESPONSE" | python3 -c "import sys, json; print(json.load(sys.stdin)['expires_at'])")
+          NEW_REFRESH_TOKEN=$(echo "$RESPONSE" | python3 -c "import sys, json; print(json.load(sys.stdin)['refresh_token'])")
+          
           cat > strava_tokens.json << EOF
           {
             "client_id": "$STRAVA_CLIENT_ID",
             "client_secret": "$STRAVA_CLIENT_SECRET",
-            "refresh_token": "$STRAVA_REFRESH_TOKEN",
+            "access_token": "$ACCESS_TOKEN",
+            "refresh_token": "$NEW_REFRESH_TOKEN",
             "expires_at": $EXPIRES_AT
           }
           EOF
