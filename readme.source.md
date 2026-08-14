@@ -71,68 +71,81 @@
 
 ---
 
-```aura width=800 height=80
-<div style={{ position: 'relative', display: 'flex', gap: 16, alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 16, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
+```aura width=800 height=100
+<div style={{ position: 'relative', display: 'flex', gap: 16, alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #12121a 100%)', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(255,255,255,0.08)' }}>
   <style>{`
-    @keyframes social-orb-1 { 0%, 100% { transform: translate(0,0); opacity: 0.5; } 50% { transform: translate(18px,-10px); opacity: 0.8; } }
-    @keyframes social-orb-2 { 0%, 100% { transform: translate(0,0); opacity: 0.45; } 50% { transform: translate(-14px,8px); opacity: 0.75; } }
-    @keyframes social-orb-3 { 0%, 100% { transform: translate(0,0); opacity: 0.4; } 50% { transform: translate(12px,-8px); opacity: 0.7; } }
-    @keyframes social-orb-4 { 0%, 100% { transform: translate(0,0); opacity: 0.35; } 50% { transform: translate(-10px,6px); opacity: 0.65; } }
-    #so1 { animation: social-orb-1 8s ease-in-out infinite; }
-    #so2 { animation: social-orb-2 10s ease-in-out infinite 1s; }
-    #so3 { animation: social-orb-3 9s ease-in-out infinite 2s; }
-    #so4 { animation: social-orb-4 11s ease-in-out infinite 0.5s; }
+    @keyframes orb-float-1 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.6; } 50% { transform: translate(25px,-18px) scale(1.15); opacity: 0.95; } }
+    @keyframes orb-float-2 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.55; } 50% { transform: translate(-22px,15px) scale(1.12); opacity: 0.9; } }
+    @keyframes orb-float-3 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.5; } 50% { transform: translate(20px,-12px) scale(1.1); opacity: 0.85; } }
+    @keyframes orb-float-4 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.45; } 50% { transform: translate(-18px,10px) scale(1.08); opacity: 0.8; } }
+    @keyframes ring-pulse { 0%, 100% { opacity: 0.12; transform: scale(1); } 50% { opacity: 0.28; transform: scale(1.05); } }
+    @keyframes btn-glow { 0%, 100% { box-shadow: 0 0 15px rgba(255,255,255,0.05); } 50% { box-shadow: 0 0 25px rgba(255,255,255,0.15); } }
+    #so1 { animation: orb-float-1 10s ease-in-out infinite; }
+    #so2 { animation: orb-float-2 12s ease-in-out infinite 1.5s; }
+    #so3 { animation: orb-float-3 11s ease-in-out infinite 3s; }
+    #so4 { animation: orb-float-4 13s ease-in-out infinite 0.8s; }
+    #ring1 { animation: ring-pulse 8s ease-in-out infinite; }
+    #ring2 { animation: ring-pulse 8s ease-in-out infinite 2s; }
+    #ring3 { animation: ring-pulse 8s ease-in-out infinite 4s; }
+    .social-btn { animation: btn-glow 5s ease-in-out infinite; }
   `}</style>
   
-  <svg width="800" height="80" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="800" height="100" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="sog1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(108,195,130,0.4)" />
+        <stop offset="0%" stopColor="rgba(108,195,130,0.65)" />
+        <stop offset="50%" stopColor="rgba(108,195,130,0.25)" />
         <stop offset="100%" stopColor="rgba(108,195,130,0)" />
       </radialGradient>
       <radialGradient id="sog2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(230,100,115,0.35)" />
+        <stop offset="0%" stopColor="rgba(230,100,115,0.6)" />
+        <stop offset="50%" stopColor="rgba(230,100,115,0.22)" />
         <stop offset="100%" stopColor="rgba(230,100,115,0)" />
       </radialGradient>
       <radialGradient id="sog3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(80,160,220,0.3)" />
+        <stop offset="0%" stopColor="rgba(80,160,220,0.55)" />
+        <stop offset="50%" stopColor="rgba(80,160,220,0.2)" />
         <stop offset="100%" stopColor="rgba(80,160,220,0)" />
       </radialGradient>
       <radialGradient id="sog4" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(195,155,255,0.3)" />
+        <stop offset="0%" stopColor="rgba(195,155,255,0.5)" />
+        <stop offset="50%" stopColor="rgba(195,155,255,0.18)" />
         <stop offset="100%" stopColor="rgba(195,155,255,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="so1" cx="100" cy="40" rx="120" ry="80" fill="url(#sog1)" />
-    <ellipse id="so2" cx="300" cy="40" rx="110" ry="75" fill="url(#sog2)" />
-    <ellipse id="so3" cx="500" cy="40" rx="100" ry="70" fill="url(#sog3)" />
-    <ellipse id="so4" cx="700" cy="40" rx="90" ry="65" fill="url(#sog4)" />
+    <ellipse id="so1" cx="120" cy="50" rx="160" ry="110" fill="url(#sog1)" />
+    <ellipse id="so2" cx="320" cy="50" rx="150" ry="105" fill="url(#sog2)" />
+    <ellipse id="so3" cx="520" cy="50" rx="140" ry="100" fill="url(#sog3)" />
+    <ellipse id="so4" cx="720" cy="50" rx="130" ry="95" fill="url(#sog4)" />
+    <circle id="ring1" cx="400" cy="50" r="55" fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1" />
+    <circle id="ring2" cx="400" cy="50" r="85" fill="none" stroke="rgba(255,255,255,0.12)" strokeWidth="0.8" />
+    <circle id="ring3" cx="400" cy="50" r="120" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.6" />
   </svg>
 
   <a href="https://linkedin.com/in/bruney" style={{ textDecoration: 'none', zIndex: 10 }}>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12, transition: 'all 0.3s' }}>
-      <span style={{ fontSize: 20 }}>💼</span>
-      <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>LinkedIn</span>
+    <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '12px 24px', background: 'rgba(108,195,130,0.08)', border: '1.5px solid rgba(108,195,130,0.25)', borderRadius: 14, backdropFilter: 'blur(10px)' }}>
+      <span style={{ fontSize: 22 }}>💼</span>
+      <span style={{ color: 'rgba(108,195,130,0.95)', fontSize: 15, fontWeight: 700, letterSpacing: '0.5px' }}>LinkedIn</span>
     </div>
   </a>
 
   <a href="https://medium.com/@brun3y" style={{ textDecoration: 'none', zIndex: 10 }}>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12 }}>
-      <span style={{ fontSize: 20 }}>📝</span>
-      <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>Medium</span>
+    <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '12px 24px', background: 'rgba(230,100,115,0.08)', border: '1.5px solid rgba(230,100,115,0.25)', borderRadius: 14, backdropFilter: 'blur(10px)' }}>
+      <span style={{ fontSize: 22 }}>📝</span>
+      <span style={{ color: 'rgba(230,100,115,0.95)', fontSize: 15, fontWeight: 700, letterSpacing: '0.5px' }}>Medium</span>
     </div>
   </a>
 
   <a href="https://x.com/BrUn3y" style={{ textDecoration: 'none', zIndex: 10 }}>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12 }}>
-      <span style={{ fontSize: 20 }}>🐦</span>
-      <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>X</span>
+    <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '12px 24px', background: 'rgba(80,160,220,0.08)', border: '1.5px solid rgba(80,160,220,0.25)', borderRadius: 14, backdropFilter: 'blur(10px)' }}>
+      <span style={{ fontSize: 22 }}>🐦</span>
+      <span style={{ color: 'rgba(80,160,220,0.95)', fontSize: 15, fontWeight: 700, letterSpacing: '0.5px' }}>X</span>
     </div>
   </a>
 
-  <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12, zIndex: 10 }}>
-    <span style={{ fontSize: 20 }}>👁️</span>
-    <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>Profile Views</span>
+  <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '12px 24px', background: 'rgba(195,155,255,0.08)', border: '1.5px solid rgba(195,155,255,0.25)', borderRadius: 14, backdropFilter: 'blur(10px)', zIndex: 10 }}>
+    <span style={{ fontSize: 22 }}>👁️</span>
+    <span style={{ color: 'rgba(195,155,255,0.95)', fontSize: 15, fontWeight: 700, letterSpacing: '0.5px' }}>Views</span>
   </div>
 </div>
 ```
@@ -263,78 +276,85 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 <div align="center">
 
-```aura width=800 height=240
-<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', padding: '20px' }}>
+```aura width=800 height=280
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #12121a 100%)', borderRadius: 24, overflow: 'hidden', fontFamily: 'Inter, sans-serif', padding: '24px', border: '1px solid rgba(255,255,255,0.08)' }}>
   <style>{`
-    @keyframes fitness-orb-1 { 0%, 100% { transform: translate(0,0); opacity: 0.5; } 50% { transform: translate(20px,-15px); opacity: 0.85; } }
-    @keyframes fitness-orb-2 { 0%, 100% { transform: translate(0,0); opacity: 0.45; } 50% { transform: translate(-18px,12px); opacity: 0.75; } }
-    @keyframes fitness-orb-3 { 0%, 100% { transform: translate(0,0); opacity: 0.4; } 50% { transform: translate(15px,-10px); opacity: 0.7; } }
-    @keyframes fitness-ring { 0%, 100% { opacity: 0.08; } 50% { opacity: 0.22; } }
-    @keyframes fitness-ring-b { 0%, 100% { opacity: 0.05; } 50% { opacity: 0.15; } }
-    @keyframes pulse-glow { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.3); } }
-    #fo1 { animation: fitness-orb-1 9s ease-in-out infinite; }
-    #fo2 { animation: fitness-orb-2 11s ease-in-out infinite 1s; }
-    #fo3 { animation: fitness-orb-3 8s ease-in-out infinite 2s; }
-    #fr1 { animation: fitness-ring 7s ease-in-out infinite; }
-    #fr2 { animation: fitness-ring 7s ease-in-out infinite 2s; }
-    #fr3 { animation: fitness-ring-b 7s ease-in-out infinite 3.5s; }
-    .stat-card { animation: pulse-glow 4s ease-in-out infinite; }
+    @keyframes orb-drift-1 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.7; } 50% { transform: translate(35px,-25px) scale(1.2); opacity: 1; } }
+    @keyframes orb-drift-2 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.65; } 50% { transform: translate(-30px,20px) scale(1.18); opacity: 0.95; } }
+    @keyframes orb-drift-3 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.6; } 50% { transform: translate(28px,-18px) scale(1.15); opacity: 0.9; } }
+    @keyframes ring-expand { 0%, 100% { opacity: 0.15; transform: scale(1); } 50% { opacity: 0.35; transform: scale(1.08); } }
+    @keyframes ring-expand-slow { 0%, 100% { opacity: 0.1; transform: scale(1); } 50% { opacity: 0.25; transform: scale(1.05); } }
+    @keyframes card-glow { 0%, 100% { box-shadow: 0 0 20px rgba(255,255,255,0.08); filter: brightness(1); } 50% { box-shadow: 0 0 35px rgba(255,255,255,0.18); filter: brightness(1.15); } }
+    @keyframes title-pulse { 0%, 100% { opacity: 0.95; } 50% { opacity: 1; } }
+    #fo1 { animation: orb-drift-1 11s ease-in-out infinite; }
+    #fo2 { animation: orb-drift-2 13s ease-in-out infinite 1.8s; }
+    #fo3 { animation: orb-drift-3 10s ease-in-out infinite 3.2s; }
+    #fr1 { animation: ring-expand 9s ease-in-out infinite; }
+    #fr2 { animation: ring-expand 9s ease-in-out infinite 3s; }
+    #fr3 { animation: ring-expand-slow 9s ease-in-out infinite 6s; }
+    #fr4 { animation: ring-expand-slow 9s ease-in-out infinite 1.5s; }
+    .stat-card { animation: card-glow 6s ease-in-out infinite; }
+    .title-text { animation: title-pulse 5s ease-in-out infinite; }
   `}</style>
 
-  <svg width="800" height="240" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="800" height="280" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="fog1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(108,195,130,0.5)" />
+        <stop offset="0%" stopColor="rgba(108,195,130,0.75)" />
+        <stop offset="40%" stopColor="rgba(108,195,130,0.35)" />
         <stop offset="100%" stopColor="rgba(108,195,130,0)" />
       </radialGradient>
       <radialGradient id="fog2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(230,100,115,0.45)" />
+        <stop offset="0%" stopColor="rgba(230,100,115,0.7)" />
+        <stop offset="40%" stopColor="rgba(230,100,115,0.32)" />
         <stop offset="100%" stopColor="rgba(230,100,115,0)" />
       </radialGradient>
       <radialGradient id="fog3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(80,160,220,0.4)" />
+        <stop offset="0%" stopColor="rgba(80,160,220,0.65)" />
+        <stop offset="40%" stopColor="rgba(80,160,220,0.3)" />
         <stop offset="100%" stopColor="rgba(80,160,220,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="fo1" cx="120" cy="200" rx="180" ry="140" fill="url(#fog1)" />
-    <ellipse id="fo2" cx="680" cy="60" rx="170" ry="130" fill="url(#fog2)" />
-    <ellipse id="fo3" cx="550" cy="210" rx="150" ry="120" fill="url(#fog3)" />
-    <circle id="fr1" cx="400" cy="120" r="45" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="fr2" cx="400" cy="120" r="75" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="fr3" cx="400" cy="120" r="110" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <ellipse id="fo1" cx="140" cy="220" rx="220" ry="170" fill="url(#fog1)" />
+    <ellipse id="fo2" cx="660" cy="80" rx="210" ry="160" fill="url(#fog2)" />
+    <ellipse id="fo3" cx="520" cy="240" rx="200" ry="150" fill="url(#fog3)" />
+    <circle id="fr1" cx="400" cy="140" r="60" fill="none" stroke="rgba(255,255,255,0.2)" strokeWidth="1.2" />
+    <circle id="fr2" cx="400" cy="140" r="95" fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth="1" />
+    <circle id="fr3" cx="400" cy="140" r="135" fill="none" stroke="rgba(255,255,255,0.12)" strokeWidth="0.8" />
+    <circle id="fr4" cx="400" cy="140" r="175" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.6" />
   </svg>
 
   <div style={{ position: 'relative', zIndex: 10, width: '100%' }}>
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 20 }}>
-      <span style={{ fontSize: 28, fontWeight: 700, color: '#ffffff' }}>🏃</span>
-      <span style={{ fontSize: 20, fontWeight: 700, color: '#ffffff', letterSpacing: 1 }}>Fitness Stats - August 2026</span>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10, marginBottom: 24 }}>
+      <span style={{ fontSize: 32, fontWeight: 700 }}>🏃</span>
+      <span className="title-text" style={{ fontSize: 22, fontWeight: 800, color: '#ffffff', letterSpacing: '1.2px', textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>Fitness Stats - August 2026</span>
     </div>
 
-    <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
-      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '16px 24px', background: 'rgba(108,195,130,0.12)', border: '1px solid rgba(108,195,130,0.3)', borderRadius: 16, minWidth: 140 }}>
-        <span style={{ fontSize: 32, marginBottom: 4 }}>👟</span>
-        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(108,195,130,1)', marginBottom: 4 }}>32,834</span>
-        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', letterSpacing: 1, textTransform: 'uppercase' }}>Steps</span>
-        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>3,283/day</span>
+    <div style={{ display: 'flex', gap: 20, justifyContent: 'center', flexWrap: 'wrap' }}>
+      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px 28px', background: 'rgba(108,195,130,0.15)', border: '2px solid rgba(108,195,130,0.4)', borderRadius: 20, minWidth: 160, backdropFilter: 'blur(12px)' }}>
+        <span style={{ fontSize: 36, marginBottom: 6 }}>👟</span>
+        <span style={{ fontSize: 32, fontWeight: 800, color: 'rgba(108,195,130,1)', marginBottom: 6, textShadow: '0 0 15px rgba(108,195,130,0.5)' }}>32,834</span>
+        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: 700 }}>Steps</span>
+        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.4)', marginTop: 6, fontWeight: 600 }}>3,283/day</span>
       </div>
 
-      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '16px 24px', background: 'rgba(230,100,115,0.12)', border: '1px solid rgba(230,100,115,0.3)', borderRadius: 16, minWidth: 140 }}>
-        <span style={{ fontSize: 32, marginBottom: 4 }}>🔥</span>
-        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(230,100,115,1)', marginBottom: 4 }}>1,642</span>
-        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', letterSpacing: 1, textTransform: 'uppercase' }}>Calories</span>
-        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>164/day</span>
+      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px 28px', background: 'rgba(230,100,115,0.15)', border: '2px solid rgba(230,100,115,0.4)', borderRadius: 20, minWidth: 160, backdropFilter: 'blur(12px)' }}>
+        <span style={{ fontSize: 36, marginBottom: 6 }}>🔥</span>
+        <span style={{ fontSize: 32, fontWeight: 800, color: 'rgba(230,100,115,1)', marginBottom: 6, textShadow: '0 0 15px rgba(230,100,115,0.5)' }}>1,642</span>
+        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: 700 }}>Calories</span>
+        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.4)', marginTop: 6, fontWeight: 600 }}>164/day</span>
       </div>
 
-      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '16px 24px', background: 'rgba(80,160,220,0.12)', border: '1px solid rgba(80,160,220,0.3)', borderRadius: 16, minWidth: 140 }}>
-        <span style={{ fontSize: 32, marginBottom: 4 }}>⏱️</span>
-        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(80,160,220,1)', marginBottom: 4 }}>625</span>
-        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', letterSpacing: 1, textTransform: 'uppercase' }}>Active Min</span>
-        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>62/day</span>
+      <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px 28px', background: 'rgba(80,160,220,0.15)', border: '2px solid rgba(80,160,220,0.4)', borderRadius: 20, minWidth: 160, backdropFilter: 'blur(12px)' }}>
+        <span style={{ fontSize: 36, marginBottom: 6 }}>⏱️</span>
+        <span style={{ fontSize: 32, fontWeight: 800, color: 'rgba(80,160,220,1)', marginBottom: 6, textShadow: '0 0 15px rgba(80,160,220,0.5)' }}>625</span>
+        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: 700 }}>Active Min</span>
+        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.4)', marginTop: 6, fontWeight: 600 }}>62/day</span>
       </div>
     </div>
 
-    <div style={{ display: 'flex', justifyContent: 'center', marginTop: 16 }}>
-      <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.25)', letterSpacing: 2, textTransform: 'uppercase' }}>Updated via Google Health API (Fitbit)</span>
+    <div style={{ display: 'flex', justifyContent: 'center', marginTop: 20 }}>
+      <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: '2.5px', textTransform: 'uppercase', fontWeight: 600 }}>Updated via Google Health API (Fitbit)</span>
     </div>
   </div>
 </div>
