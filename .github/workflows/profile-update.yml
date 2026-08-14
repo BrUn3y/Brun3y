@@ -84,10 +84,10 @@ jobs:
       - run: |
           cd profile-repo
           pip install requests
-          python update_strava_activities.py
+          python update_strava_widget.py
       - run: |
           cd profile-repo
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md assets/fitness-widget.svg readme.source.md
+          git add README.md assets/fitness-widget.svg assets/strava-widget.svg readme.source.md
           git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats and Strava activities [automated]" && git push)
