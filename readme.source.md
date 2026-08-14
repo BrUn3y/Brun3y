@@ -330,7 +330,7 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
       <span className="title-text" style={{ fontSize: 22, fontWeight: 800, color: '#ffffff', letterSpacing: '1.2px', textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>Fitness Stats - August 2026</span>
     </div>
 
-    <div style={{ display: 'flex', gap: 20, justifyContent: 'center', flexWrap: 'wrap' }}>
+    <div style={{ display: 'flex', flexDirection: 'row', gap: 20, justifyContent: 'center', flexWrap: 'wrap' }}>
       <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px 28px', background: 'rgba(108,195,130,0.15)', border: '2px solid rgba(108,195,130,0.4)', borderRadius: 20, minWidth: 160, backdropFilter: 'blur(12px)' }}>
         <span style={{ fontSize: 36, marginBottom: 6 }}>👟</span>
         <span style={{ fontSize: 32, fontWeight: 800, color: 'rgba(108,195,130,1)', marginBottom: 6, textShadow: '0 0 15px rgba(108,195,130,0.5)' }}>32,834</span>
