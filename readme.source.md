@@ -298,10 +298,8 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
   <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 12, flex: 1, minWidth: 0 }}>
     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 12, marginBottom: 4 }}>
-      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 12 }}>
-        <span style={{ fontSize: 32 }}>🎧</span>
-        <span className="spotify-text" style={{ fontSize: 28, fontWeight: 900, color: 'rgba(30,215,96,1)', letterSpacing: '1px' }}>Now Playing on Spotify</span>
-      </div>
+      <span style={{ fontSize: 32 }}>🎧</span>
+      <span className="spotify-text" style={{ fontSize: 28, fontWeight: 900, color: 'rgba(30,215,96,1)', letterSpacing: '1px' }}>Now Playing on Spotify</span>
     </div>
     
     <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
