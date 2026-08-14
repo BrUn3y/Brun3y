@@ -36,10 +36,19 @@ jobs:
         run: |
           echo '${{ secrets.GOOGLE_HEALTH_TOKEN }}' > token.json
       
+      - name: Create Strava tokens from secret
+        working-directory: ./strava-setup
+        run: |
+          echo '${{ secrets.STRAVA_TOKENS }}' > strava_tokens.json
+      
       - name: Update fitness widget in readme.source.md
         working-directory: ./google-health-api-setup
         run: |
           python update_fitness_widget.py
+      
+      - name: Update Strava activities in readme.source.md
+        run: |
+          python update_strava_activities.py
       
       - name: Build README with readme-aura
         run: |

@@ -439,6 +439,18 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 </div>
 
+#### 🏃 Recent Strava Activities
+
+<div align="center">
+
+| Activity | Distance | Time | Pace | Date |
+|----------|----------|------|------|------|
+| Entrenamiento con pesas a la hora d... | 0.00 km | 56m 15s | N/A | Aug 09, 2026 |
+| Remo a la hora del almuerzo | 4.50 km | 10m 6s | N/A | Aug 09, 2026 |
+| Entrenamiento a la hora del almuerz... | 0.00 km | 30m 35s | N/A | Aug 08, 2026 |
+
+</div>
+
 ---
 
 <div align="center">

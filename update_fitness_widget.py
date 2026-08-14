@@ -10,6 +10,7 @@ import requests
 from datetime import datetime, timedelta
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
+from pathlib import Path
 
 # Configuración
 SCOPES = ['https://www.googleapis.com/auth/googlehealth.activity_and_fitness.readonly']
@@ -166,9 +167,9 @@ def generate_svg_widget(stats, week_range, days_elapsed):
     
     print(f"✅ SVG widget generado en {output_path}")
 
-def update_readme():
-    """Actualiza el README para usar el SVG widget"""
-    readme_path = './README.md'
+def update_readme(strava_activities=None):
+    """Actualiza el README.source.md con el widget de fitness y actividades de Strava"""
+    readme_path = './readme.source.md'
     
     if not os.path.exists(readme_path):
         print(f"⚠️  No se encontró {readme_path}")
@@ -177,29 +178,128 @@ def update_readme():
     with open(readme_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Crear referencia al SVG
-    widget_section = """### 🏃 Fitness Stats
-
-<img src="./assets/fitness-widget.svg" alt="Fitness Stats" width="100%" />"""
-    
-    # Buscar y reemplazar sección de fitness
+    # Buscar la sección de fitness stats
     import re
-    pattern = r'### 🏃 Fitness Stats.*?(?=\n###|\n---|\Z)'
     
-    if re.search(pattern, content, re.DOTALL):
-        new_content = re.sub(pattern, widget_section, content, flags=re.DOTALL)
+    # Encontrar el bloque aura del fitness widget
+    fitness_pattern = r'(### 🏃 Fitness Stats - August 2026.*?```aura.*?```.*?</div>)'
+    
+    match = re.search(fitness_pattern, content, re.DOTALL)
+    
+    if not match:
+        print("⚠️  No se encontró la sección de Fitness Stats en readme.source.md")
+        return
+    
+    fitness_section = match.group(1)
+    
+    # Agregar actividades de Strava si existen
+    if strava_activities and len(strava_activities) > 0:
+        strava_section = "\n\n#### 🏃 Recent Strava Activities\n\n"
+        strava_section += "<div align=\"center\">\n\n"
+        strava_section += "| Activity | Distance | Time | Pace | Date |\n"
+        strava_section += "|----------|----------|------|------|------|\n"
+        
+        for activity in strava_activities:
+            name = activity['name'][:30] + "..." if len(activity['name']) > 30 else activity['name']
+            pace = activity['pace'] if activity['pace'] else "N/A"
+            strava_section += f"| {name} | {activity['distance']} | {activity['time']} | {pace} | {activity['date']} |\n"
+        
+        strava_section += "\n</div>"
+        
+        # Reemplazar la sección completa
+        new_fitness_section = fitness_section + strava_section
+        new_content = content.replace(fitness_section, new_fitness_section)
     else:
-        # Si no existe, agregar antes del último ---
-        parts = content.rsplit('\n---\n', 1)
-        if len(parts) == 2:
-            new_content = parts[0] + '\n\n' + widget_section + '\n\n---\n' + parts[1]
-        else:
-            new_content = content + '\n\n' + widget_section
+        new_content = content
     
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(new_content)
     
-    print(f"✅ README actualizado para usar SVG widget")
+    print(f"✅ readme.source.md actualizado con widget de fitness y actividades de Strava")
+
+def get_strava_activities():
+    """Obtiene las últimas 3 actividades de Strava"""
+    strava_tokens_path = Path(__file__).parent.parent / 'strava-setup' / 'strava_tokens.json'
+    
+    if not strava_tokens_path.exists():
+        print("⚠️  No se encontró archivo de tokens de Strava")
+        return []
+    
+    try:
+        with open(strava_tokens_path, 'r') as f:
+            tokens = json.load(f)
+        
+        access_token = tokens.get('access_token')
+        if not access_token:
+            print("⚠️  No se encontró access_token en tokens de Strava")
+            return []
+        
+        # Obtener últimas 3 actividades
+        headers = {"Authorization": f"Bearer {access_token}"}
+        params = {"per_page": 3}
+        
+        print("\n🏃 Consultando últimas 3 actividades de Strava...")
+        response = requests.get(
+            "https://www.strava.com/api/v3/athlete/activities",
+            headers=headers,
+            params=params
+        )
+        
+        if response.status_code != 200:
+            print(f"⚠️  Error al obtener actividades de Strava: {response.status_code}")
+            return []
+        
+        activities = response.json()
+        print(f"  ✅ Obtenidas {len(activities)} actividades")
+        
+        # Formatear actividades
+        formatted_activities = []
+        for activity in activities:
+            distance_km = activity.get('distance', 0) / 1000
+            moving_time = activity.get('moving_time', 0)
+            
+            # Calcular ritmo para running
+            pace_str = ""
+            if distance_km > 0 and activity.get('type') in ['Run', 'Walk']:
+                pace_min_per_km = moving_time / 60 / distance_km
+                pace_min = int(pace_min_per_km)
+                pace_sec = int((pace_min_per_km - pace_min) * 60)
+                pace_str = f"{pace_min}:{pace_sec:02d} min/km"
+            
+            # Formatear tiempo
+            hours = moving_time // 3600
+            minutes = (moving_time % 3600) // 60
+            seconds = moving_time % 60
+            if hours > 0:
+                time_str = f"{hours}h {minutes}m"
+            else:
+                time_str = f"{minutes}m {seconds}s"
+            
+            # Fecha
+            start_date = activity.get('start_date_local', '')
+            date_str = ""
+            if start_date:
+                dt = datetime.fromisoformat(start_date.replace('Z', '+00:00'))
+                date_str = dt.strftime('%b %d, %Y')
+            
+            formatted_activities.append({
+                'name': activity.get('name', 'Sin nombre'),
+                'type': activity.get('type', 'N/A'),
+                'sport_type': activity.get('sport_type', 'N/A'),
+                'distance': f"{distance_km:.2f} km",
+                'time': time_str,
+                'pace': pace_str,
+                'date': date_str,
+                'elevation': f"{activity.get('total_elevation_gain', 0):.0f} m",
+                'calories': activity.get('calories', 0),
+                'id': activity.get('id')
+            })
+        
+        return formatted_activities
+    
+    except Exception as e:
+        print(f"⚠️  Error al procesar actividades de Strava: {e}")
+        return []
 
 def main():
     """Función principal"""
@@ -226,8 +326,11 @@ def main():
     month_range = f"{start_of_month.strftime('%B %Y')}"
     generate_svg_widget(stats, month_range, days_elapsed)
     
+    # Obtener actividades de Strava
+    strava_activities = get_strava_activities()
+    
     # Actualizar README
-    update_readme()
+    update_readme(strava_activities)
     
     print("\n✅ Proceso completado exitosamente!")
 
