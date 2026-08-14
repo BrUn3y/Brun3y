@@ -281,8 +281,97 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 ### 🎵 Now Playing
 
-<!-- Spotify widget via kittinan/spotify-github-profile -->
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
+```aura width=1200 height=180
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'row', alignItems: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #12121a 100%)', borderRadius: 28, overflow: 'hidden', fontFamily: 'Inter, sans-serif', padding: '0', border: '1.5px solid rgba(255,255,255,0.1)' }}>
+  <style>{`
+    @keyframes orb-float-spotify-1 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.7; } 50% { transform: translate(35px,-25px) scale(1.22); opacity: 1.05; } }
+    @keyframes orb-float-spotify-2 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.65; } 50% { transform: translate(-30px,20px) scale(1.18); opacity: 1; } }
+    @keyframes orb-float-spotify-3 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.6; } 50% { transform: translate(28px,-18px) scale(1.15); opacity: 0.95; } }
+    @keyframes ring-pulse-spotify-1 { 0%, 100% { opacity: 0.16; transform: scale(1) rotate(0deg); } 50% { opacity: 0.38; transform: scale(1.09) rotate(180deg); } }
+    @keyframes ring-pulse-spotify-2 { 0%, 100% { opacity: 0.13; transform: scale(1) rotate(0deg); } 50% { opacity: 0.3; transform: scale(1.07) rotate(-180deg); } }
+    @keyframes ring-pulse-spotify-3 { 0%, 100% { opacity: 0.09; transform: scale(1); } 50% { opacity: 0.23; transform: scale(1.05); } }
+    @keyframes spotify-glow { 0%, 100% { box-shadow: 0 0 30px rgba(30,215,96,0.15), inset 0 0 20px rgba(30,215,96,0.05); } 50% { box-shadow: 0 0 50px rgba(30,215,96,0.35), inset 0 0 30px rgba(30,215,96,0.12); } }
+    @keyframes text-glow { 0%, 100% { text-shadow: 0 0 15px rgba(255,255,255,0.3); } 50% { text-shadow: 0 0 30px rgba(255,255,255,0.6); } }
+    @keyframes pulse-scale { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.03); } }
+    #spo1 { animation: orb-float-spotify-1 13s ease-in-out infinite; }
+    #spo2 { animation: orb-float-spotify-2 15s ease-in-out infinite 2.2s; }
+    #spo3 { animation: orb-float-spotify-3 12s ease-in-out infinite 3.8s; }
+    #spor1 { animation: ring-pulse-spotify-1 11s ease-in-out infinite; }
+    #spor2 { animation: ring-pulse-spotify-2 11s ease-in-out infinite 2.8s; }
+    #spor3 { animation: ring-pulse-spotify-3 11s ease-in-out infinite 5.5s; }
+    .spotify-container { animation: spotify-glow 8s ease-in-out infinite; }
+    .spotify-text { animation: text-glow 7s ease-in-out infinite; }
+    .cover-image { animation: pulse-scale 6s ease-in-out infinite; }
+  `}</style>
+
+  <svg width="1200" height="180" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="spog1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(30,215,96,0.75)" />
+        <stop offset="45%" stopColor="rgba(30,215,96,0.35)" />
+        <stop offset="100%" stopColor="rgba(30,215,96,0)" />
+      </radialGradient>
+      <radialGradient id="spog2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(80,160,220,0.7)" />
+        <stop offset="45%" stopColor="rgba(80,160,220,0.32)" />
+        <stop offset="100%" stopColor="rgba(80,160,220,0)" />
+      </radialGradient>
+      <radialGradient id="spog3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(195,155,255,0.65)" />
+        <stop offset="45%" stopColor="rgba(195,155,255,0.28)" />
+        <stop offset="100%" stopColor="rgba(195,155,255,0)" />
+      </radialGradient>
+      <filter id="glow-filter-spotify">
+        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <ellipse id="spo1" cx="200" cy="90" rx="280" ry="200" fill="url(#spog1)" filter="url(#glow-filter-spotify)" />
+    <ellipse id="spo2" cx="700" cy="90" rx="260" ry="190" fill="url(#spog2)" filter="url(#glow-filter-spotify)" />
+    <ellipse id="spo3" cx="1000" cy="90" rx="240" ry="180" fill="url(#spog3)" filter="url(#glow-filter-spotify)" />
+    <circle id="spor1" cx="600" cy="90" r="75" fill="none" stroke="rgba(30,215,96,0.25)" strokeWidth="1.5" />
+    <circle id="spor2" cx="600" cy="90" r="120" fill="none" stroke="rgba(30,215,96,0.2)" strokeWidth="1.2" />
+    <circle id="spor3" cx="600" cy="90" r="170" fill="none" stroke="rgba(30,215,96,0.15)" strokeWidth="1" />
+  </svg>
+
+  <div className="spotify-container" style={{ position: 'relative', zIndex: 10, display: 'flex', flexDirection: 'row', alignItems: 'center', width: '100%', height: '100%', padding: '20px 30px', gap: 30, background: 'rgba(30,215,96,0.08)', border: '2.5px solid rgba(30,215,96,0.35)', borderRadius: 28, backdropFilter: 'blur(15px)' }}>
+    
+    <div className="cover-image" style={{ flexShrink: 0, width: 140, height: 140, borderRadius: 16, background: 'linear-gradient(135deg, rgba(30,215,96,0.3), rgba(30,215,96,0.1))', border: '2px solid rgba(30,215,96,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', boxShadow: '0 8px 32px rgba(30,215,96,0.3)' }}>
+      <span style={{ fontSize: 60, opacity: 0.6 }}>🎵</span>
+    </div>
+
+    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 12, flex: 1, minWidth: 0 }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 4 }}>
+        <span style={{ fontSize: 32 }}>🎧</span>
+        <span className="spotify-text" style={{ fontSize: 28, fontWeight: 900, color: 'rgba(30,215,96,1)', letterSpacing: '1px' }}>Now Playing on Spotify</span>
+      </div>
+      
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+        <div className="spotify-text" style={{ fontSize: 32, fontWeight: 900, color: '#ffffff', lineHeight: 1.2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          Song Title
+        </div>
+        <div style={{ fontSize: 22, fontWeight: 600, color: 'rgba(255,255,255,0.75)', lineHeight: 1.2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          Artist Name
+        </div>
+      </div>
+
+      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: 4 }}>
+        <div style={{ flex: 1, height: 6, background: 'rgba(30,215,96,0.2)', borderRadius: 10, overflow: 'hidden' }}>
+          <div style={{ width: '45%', height: '100%', background: 'linear-gradient(90deg, rgba(30,215,96,0.8), rgba(30,215,96,1))', borderRadius: 10 }}></div>
+        </div>
+        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', fontWeight: 700, minWidth: 80, textAlign: 'right' }}>2:15 / 5:00</span>
+      </div>
+    </div>
+
+    <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', width: 70, height: 70, borderRadius: '50%', background: 'rgba(30,215,96,0.2)', border: '2px solid rgba(30,215,96,0.5)', cursor: 'pointer', transition: 'all 0.3s ease' }}>
+      <span style={{ fontSize: 36 }}>▶️</span>
+    </div>
+  </div>
+</div>
+```
 
 ---
 
