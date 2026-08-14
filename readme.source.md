@@ -324,8 +324,8 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
     <circle id="fr4" cx="400" cy="140" r="175" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.6" />
   </svg>
 
-  <div style={{ position: 'relative', zIndex: 10, width: '100%' }}>
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10, marginBottom: 24 }}>
+  <div style={{ position: 'relative', zIndex: 10, width: '100%', display: 'flex', flexDirection: 'column' }}>
+    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10, marginBottom: 24 }}>
       <span style={{ fontSize: 32, fontWeight: 700 }}>🏃</span>
       <span className="title-text" style={{ fontSize: 22, fontWeight: 800, color: '#ffffff', letterSpacing: '1.2px', textShadow: '0 0 20px rgba(255,255,255,0.3)' }}>Fitness Stats - August 2026</span>
     </div>
@@ -353,7 +353,7 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
       </div>
     </div>
 
-    <div style={{ display: 'flex', justifyContent: 'center', marginTop: 20 }}>
+    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 20 }}>
       <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: '2.5px', textTransform: 'uppercase', fontWeight: 600 }}>Updated via Google Health API (Fitbit)</span>
     </div>
   </div>
