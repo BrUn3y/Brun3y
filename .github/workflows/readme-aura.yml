@@ -2,7 +2,7 @@ name: Generate README
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths: ['readme.source.md']
   schedule:
     - cron: '0 6 * * *'
