@@ -111,27 +111,28 @@
 
   <a href="https://linkedin.com/in/bruney" style={{ textDecoration: 'none', zIndex: 10 }}>
     <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12, transition: 'all 0.3s' }}>
-      <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="20" height="20" />
+      <span style={{ fontSize: 20 }}>💼</span>
       <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>LinkedIn</span>
     </div>
   </a>
 
   <a href="https://medium.com/@brun3y" style={{ textDecoration: 'none', zIndex: 10 }}>
     <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12 }}>
-      <img src="https://cdn.simpleicons.org/medium/ffffff" width="20" height="20" />
+      <span style={{ fontSize: 20 }}>📝</span>
       <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>Medium</span>
     </div>
   </a>
 
   <a href="https://x.com/BrUn3y" style={{ textDecoration: 'none', zIndex: 10 }}>
     <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12 }}>
-      <img src="https://cdn.simpleicons.org/x/ffffff" width="20" height="20" />
+      <span style={{ fontSize: 20 }}>🐦</span>
       <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>X</span>
     </div>
   </a>
 
   <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12, zIndex: 10 }}>
-    <img src="https://komarev.com/ghpvc/?username=BrUn3y&label=&color=6e50dc&style=flat" alt="Views" />
+    <span style={{ fontSize: 20 }}>👁️</span>
+    <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 600 }}>Profile Views</span>
   </div>
 </div>
 ```
@@ -258,6 +259,10 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 ---
 
+### 🏃 Fitness Stats - August 2026
+
+<div align="center">
+
 ```aura width=800 height=240
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', padding: '20px' }}>
   <style>{`
@@ -308,23 +313,23 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
     <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
       <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '16px 24px', background: 'rgba(108,195,130,0.12)', border: '1px solid rgba(108,195,130,0.3)', borderRadius: 16, minWidth: 140 }}>
         <span style={{ fontSize: 32, marginBottom: 4 }}>👟</span>
-        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(108,195,130,1)', marginBottom: 4 }}>{{STEPS}}</span>
+        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(108,195,130,1)', marginBottom: 4 }}>32,834</span>
         <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', letterSpacing: 1, textTransform: 'uppercase' }}>Steps</span>
-        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>{{STEPS_AVG}}/day</span>
+        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>3,283/day</span>
       </div>
 
       <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '16px 24px', background: 'rgba(230,100,115,0.12)', border: '1px solid rgba(230,100,115,0.3)', borderRadius: 16, minWidth: 140 }}>
         <span style={{ fontSize: 32, marginBottom: 4 }}>🔥</span>
-        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(230,100,115,1)', marginBottom: 4 }}>{{CALORIES}}</span>
+        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(230,100,115,1)', marginBottom: 4 }}>1,642</span>
         <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', letterSpacing: 1, textTransform: 'uppercase' }}>Calories</span>
-        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>{{CALORIES_AVG}}/day</span>
+        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>164/day</span>
       </div>
 
       <div className="stat-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '16px 24px', background: 'rgba(80,160,220,0.12)', border: '1px solid rgba(80,160,220,0.3)', borderRadius: 16, minWidth: 140 }}>
         <span style={{ fontSize: 32, marginBottom: 4 }}>⏱️</span>
-        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(80,160,220,1)', marginBottom: 4 }}>{{ACTIVE_MINUTES}}</span>
+        <span style={{ fontSize: 28, fontWeight: 700, color: 'rgba(80,160,220,1)', marginBottom: 4 }}>625</span>
         <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', letterSpacing: 1, textTransform: 'uppercase' }}>Active Min</span>
-        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>{{ACTIVE_MINUTES_AVG}}/day</span>
+        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>62/day</span>
       </div>
     </div>
 
@@ -334,6 +339,8 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
   </div>
 </div>
 ```
+
+</div>
 
 ---
 
