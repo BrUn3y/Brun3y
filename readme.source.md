@@ -71,81 +71,95 @@
 
 ---
 
-```aura width=800 height=100
-<div style={{ position: 'relative', display: 'flex', gap: 16, alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #12121a 100%)', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(255,255,255,0.08)' }}>
+```aura width=900 height=120
+<div style={{ position: 'relative', display: 'flex', gap: 18, alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #12121a 100%)', borderRadius: 24, overflow: 'hidden', fontFamily: 'Inter, sans-serif', border: '1.5px solid rgba(255,255,255,0.1)', padding: '0 20px' }}>
   <style>{`
-    @keyframes orb-float-1 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.6; } 50% { transform: translate(25px,-18px) scale(1.15); opacity: 0.95; } }
-    @keyframes orb-float-2 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.55; } 50% { transform: translate(-22px,15px) scale(1.12); opacity: 0.9; } }
-    @keyframes orb-float-3 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.5; } 50% { transform: translate(20px,-12px) scale(1.1); opacity: 0.85; } }
-    @keyframes orb-float-4 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.45; } 50% { transform: translate(-18px,10px) scale(1.08); opacity: 0.8; } }
-    @keyframes ring-pulse { 0%, 100% { opacity: 0.12; transform: scale(1); } 50% { opacity: 0.28; transform: scale(1.05); } }
-    @keyframes btn-glow { 0%, 100% { box-shadow: 0 0 15px rgba(255,255,255,0.05); } 50% { box-shadow: 0 0 25px rgba(255,255,255,0.15); } }
-    #so1 { animation: orb-float-1 10s ease-in-out infinite; }
-    #so2 { animation: orb-float-2 12s ease-in-out infinite 1.5s; }
-    #so3 { animation: orb-float-3 11s ease-in-out infinite 3s; }
-    #so4 { animation: orb-float-4 13s ease-in-out infinite 0.8s; }
-    #ring1 { animation: ring-pulse 8s ease-in-out infinite; }
-    #ring2 { animation: ring-pulse 8s ease-in-out infinite 2s; }
-    #ring3 { animation: ring-pulse 8s ease-in-out infinite 4s; }
-    .social-btn { animation: btn-glow 5s ease-in-out infinite; }
+    @keyframes orb-float-1 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.65; } 50% { transform: translate(30px,-22px) scale(1.2); opacity: 1; } }
+    @keyframes orb-float-2 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.6; } 50% { transform: translate(-28px,18px) scale(1.18); opacity: 0.95; } }
+    @keyframes orb-float-3 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.55; } 50% { transform: translate(25px,-15px) scale(1.15); opacity: 0.9; } }
+    @keyframes orb-float-4 { 0%, 100% { transform: translate(0,0) scale(1); opacity: 0.5; } 50% { transform: translate(-22px,12px) scale(1.12); opacity: 0.85; } }
+    @keyframes ring-pulse-1 { 0%, 100% { opacity: 0.15; transform: scale(1) rotate(0deg); } 50% { opacity: 0.35; transform: scale(1.08) rotate(180deg); } }
+    @keyframes ring-pulse-2 { 0%, 100% { opacity: 0.12; transform: scale(1) rotate(0deg); } 50% { opacity: 0.28; transform: scale(1.06) rotate(-180deg); } }
+    @keyframes ring-pulse-3 { 0%, 100% { opacity: 0.08; transform: scale(1); } 50% { opacity: 0.2; transform: scale(1.04); } }
+    @keyframes btn-glow { 0%, 100% { box-shadow: 0 0 18px rgba(255,255,255,0.06), inset 0 0 12px rgba(255,255,255,0.03); transform: translateY(0px); } 50% { box-shadow: 0 0 32px rgba(255,255,255,0.18), inset 0 0 20px rgba(255,255,255,0.08); transform: translateY(-2px); } }
+    @keyframes icon-bounce { 0%, 100% { transform: scale(1) rotate(0deg); } 50% { transform: scale(1.15) rotate(5deg); } }
+    #so1 { animation: orb-float-1 11s ease-in-out infinite; }
+    #so2 { animation: orb-float-2 13s ease-in-out infinite 1.8s; }
+    #so3 { animation: orb-float-3 12s ease-in-out infinite 3.5s; }
+    #so4 { animation: orb-float-4 14s ease-in-out infinite 1s; }
+    #ring1 { animation: ring-pulse-1 10s ease-in-out infinite; }
+    #ring2 { animation: ring-pulse-2 10s ease-in-out infinite 2.5s; }
+    #ring3 { animation: ring-pulse-3 10s ease-in-out infinite 5s; }
+    #ring4 { animation: ring-pulse-3 10s ease-in-out infinite 7.5s; }
+    .social-btn { animation: btn-glow 6s ease-in-out infinite; transition: all 0.3s ease; }
+    .social-btn:hover { transform: translateY(-4px) scale(1.05); }
+    .social-icon { animation: icon-bounce 4s ease-in-out infinite; }
   `}</style>
   
-  <svg width="800" height="100" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="900" height="120" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="sog1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(108,195,130,0.65)" />
-        <stop offset="50%" stopColor="rgba(108,195,130,0.25)" />
+        <stop offset="0%" stopColor="rgba(108,195,130,0.75)" />
+        <stop offset="50%" stopColor="rgba(108,195,130,0.3)" />
         <stop offset="100%" stopColor="rgba(108,195,130,0)" />
       </radialGradient>
       <radialGradient id="sog2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(230,100,115,0.6)" />
-        <stop offset="50%" stopColor="rgba(230,100,115,0.22)" />
+        <stop offset="0%" stopColor="rgba(230,100,115,0.7)" />
+        <stop offset="50%" stopColor="rgba(230,100,115,0.28)" />
         <stop offset="100%" stopColor="rgba(230,100,115,0)" />
       </radialGradient>
       <radialGradient id="sog3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(80,160,220,0.55)" />
-        <stop offset="50%" stopColor="rgba(80,160,220,0.2)" />
+        <stop offset="0%" stopColor="rgba(80,160,220,0.65)" />
+        <stop offset="50%" stopColor="rgba(80,160,220,0.25)" />
         <stop offset="100%" stopColor="rgba(80,160,220,0)" />
       </radialGradient>
       <radialGradient id="sog4" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(195,155,255,0.5)" />
-        <stop offset="50%" stopColor="rgba(195,155,255,0.18)" />
+        <stop offset="0%" stopColor="rgba(195,155,255,0.6)" />
+        <stop offset="50%" stopColor="rgba(195,155,255,0.22)" />
         <stop offset="100%" stopColor="rgba(195,155,255,0)" />
       </radialGradient>
+      <filter id="glow-filter">
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
     </defs>
-    <ellipse id="so1" cx="120" cy="50" rx="160" ry="110" fill="url(#sog1)" />
-    <ellipse id="so2" cx="320" cy="50" rx="150" ry="105" fill="url(#sog2)" />
-    <ellipse id="so3" cx="520" cy="50" rx="140" ry="100" fill="url(#sog3)" />
-    <ellipse id="so4" cx="720" cy="50" rx="130" ry="95" fill="url(#sog4)" />
-    <circle id="ring1" cx="400" cy="50" r="55" fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1" />
-    <circle id="ring2" cx="400" cy="50" r="85" fill="none" stroke="rgba(255,255,255,0.12)" strokeWidth="0.8" />
-    <circle id="ring3" cx="400" cy="50" r="120" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.6" />
+    <ellipse id="so1" cx="140" cy="60" rx="180" ry="130" fill="url(#sog1)" filter="url(#glow-filter)" />
+    <ellipse id="so2" cx="360" cy="60" rx="170" ry="125" fill="url(#sog2)" filter="url(#glow-filter)" />
+    <ellipse id="so3" cx="580" cy="60" rx="160" ry="120" fill="url(#sog3)" filter="url(#glow-filter)" />
+    <ellipse id="so4" cx="800" cy="60" rx="150" ry="115" fill="url(#sog4)" filter="url(#glow-filter)" />
+    <circle id="ring1" cx="450" cy="60" r="65" fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth="1.5" />
+    <circle id="ring2" cx="450" cy="60" r="100" fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1.2" />
+    <circle id="ring3" cx="450" cy="60" r="140" fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="0.9" />
+    <circle id="ring4" cx="450" cy="60" r="185" fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="0.6" />
   </svg>
 
   <a href="https://linkedin.com/in/bruney" style={{ textDecoration: 'none', zIndex: 10 }}>
-    <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '12px 24px', background: 'rgba(108,195,130,0.08)', border: '1.5px solid rgba(108,195,130,0.25)', borderRadius: 14, backdropFilter: 'blur(10px)' }}>
-      <span style={{ fontSize: 22 }}>💼</span>
-      <span style={{ color: 'rgba(108,195,130,0.95)', fontSize: 15, fontWeight: 700, letterSpacing: '0.5px' }}>LinkedIn</span>
+    <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '14px 28px', background: 'rgba(108,195,130,0.12)', border: '2px solid rgba(108,195,130,0.35)', borderRadius: 16, backdropFilter: 'blur(15px)', cursor: 'pointer' }}>
+      <span className="social-icon" style={{ fontSize: 26 }}>💼</span>
+      <span style={{ color: 'rgba(108,195,130,1)', fontSize: 16, fontWeight: 800, letterSpacing: '0.8px', textShadow: '0 0 10px rgba(108,195,130,0.4)' }}>LinkedIn</span>
     </div>
   </a>
 
   <a href="https://medium.com/@brun3y" style={{ textDecoration: 'none', zIndex: 10 }}>
-    <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '12px 24px', background: 'rgba(230,100,115,0.08)', border: '1.5px solid rgba(230,100,115,0.25)', borderRadius: 14, backdropFilter: 'blur(10px)' }}>
-      <span style={{ fontSize: 22 }}>📝</span>
-      <span style={{ color: 'rgba(230,100,115,0.95)', fontSize: 15, fontWeight: 700, letterSpacing: '0.5px' }}>Medium</span>
+    <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '14px 28px', background: 'rgba(230,100,115,0.12)', border: '2px solid rgba(230,100,115,0.35)', borderRadius: 16, backdropFilter: 'blur(15px)', cursor: 'pointer' }}>
+      <span className="social-icon" style={{ fontSize: 26 }}>📝</span>
+      <span style={{ color: 'rgba(230,100,115,1)', fontSize: 16, fontWeight: 800, letterSpacing: '0.8px', textShadow: '0 0 10px rgba(230,100,115,0.4)' }}>Medium</span>
     </div>
   </a>
 
   <a href="https://x.com/BrUn3y" style={{ textDecoration: 'none', zIndex: 10 }}>
-    <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '12px 24px', background: 'rgba(80,160,220,0.08)', border: '1.5px solid rgba(80,160,220,0.25)', borderRadius: 14, backdropFilter: 'blur(10px)' }}>
-      <span style={{ fontSize: 22 }}>🐦</span>
-      <span style={{ color: 'rgba(80,160,220,0.95)', fontSize: 15, fontWeight: 700, letterSpacing: '0.5px' }}>X</span>
+    <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '14px 28px', background: 'rgba(80,160,220,0.12)', border: '2px solid rgba(80,160,220,0.35)', borderRadius: 16, backdropFilter: 'blur(15px)', cursor: 'pointer' }}>
+      <span className="social-icon" style={{ fontSize: 26 }}>🐦</span>
+      <span style={{ color: 'rgba(80,160,220,1)', fontSize: 16, fontWeight: 800, letterSpacing: '0.8px', textShadow: '0 0 10px rgba(80,160,220,0.4)' }}>X</span>
     </div>
   </a>
 
-  <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '12px 24px', background: 'rgba(195,155,255,0.08)', border: '1.5px solid rgba(195,155,255,0.25)', borderRadius: 14, backdropFilter: 'blur(10px)', zIndex: 10 }}>
-    <span style={{ fontSize: 22 }}>👁️</span>
-    <span style={{ color: 'rgba(195,155,255,0.95)', fontSize: 15, fontWeight: 700, letterSpacing: '0.5px' }}>Views</span>
+  <div className="social-btn" style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '14px 28px', background: 'rgba(195,155,255,0.12)', border: '2px solid rgba(195,155,255,0.35)', borderRadius: 16, backdropFilter: 'blur(15px)', zIndex: 10, cursor: 'pointer' }}>
+    <span className="social-icon" style={{ fontSize: 26 }}>👁️</span>
+    <span style={{ color: 'rgba(195,155,255,1)', fontSize: 16, fontWeight: 800, letterSpacing: '0.8px', textShadow: '0 0 10px rgba(195,155,255,0.4)' }}>Views</span>
   </div>
 </div>
 ```
@@ -227,7 +241,7 @@ When stepping away from the screen, Edgar pursues his passion for **running** (a
 - **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** (21⭐, 5 forks) — Dockerized harness that runs IBM's Bob Shell headless in unrestricted mode and exposes it over a REST API with Slack integration for autonomous AI operations.
 - **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐) — Advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API.
 - **X Trends Agent** — Same trend-analysis agent, three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
-- **[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** — Quantum computing-related project exploring AI and quantum technologies.
+- **[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** — Quantum computing-related project exploring AI and quantum computing technologies.
 - **Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (235⭐, 218 forks) and documentation translation, supporting the quantum computing community.
 
 ---
