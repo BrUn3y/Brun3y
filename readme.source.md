@@ -401,7 +401,7 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
         <span className="fitness-icon" style={{ fontSize: 42, marginBottom: 8 }}>👟</span>
         <span style={{ fontSize: 38, fontWeight: 900, color: 'rgba(108,195,130,1)', marginBottom: 8, textShadow: '0 0 20px rgba(108,195,130,0.6)' }}>32,834</span>
         <span style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 800, marginBottom: 10 }}>Steps</span>
-        <div style={{ width: '100%', height: 6, background: 'rgba(108,195,130,0.2)', borderRadius: 10, overflow: 'hidden', marginBottom: 8 }}>
+        <div style={{ display: 'flex', width: '100%', height: 6, background: 'rgba(108,195,130,0.2)', borderRadius: 10, overflow: 'hidden', marginBottom: 8 }}>
           <div style={{ width: '65%', height: '100%', background: 'linear-gradient(90deg, rgba(108,195,130,0.8), rgba(108,195,130,1))', borderRadius: 10 }}></div>
         </div>
         <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', fontWeight: 700 }}>3,283/day avg</span>
@@ -411,7 +411,7 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
         <span className="fitness-icon" style={{ fontSize: 42, marginBottom: 8 }}>🔥</span>
         <span style={{ fontSize: 38, fontWeight: 900, color: 'rgba(230,100,115,1)', marginBottom: 8, textShadow: '0 0 20px rgba(230,100,115,0.6)' }}>1,642</span>
         <span style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 800, marginBottom: 10 }}>Calories</span>
-        <div style={{ width: '100%', height: 6, background: 'rgba(230,100,115,0.2)', borderRadius: 10, overflow: 'hidden', marginBottom: 8 }}>
+        <div style={{ display: 'flex', width: '100%', height: 6, background: 'rgba(230,100,115,0.2)', borderRadius: 10, overflow: 'hidden', marginBottom: 8 }}>
           <div style={{ width: '32%', height: '100%', background: 'linear-gradient(90deg, rgba(230,100,115,0.8), rgba(230,100,115,1))', borderRadius: 10 }}></div>
         </div>
         <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', fontWeight: 700 }}>164/day avg</span>
@@ -421,16 +421,14 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
         <span className="fitness-icon" style={{ fontSize: 42, marginBottom: 8 }}>⏱️</span>
         <span style={{ fontSize: 38, fontWeight: 900, color: 'rgba(80,160,220,1)', marginBottom: 8, textShadow: '0 0 20px rgba(80,160,220,0.6)' }}>625</span>
         <span style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 800, marginBottom: 10 }}>Active Min</span>
-        <div style={{ width: '100%', height: 6, background: 'rgba(80,160,220,0.2)', borderRadius: 10, overflow: 'hidden', marginBottom: 8 }}>
+        <div style={{ display: 'flex', width: '100%', height: 6, background: 'rgba(80,160,220,0.2)', borderRadius: 10, overflow: 'hidden', marginBottom: 8 }}>
           <div style={{ width: '78%', height: '100%', background: 'linear-gradient(90deg, rgba(80,160,220,0.8), rgba(80,160,220,1))', borderRadius: 10 }}></div>
         </div>
         <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', fontWeight: 700 }}>62/day avg</span>
       </div>
     </div>
 
-    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 24 }}>
-      <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 700 }}>Updated via Google Health API (Fitbit)</span>
-    </div>
+    <span style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 24, fontSize: 11, color: 'rgba(255,255,255,0.35)', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 700 }}>Updated via Google Health API (Fitbit)</span>
   </div>
 </div>
 ```
