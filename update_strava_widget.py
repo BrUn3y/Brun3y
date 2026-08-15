@@ -171,7 +171,7 @@ def generate_strava_svg(activities):
   
   <!-- Title -->
   <text x="24" y="40" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="{text_primary}" filter="url(#glow)">
-    🏃 RECENT STRAVA ACTIVITIES
+    RECENT STRAVA ACTIVITIES
   </text>
   
   <!-- Activities -->
@@ -186,12 +186,12 @@ def generate_strava_svg(activities):
         # Activity name (truncate if too long)
         name = activity['name'][:40] + "..." if len(activity['name']) > 40 else activity['name']
         
-        # Activity type icon
-        icon = "🏃" if activity['type'] == "Run" else "🚴" if activity['type'] == "Ride" else "💪"
+        # Activity type prefix
+        type_prefix = "[RUN]" if activity['type'] == "Run" else "[RIDE]" if activity['type'] == "Ride" else "[WORKOUT]"
         
         svg += f'''  <!-- Activity {i+1} -->
   <text x="24" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="{text_primary}">
-    {icon} {name}
+    <tspan fill="{accent_color}">{type_prefix}</tspan> {name}
   </text>
   <text x="24" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
     {activity['date']}
