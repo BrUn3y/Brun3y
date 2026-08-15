@@ -144,6 +144,16 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 ***
 
+### ⚛️ IBM Quantum - Última Ejecución
+
+<div align="center">
+
+<img src="./assets/ibm-quantum-widget.svg" alt="IBM Quantum Latest Job" width="100%" />
+
+</div>
+
+***
+
 <div align="center">
 <sub>ℹ️ Profile information collected and updated by AI assistant on August 14, 2026</sub>
 </div>
