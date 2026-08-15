@@ -93,14 +93,7 @@ def get_strava_activities():
         for activity in activities:
             distance_km = activity.get('distance', 0) / 1000
             moving_time = activity.get('moving_time', 0)
-            
-            # Calculate pace for running
-            pace_str = ""
-            if distance_km > 0 and activity.get('type') in ['Run', 'Walk']:
-                pace_min_per_km = moving_time / 60 / distance_km
-                pace_min = int(pace_min_per_km)
-                pace_sec = int((pace_min_per_km - pace_min) * 60)
-                pace_str = f"{pace_min}:{pace_sec:02d}"
+            activity_type = activity.get('type', 'Activity')
             
             # Format time
             hours = moving_time // 3600
@@ -118,14 +111,27 @@ def get_strava_activities():
                 dt = datetime.fromisoformat(start_date.replace('Z', '+00:00'))
                 date_str = dt.strftime('%b %d')
             
+            # Heart rate
+            avg_hr = activity.get('average_heartrate', 0)
+            hr_str = f"{int(avg_hr)} bpm" if avg_hr > 0 else "N/A"
+            
+            # Calories
+            calories = activity.get('calories', 0)
+            calories_str = f"{int(calories)}" if calories > 0 else "N/A"
+            
+            # Distance (only for Run/Walk)
+            distance_str = ""
+            if activity_type in ['Run', 'Walk']:
+                distance_str = f"{distance_km:.2f} km"
+            
             formatted_activities.append({
                 'name': activity.get('name', 'Unnamed'),
-                'type': activity.get('type', 'Activity'),
-                'distance': f"{distance_km:.2f}",
+                'type': activity_type,
+                'distance': distance_str,
                 'time': time_str,
-                'pace': pace_str,
                 'date': date_str,
-                'elevation': f"{activity.get('total_elevation_gain', 0):.0f}"
+                'hr': hr_str,
+                'calories': calories_str
             })
         
         return formatted_activities
@@ -184,10 +190,10 @@ def generate_strava_svg(activities):
         y = y_start + (i * activity_height)
         
         # Activity name (truncate if too long)
-        name = activity['name'][:40] + "..." if len(activity['name']) > 40 else activity['name']
+        name = activity['name'][:35] + "..." if len(activity['name']) > 35 else activity['name']
         
         # Activity type prefix
-        type_prefix = "[RUN]" if activity['type'] == "Run" else "[RIDE]" if activity['type'] == "Ride" else "[WORKOUT]"
+        type_prefix = "[RUN]" if activity['type'] == "Run" else "[WALK]" if activity['type'] == "Walk" else "[RIDE]" if activity['type'] == "Ride" else "[WORKOUT]"
         
         svg += f'''  <!-- Activity {i+1} -->
   <text x="24" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="{text_primary}">
@@ -198,37 +204,39 @@ def generate_strava_svg(activities):
   </text>
   
   <!-- Stats -->
+  <text x="500" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
+    {activity['time']}
+  </text>
+  <text x="500" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
+    Tiempo
+  </text>
+  
   <text x="650" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
-    {activity['distance']} km
+    {activity['hr']}
   </text>
   <text x="650" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
-    Distance
+    FC
   </text>
   
   <text x="800" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
-    {activity['time']}
+    {activity['calories']} kcal
   </text>
   <text x="800" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
-    Duration
+    Calorías
   </text>
 '''
         
-        if activity['pace']:
-            svg += f'''  <text x="950" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
-    {activity['pace']} /km
+        # Show distance only for Run/Walk
+        if activity['distance']:
+            svg += f'''  <text x="1000" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
+    {activity['distance']}
   </text>
-  <text x="950" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
-    Pace
+  <text x="1000" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
+    Distancia
   </text>
 '''
         
-        svg += f'''  <text x="1100" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
-    {activity['elevation']} m
-  </text>
-  <text x="1100" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
-    Elevation
-  </text>
-  
+        svg += '''
 '''
     
     svg += f'''  <!-- Footer -->
