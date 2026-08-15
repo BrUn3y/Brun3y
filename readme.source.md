@@ -303,25 +303,23 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
     </div>
     
     <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-      <div className="spotify-text" style={{ fontSize: 32, fontWeight: 900, color: '#ffffff', lineHeight: 1.2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+      <span className="spotify-text" style={{ fontSize: 32, fontWeight: 900, color: '#ffffff', lineHeight: 1.2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
         Song Title
-      </div>
-      <div style={{ fontSize: 22, fontWeight: 600, color: 'rgba(255,255,255,0.75)', lineHeight: 1.2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+      </span>
+      <span style={{ fontSize: 22, fontWeight: 600, color: 'rgba(255,255,255,0.75)', lineHeight: 1.2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
         Artist Name
-      </div>
+      </span>
     </div>
 
     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10 }}>
       <div style={{ flex: 1, height: 6, background: 'rgba(30,215,96,0.2)', borderRadius: 10, overflow: 'hidden', display: 'flex' }}>
-        <div style={{ width: '45%', height: '100%', background: 'linear-gradient(90deg, rgba(30,215,96,0.8), rgba(30,215,96,1))', borderRadius: 10, display: 'flex' }}></div>
+        <div style={{ width: '45%', height: '100%', background: 'linear-gradient(90deg, rgba(30,215,96,0.8), rgba(30,215,96,1))', borderRadius: 10 }}></div>
       </div>
       <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)', fontWeight: 700, minWidth: 80, textAlign: 'right' }}>2:15 / 5:00</span>
     </div>
   </div>
 
-  <div style={{ flexShrink: 0, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', width: 70, height: 70, borderRadius: '50%', background: 'rgba(30,215,96,0.2)', border: '2px solid rgba(30,215,96,0.5)', cursor: 'pointer', transition: 'all 0.3s ease' }}>
-    <span style={{ fontSize: 36 }}>▶️</span>
-  </div>
+  <span style={{ flexShrink: 0, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', width: 70, height: 70, borderRadius: '50%', background: 'rgba(30,215,96,0.2)', border: '2px solid rgba(30,215,96,0.5)', cursor: 'pointer', transition: 'all 0.3s ease', fontSize: 36 }}>▶️</span>
 </div>
 ```
 
