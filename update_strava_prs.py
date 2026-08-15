@@ -196,10 +196,21 @@ def generate_pr_svg(distance_name, runs):
             medal_color = medals[i] if i < len(medals) else text_secondary
             medal_icon = medal_icons[i] if i < len(medal_icons) else "🏃"
             
-            # Time
-            minutes = run['time'] // 60
-            seconds = run['time'] % 60
-            time_str = f"{int(minutes)}:{int(seconds):02d}"
+            # Time - format differently for 21K (show hours)
+            total_seconds = run['time']
+            if distance_name == '21K' and total_seconds >= 3600:
+                hours = total_seconds // 3600
+                minutes = (total_seconds % 3600) // 60
+                seconds = total_seconds % 60
+                time_str = f"{int(hours)}h {int(minutes):02d}m {int(seconds):02d}s"
+            elif distance_name == '21K':
+                minutes = total_seconds // 60
+                seconds = total_seconds % 60
+                time_str = f"{int(minutes)}m {int(seconds):02d}s"
+            else:
+                minutes = total_seconds // 60
+                seconds = total_seconds % 60
+                time_str = f"{int(minutes)}:{int(seconds):02d}"
             
             # Pace
             pace_min = int(run['pace'])
