@@ -189,6 +189,16 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 
 ---
 
+### 🎧 Now Playing on Spotify
+
+<div align="center">
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=brun3y&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
+
+</div>
+
+---
+
 ### 🏃 Fitness Stats - August 2026
 
 <div align="center">
