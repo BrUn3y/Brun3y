@@ -101,7 +101,7 @@ def get_strava_prs(access_token):
     distance_ranges = {
         '5K': (4.5, 5.5),
         '10K': (9.5, 10.5),
-        '21K': (20.5, 22.0)  # Half marathon
+        '21K': (20.0, 23.0)  # Half marathon (expanded range to catch all 21K+ races)
     }
     
     prs = {}
