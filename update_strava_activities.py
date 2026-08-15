@@ -156,17 +156,22 @@ def update_readme_with_strava(activities):
     with open(readme_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Buscar la sección de fitness stats
     import re
     
-    # Patrón para encontrar el final del widget de fitness
-    fitness_end_pattern = r'(</div>\n```\n\n</div>)\n\n---'
+    # Buscar el marcador donde insertar la tabla (después del widget de Strava SVG)
+    # El patrón busca la línea con strava-widget.svg seguida de ---
+    strava_widget_pattern = r'(<img src="\.\/assets\/strava-widget\.svg"[^>]*>)\n\n---'
     
-    match = re.search(fitness_end_pattern, content)
+    match = re.search(strava_widget_pattern, content)
     
     if not match:
-        print("❌ No se encontró el patrón esperado en readme.source.md")
+        print("❌ No se encontró el patrón del widget de Strava en readme.source.md")
         return False
+    
+    # Primero, eliminar cualquier tabla de Strava existente
+    # Buscar y eliminar la sección de actividades si ya existe
+    existing_table_pattern = r'\n\n#### 🏃 Recent Strava Activities.*?(?=\n\n---|\Z)'
+    content = re.sub(existing_table_pattern, '', content, flags=re.DOTALL)
     
     # Crear la tabla de actividades de Strava
     strava_section = "\n\n#### 🏃 Recent Strava Activities\n\n"
@@ -175,14 +180,14 @@ def update_readme_with_strava(activities):
     strava_section += "|----------|----------|------|------|------|\n"
     
     for activity in activities:
-        name = activity['name'][:35] + "..." if len(activity['name']) > 35 else activity['name']
+        name = activity['name'][:40] + "..." if len(activity['name']) > 40 else activity['name']
         pace = activity['pace'] if activity['pace'] else "N/A"
         strava_section += f"| {name} | {activity['distance']} | {activity['time']} | {pace} | {activity['date']} |\n"
     
-    strava_section += "\n</div>\n\n---"
+    strava_section += "\n</div>"
     
-    # Reemplazar el contenido
-    new_content = re.sub(fitness_end_pattern, r'\1' + strava_section, content)
+    # Insertar la tabla después del widget SVG
+    new_content = re.sub(strava_widget_pattern, r'\1' + strava_section + '\n\n---', content)
     
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(new_content)
