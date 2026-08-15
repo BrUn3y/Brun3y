@@ -99,11 +99,15 @@ jobs:
           pip install requests
           python update_strava_widget.py
           python update_strava_activities.py
+          python update_strava_prs.py
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add assets/fitness-widget.svg readme.source.md
           if [ -f assets/strava-widget.svg ]; then git add assets/strava-widget.svg; fi
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats and Strava activities [automated]" && git push)
+          if [ -f assets/strava-pr-5k.svg ]; then git add assets/strava-pr-5k.svg; fi
+          if [ -f assets/strava-pr-10k.svg ]; then git add assets/strava-pr-10k.svg; fi
+          if [ -f assets/strava-pr-21k.svg ]; then git add assets/strava-pr-21k.svg; fi
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats, Strava activities and PRs [automated]" && git push)
       - name: Trigger README generation
         if: success()
         uses: peter-evans/repository-dispatch@v3
