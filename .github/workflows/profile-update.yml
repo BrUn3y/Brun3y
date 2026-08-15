@@ -94,13 +94,6 @@ jobs:
             "expires_at": $EXPIRES_AT
           }
           EOF
-      - name: Update IBM Quantum widget
-        env:
-          IBM_QUANTUM_TOKEN: ${{ secrets.IBM_QUANTUM_TOKEN }}
-          IBM_SERVICE_CRN: ${{ secrets.IBM_SERVICE_CRN }}
-        run: |
-          cd profile-repo
-          python update_ibm_quantum_widget.py
       - run: |
           cd profile-repo
           pip install requests
@@ -114,8 +107,7 @@ jobs:
           if [ -f assets/strava-pr-5k.svg ]; then git add assets/strava-pr-5k.svg; fi
           if [ -f assets/strava-pr-10k.svg ]; then git add assets/strava-pr-10k.svg; fi
           if [ -f assets/strava-pr-21k.svg ]; then git add assets/strava-pr-21k.svg; fi
-          if [ -f assets/ibm-quantum-widget.svg ]; then git add assets/ibm-quantum-widget.svg; fi
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats, Strava activities, PRs and IBM Quantum [automated]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats, Strava activities, PRs [automated]" && git push)
       - name: Trigger README generation
         if: success()
         uses: peter-evans/repository-dispatch@v3
