@@ -91,6 +91,19 @@ def get_strava_activities():
         
         formatted_activities = []
         for activity in activities:
+            # Fetch detailed activity to get calories
+            activity_id = activity.get('id')
+            detail_response = requests.get(
+                f"https://www.strava.com/api/v3/activities/{activity_id}",
+                headers=headers
+            )
+            
+            if detail_response.status_code == 200:
+                detailed_activity = detail_response.json()
+                calories = detailed_activity.get('calories', 0)
+            else:
+                calories = 0
+            
             distance_km = activity.get('distance', 0) / 1000
             moving_time = activity.get('moving_time', 0)
             activity_type = activity.get('type', 'Activity')
@@ -115,8 +128,7 @@ def get_strava_activities():
             avg_hr = activity.get('average_heartrate', 0)
             hr_str = f"{int(avg_hr)} bpm" if avg_hr > 0 else "N/A"
             
-            # Calories
-            calories = activity.get('calories', 0)
+            # Use calories from detailed activity
             calories_str = f"{int(calories)}" if calories > 0 else "N/A"
             
             # Distance (only for Run/Walk)
