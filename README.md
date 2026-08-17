@@ -35,6 +35,28 @@ Also: quantum nerd, heavy music fan, sub-21' 5K chaser.
 
 ---
 
+### Professional Journey
+
+**Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013** with over 13 years of experience in the tech industry, he has built a distinguished career focused on cutting-edge technology implementation and open-source contribution.
+
+Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with emphasis on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems that bridge the gap between research and enterprise deployment, demonstrating a unique ability to transform research-grade AI into practical enterprise solutions.
+
+### Technical Expertise
+
+Edgar holds multiple industry certifications:
+- **IBM Generative & Agentic AI Expert Developer**
+- **AWS Serverless Badge Holder**
+- **Hybrid Cloud Microservices Architect**
+
+His comprehensive technical stack includes:
+- **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, AgentStack SDK, A2A protocol
+- **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture design and implementation
+- **Quantum Computing:** Qiskit experiments and community contributions, active contributor to IBM's Qiskit Runtime (235⭐, 218 forks)
+- **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API
+- **Specializations:** Multi-agent pipeline design, verify-and-retry orchestration loops, async jobs with live SSE streaming, enterprise AI deployment
+
+---
+
 ### Stack
 
 <div>
@@ -125,7 +147,7 @@ Also: quantum nerd, heavy music fan, sub-21' 5K chaser.
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-17** at **2026-08-17 01:06:12 UTC**
+🤖 **Auto-updated by AI** on **2026-08-17** at **2026-08-17 01:12:40 UTC**
 All information gathered from publicly available sources across the internet.
 Content rotates daily — layout variant 6/7.
 

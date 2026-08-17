@@ -109,6 +109,22 @@ const about_intros = [
   `I'm **Edgar Bruney**, a decade-long engineer now at **IBM** focusing on agentic AI systems. Zapopan-based, cloud-native, GitHub-resident since **2013**.`,
 ];
 
+const PROFESSIONAL_JOURNEY = `**Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013** with over 13 years of experience in the tech industry, he has built a distinguished career focused on cutting-edge technology implementation and open-source contribution.
+
+Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with emphasis on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems that bridge the gap between research and enterprise deployment, demonstrating a unique ability to transform research-grade AI into practical enterprise solutions.`;
+
+const TECHNICAL_EXPERTISE = `Edgar holds multiple industry certifications:
+- **IBM Generative & Agentic AI Expert Developer**
+- **AWS Serverless Badge Holder**
+- **Hybrid Cloud Microservices Architect**
+
+His comprehensive technical stack includes:
+- **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, AgentStack SDK, A2A protocol
+- **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture design and implementation
+- **Quantum Computing:** Qiskit experiments and community contributions, active contributor to IBM's Qiskit Runtime (235⭐, 218 forks)
+- **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API
+- **Specializations:** Multi-agent pipeline design, verify-and-retry orchestration loops, async jobs with live SSE streaming, enterprise AI deployment`;
+
 const about_bodies = [
   `My current focus is **AI agents**: autonomous systems built on **BeeAI, CrewAI, and LangGraph** that solve real problems — a [Strava performance coach](https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a) that trained me toward a **sub-21' 5K**, containerized **IBM Bob Shell** workflows, and X trend-analysis tools. I also explore **quantum computing** with **Qiskit** and co-lead Guadalajara's IBM Quantum community (60+ attendees at our first session).
 
@@ -202,6 +218,16 @@ ${tags}
 
 ---
 
+### Professional Journey
+
+${PROFESSIONAL_JOURNEY}
+
+### Technical Expertise
+
+${TECHNICAL_EXPERTISE}
+
+---
+
 ### ${h[1]}
 
 <div>
@@ -243,8 +269,6 @@ ${STATS_WIDGETS}
 ---
 
 <div align="center">
-
-**Ship fast. Stay curious. Build things that matter.**
 
 ${FOOTER_LINKS}
 
@@ -296,6 +320,16 @@ ${SNAKE.replace('align="right" width="48%"', 'width="70%"')}
 <br clear="right" />
 
 </div>
+
+---
+
+### Professional Journey
+
+${PROFESSIONAL_JOURNEY}
+
+### Technical Expertise
+
+${TECHNICAL_EXPERTISE}
 
 ---
 
@@ -367,6 +401,16 @@ ${tags}
 <sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 <br clear="right" />
+
+---
+
+### Professional Journey
+
+${PROFESSIONAL_JOURNEY}
+
+### Technical Expertise
+
+${TECHNICAL_EXPERTISE}
 
 ---
 
@@ -459,6 +503,16 @@ ${STATS_WIDGETS.split("\n")[1]}
 
 ---
 
+### Professional Journey
+
+${PROFESSIONAL_JOURNEY}
+
+### Technical Expertise
+
+${TECHNICAL_EXPERTISE}
+
+---
+
 ### ${h[2]}
 
 ${PROJECTS}
@@ -534,6 +588,16 @@ ${tags}
 
 ---
 
+### Professional Journey
+
+${PROFESSIONAL_JOURNEY}
+
+### Technical Expertise
+
+${TECHNICAL_EXPERTISE}
+
+---
+
 ### ${h[1]}
 
 <div>
@@ -602,6 +666,16 @@ ${tags}
 <sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 <br clear="right" />
+
+---
+
+### Professional Journey
+
+${PROFESSIONAL_JOURNEY}
+
+### Technical Expertise
+
+${TECHNICAL_EXPERTISE}
 
 ---
 
@@ -681,6 +755,16 @@ ${tags}
 <sub>ℹ️ This bio was compiled from publicly available information across the internet and written with the help of AI.</sub>
 
 <br clear="right" />
+
+---
+
+### Professional Journey
+
+${PROFESSIONAL_JOURNEY}
+
+### Technical Expertise
+
+${TECHNICAL_EXPERTISE}
 
 ---
 
