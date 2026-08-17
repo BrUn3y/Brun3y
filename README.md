@@ -84,6 +84,20 @@ Also: quantum nerd, heavy music fan, sub-21' 5K chaser.
 
 ---
 
+### 🏆 Strava Personal Records
+
+<div align="center">
+
+<img src="./assets/strava-pr-5k.svg" alt="5K Personal Records" width="32%" />
+<img src="./assets/strava-pr-10k.svg" alt="10K Personal Records" width="32%" />
+<img src="./assets/strava-pr-21k.svg" alt="21K Personal Records" width="32%" />
+
+</div>
+
+<img src="./assets/strava-widget.svg" alt="Recent Strava Activities" width="100%" />
+
+---
+
 <div align="center">
 
 ### GitHub
@@ -111,7 +125,7 @@ Also: quantum nerd, heavy music fan, sub-21' 5K chaser.
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-17** at **2026-08-17 01:03:07 UTC**
+🤖 **Auto-updated by AI** on **2026-08-17** at **2026-08-17 01:06:12 UTC**
 All information gathered from publicly available sources across the internet.
 Content rotates daily — layout variant 6/7.
 

@@ -66,6 +66,16 @@ const WRITING_TABLE = `<table>
   </tr>
 </table>`;
 
+const STRAVA_PRS = `<div align="center">
+
+<img src="./assets/strava-pr-5k.svg" alt="5K Personal Records" width="32%" />
+<img src="./assets/strava-pr-10k.svg" alt="10K Personal Records" width="32%" />
+<img src="./assets/strava-pr-21k.svg" alt="21K Personal Records" width="32%" />
+
+</div>`;
+
+const STRAVA_WIDGET = `<img src="./assets/strava-widget.svg" alt="Recent Strava Activities" width="100%" />`;
+
 const FOOTER_LINKS = `<a href="https://linkedin.com/in/bruney"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://medium.com/@brun3y"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
 <a href="https://x.com/BrUn3y"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
@@ -166,6 +176,12 @@ function buildLayout(s) {
 
 ${BADGES}
 
+---
+
+### ${h[5]}
+
+${SPOTIFY}
+
 </div>
 
 ---
@@ -204,9 +220,15 @@ ${PROJECTS}
 
 ### ${h[3]}
 
-I write about AI agents, fitness data, and personal tooling on [Medium](https://medium.com/@brun3y).
-
 ${WRITING_TABLE}
+
+---
+
+### 🏆 Strava Personal Records
+
+${STRAVA_PRS}
+
+${STRAVA_WIDGET}
 
 ---
 
@@ -216,21 +238,13 @@ ${WRITING_TABLE}
 
 ${STATS_WIDGETS}
 
----
-
-### ${h[5]}
-
-${SPOTIFY}
-
 </div>
 
 ---
 
 <div align="center">
 
-**Let's build something.**
-
-Open to collaborating on AI agents, cloud, and quantum experiments.
+**Ship fast. Stay curious. Build things that matter.**
 
 ${FOOTER_LINKS}
 
@@ -242,6 +256,12 @@ ${FOOTER_LINKS}
 <div align="center">
 
 ${BADGES}
+
+---
+
+### ${h[5]}
+
+${SPOTIFY}
 
 </div>
 
@@ -287,9 +307,15 @@ ${PROJECTS}
 
 ### ${h[3]}
 
-I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic performance data, and cloud tooling.
-
 ${WRITING_TABLE}
+
+---
+
+### 🏆 Strava Personal Records
+
+${STRAVA_PRS}
+
+${STRAVA_WIDGET}
 
 ---
 
@@ -299,19 +325,13 @@ ${WRITING_TABLE}
 
 ${STATS_WIDGETS}
 
----
-
-### ${h[5]}
-
-${SPOTIFY}
-
 </div>
 
 ---
 
 <div align="center">
 
-**Open to collaborating on AI agents, cloud, and quantum experiments.**
+**Ship fast. Stay curious. Build things that matter.**
 
 ${FOOTER_LINKS}
 
@@ -323,6 +343,12 @@ ${FOOTER_LINKS}
 <div align="center">
 
 ${BADGES}
+
+---
+
+### ${h[5]}
+
+${SPOTIFY}
 
 </div>
 
@@ -346,8 +372,6 @@ ${tags}
 
 ### ${h[3]}
 
-Latest from [Medium](https://medium.com/@brun3y):
-
 ${WRITING_TABLE}
 
 ---
@@ -368,17 +392,19 @@ ${STACK}
 
 ---
 
+### 🏆 Strava Personal Records
+
+${STRAVA_PRS}
+
+${STRAVA_WIDGET}
+
+---
+
 <div align="center">
 
 ### ${h[4]}
 
 ${STATS_WIDGETS}
-
----
-
-### ${h[5]}
-
-${SPOTIFY}
 
 </div>
 
@@ -386,7 +412,7 @@ ${SPOTIFY}
 
 <div align="center">
 
-**Ready to collaborate — AI agents, cloud architecture, quantum experiments.**
+**Ship fast. Stay curious. Build things that matter.**
 
 ${FOOTER_LINKS}
 
@@ -398,6 +424,12 @@ ${FOOTER_LINKS}
 <div align="center">
 
 ${BADGES}
+
+---
+
+### ${h[5]}
+
+${SPOTIFY}
 
 </div>
 
@@ -449,19 +481,17 @@ ${WRITING_TABLE}
 
 ---
 
-<div align="center">
+### 🏆 Strava Personal Records
 
-### ${h[5]}
+${STRAVA_PRS}
 
-${SPOTIFY}
-
-</div>
+${STRAVA_WIDGET}
 
 ---
 
 <div align="center">
 
-**Let's build something bold.**
+**Ship fast. Stay curious. Build things that matter.**
 
 ${FOOTER_LINKS}
 
@@ -477,6 +507,12 @@ ${BADGES}
 ---
 
 ${STATS_WIDGETS}
+
+---
+
+### ${h[5]}
+
+${SPOTIFY}
 
 </div>
 
@@ -520,19 +556,17 @@ ${WRITING_TABLE}
 
 ---
 
-<div align="center">
+### 🏆 Strava Personal Records
 
-### ${h[5]}
+${STRAVA_PRS}
 
-${SPOTIFY}
-
-</div>
+${STRAVA_WIDGET}
 
 ---
 
 <div align="center">
 
-**Building at the intersection of AI, cloud, and quantum.**
+**Ship fast. Stay curious. Build things that matter.**
 
 ${FOOTER_LINKS}
 
@@ -593,6 +627,14 @@ ${WRITING_TABLE}
 
 ---
 
+### 🏆 Strava Personal Records
+
+${STRAVA_PRS}
+
+${STRAVA_WIDGET}
+
+---
+
 <div align="center">
 
 ### ${h[4]}
@@ -617,6 +659,12 @@ ${FOOTER_LINKS}
 <div align="center">
 
 ${BADGES}
+
+---
+
+#### ${h[5]}
+
+${SPOTIFY}
 
 </div>
 
@@ -658,6 +706,14 @@ ${WRITING_TABLE}
 
 ---
 
+### 🏆 Strava Personal Records
+
+${STRAVA_PRS}
+
+${STRAVA_WIDGET}
+
+---
+
 <div align="center">
 
 #### ${h[4]}
@@ -666,13 +722,7 @@ ${STATS_WIDGETS}
 
 ---
 
-#### ${h[5]}
-
-${SPOTIFY}
-
----
-
-**Reach out — let's build something.**
+**Ship fast. Stay curious. Build things that matter.**
 
 ${FOOTER_LINKS}
 
