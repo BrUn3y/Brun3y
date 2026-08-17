@@ -365,8 +365,6 @@ ${STATS_WIDGETS}
 
 <div align="center">
 
-**Ship fast. Stay curious. Build things that matter.**
-
 ${FOOTER_LINKS}
 
 </div>`,
@@ -456,8 +454,6 @@ ${STATS_WIDGETS}
 
 <div align="center">
 
-**Ship fast. Stay curious. Build things that matter.**
-
 ${FOOTER_LINKS}
 
 </div>`,
@@ -545,8 +541,6 @@ ${STRAVA_WIDGET}
 
 <div align="center">
 
-**Ship fast. Stay curious. Build things that matter.**
-
 ${FOOTER_LINKS}
 
 </div>`,
@@ -629,8 +623,6 @@ ${STRAVA_WIDGET}
 ---
 
 <div align="center">
-
-**Ship fast. Stay curious. Build things that matter.**
 
 ${FOOTER_LINKS}
 
@@ -721,8 +713,6 @@ ${STATS_WIDGETS}
 
 <div align="center">
 
-**Ship fast. Stay curious. Build things that matter.**
-
 ${FOOTER_LINKS}
 
 </div>`,
@@ -805,8 +795,6 @@ ${STRAVA_WIDGET}
 ${STATS_WIDGETS}
 
 ---
-
-**Ship fast. Stay curious. Build things that matter.**
 
 ${FOOTER_LINKS}
 
