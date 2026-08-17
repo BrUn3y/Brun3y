@@ -39,11 +39,7 @@ Also: quantum nerd, heavy music fan, sub-21' 5K chaser.
 
 <div>
 
-**Core** &nbsp; ![Java](https://img.shields.io/badge/-Java-000?style=flat&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-000?style=flat&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/-Python-000?style=flat&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-000?style=flat&logo=nodedotjs&logoColor=white) ![React](https://img.shields.io/badge/-React-000?style=flat&logo=react&logoColor=white)
-
-**Cloud** &nbsp; ![IBM Cloud](https://img.shields.io/badge/-IBM_Cloud-000?style=flat&logo=ibmcloud&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-000?style=flat&logo=amazonwebservices&logoColor=white) ![GCP](https://img.shields.io/badge/-GCP-000?style=flat&logo=googlecloud&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-000?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-000?style=flat&logo=linux&logoColor=white)
-
-**AI Lab** &nbsp; ![Watson](https://img.shields.io/badge/-IBM_Watson-000?style=flat&logo=ibmwatson&logoColor=white) ![BeeAI](https://img.shields.io/badge/-BeeAI-000?style=flat) ![Gemini](https://img.shields.io/badge/-Gemini-000?style=flat&logo=googlegemini&logoColor=white) ![Claude](https://img.shields.io/badge/-Claude-000?style=flat&logo=anthropic&logoColor=white)
+<img src="./assets/tech-stack.svg" alt="Tech Stack" width="100%" />
 
 </div>
 
@@ -115,7 +111,7 @@ Also: quantum nerd, heavy music fan, sub-21' 5K chaser.
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-17** at **2026-08-17 01:00:07 UTC**
+🤖 **Auto-updated by AI** on **2026-08-17** at **2026-08-17 01:03:07 UTC**
 All information gathered from publicly available sources across the internet.
 Content rotates daily — layout variant 6/7.
 

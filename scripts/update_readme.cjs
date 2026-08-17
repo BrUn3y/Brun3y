@@ -28,11 +28,7 @@ const BADGES = `<a href="https://linkedin.com/in/bruney"><img src="https://img.s
 
 const SNAKE = `<img src="https://raw.githubusercontent.com/BrUn3y/Brun3y/output/github-snake-dark.svg" alt="contribution snake" align="right" width="48%" />`;
 
-const STACK = `**Core** &nbsp; ![Java](https://img.shields.io/badge/-Java-000?style=flat&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-000?style=flat&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/-Python-000?style=flat&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-000?style=flat&logo=nodedotjs&logoColor=white) ![React](https://img.shields.io/badge/-React-000?style=flat&logo=react&logoColor=white)
-
-**Cloud** &nbsp; ![IBM Cloud](https://img.shields.io/badge/-IBM_Cloud-000?style=flat&logo=ibmcloud&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-000?style=flat&logo=amazonwebservices&logoColor=white) ![GCP](https://img.shields.io/badge/-GCP-000?style=flat&logo=googlecloud&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-000?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-000?style=flat&logo=linux&logoColor=white)
-
-**AI Lab** &nbsp; ![Watson](https://img.shields.io/badge/-IBM_Watson-000?style=flat&logo=ibmwatson&logoColor=white) ![BeeAI](https://img.shields.io/badge/-BeeAI-000?style=flat) ![Gemini](https://img.shields.io/badge/-Gemini-000?style=flat&logo=googlegemini&logoColor=white) ![Claude](https://img.shields.io/badge/-Claude-000?style=flat&logo=anthropic&logoColor=white)`;
+const STACK = `<img src="./assets/tech-stack.svg" alt="Tech Stack" width="100%" />`;
 
 const STATS_WIDGETS = `<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BrUn3y&theme=github_dark" alt="GitHub stats" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=BrUn3y&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=53B14F&fire=53B14F&currStreakLabel=E6EDF3" alt="GitHub streak" />`;
