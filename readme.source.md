@@ -52,19 +52,7 @@
     <div style={{ display:'flex', fontSize:22, color:'rgba(180,165,255,0.9)', fontWeight:500, letterSpacing:'0.5px' }}>
       Agentic AI Engineer · Cloud Architect · Quantum Explorer
     </div>
-    <div style={{ display:'flex', gap:12, marginTop:8, flexWrap: 'wrap' }}>
-      {[
-        'BeeAI', 'CrewAI', 'LangGraph', 'IBM Cloud', 'Qiskit', 'Docker'
-      ].map(function(tag, i) {
-        return (
-          <div key={tag + '-' + i} style={{
-            display:'flex', padding:'6px 16px', borderRadius:20,
-            background:'rgba(80,40,220,0.2)', border:'1px solid rgba(100,70,240,0.4)',
-            color:'rgba(205,195,255,0.95)', fontSize:14, fontWeight:700,
-          }}>{tag}</div>
-        );
-      })}
-    </div>
+
   </div>
 </div>
 ```
@@ -72,17 +60,64 @@
 
 ---
 
-### Tech Stack
+```aura width=1200 height=200
+<div style={{
+  width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%)',
+  display: 'flex', flexDirection: 'column', justifyContent: 'center', fontFamily: 'Inter',
+  position: 'relative', overflow: 'hidden', borderRadius: 16,
+  border: '1px solid rgba(110,80,220,0.18)', padding: '40px 60px'
+}}>
 
-<div>
+  <style>{`
+      @keyframes float-slow {
+        0%, 100% { transform: translateY(0px); opacity: 0.8; }
+        50% { transform: translateY(-20px); opacity: 1.2; }
+      }
+      #tech-glow { animation: float-slow 8s ease-in-out infinite; }
+    `}</style>
 
-**Core** &nbsp; ![Java](https://img.shields.io/badge/-Java-000?style=flat&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-000?style=flat&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/-Python-000?style=flat&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-000?style=flat&logo=nodedotjs&logoColor=white) ![React](https://img.shields.io/badge/-React-000?style=flat&logo=react&logoColor=white)
+  <svg width="1200" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="tg1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(110,20,210,0.4)" />
+        <stop offset="70%" stopColor="rgba(90,15,180,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="tech-glow" cx="600" cy="100" rx="400" ry="150" fill="url(#tg1)" />
+  </svg>
 
-**Cloud** &nbsp; ![IBM Cloud](https://img.shields.io/badge/-IBM_Cloud-000?style=flat&logo=ibmcloud&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-000?style=flat&logo=amazonwebservices&logoColor=white) ![GCP](https://img.shields.io/badge/-GCP-000?style=flat&logo=googlecloud&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-000?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-000?style=flat&logo=linux&logoColor=white)
+  <div style={{ display:'flex', flexDirection:'column', gap: 20, zIndex: 10 }}>
+    
+    <div style={{ display:'flex', flexDirection:'column', gap: 8 }}>
+      <div style={{ fontSize: 18, fontWeight: 700, color: 'rgba(180,165,255,0.95)', letterSpacing: '1px' }}>
+        CORE
+      </div>
+      <div style={{ fontSize: 16, color: 'rgba(255,255,255,0.85)', fontWeight: 400, letterSpacing: '0.3px' }}>
+        Java · TypeScript · Python · Node.js · React
+      </div>
+    </div>
 
-**AI Lab** &nbsp; ![Watson](https://img.shields.io/badge/-IBM_Watson-000?style=flat&logo=ibmwatson&logoColor=white) ![BeeAI](https://img.shields.io/badge/-BeeAI-000?style=flat) ![Gemini](https://img.shields.io/badge/-Gemini-000?style=flat&logo=googlegemini&logoColor=white) ![Claude](https://img.shields.io/badge/-Claude-000?style=flat&logo=anthropic&logoColor=white)
+    <div style={{ display:'flex', flexDirection:'column', gap: 8 }}>
+      <div style={{ fontSize: 18, fontWeight: 700, color: 'rgba(180,165,255,0.95)', letterSpacing: '1px' }}>
+        CLOUD
+      </div>
+      <div style={{ fontSize: 16, color: 'rgba(255,255,255,0.85)', fontWeight: 400, letterSpacing: '0.3px' }}>
+        IBM Cloud · AWS · GCP · Docker · Linux
+      </div>
+    </div>
 
+    <div style={{ display:'flex', flexDirection:'column', gap: 8 }}>
+      <div style={{ fontSize: 18, fontWeight: 700, color: 'rgba(180,165,255,0.95)', letterSpacing: '1px' }}>
+        AI LAB
+      </div>
+      <div style={{ fontSize: 16, color: 'rgba(255,255,255,0.85)', fontWeight: 400, letterSpacing: '0.3px' }}>
+        IBM Watson · IBM Bob · BeeAI · Gemini · Claude
+      </div>
+    </div>
+
+  </div>
 </div>
+```
 
 ---
 
