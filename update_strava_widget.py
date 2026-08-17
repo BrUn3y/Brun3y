@@ -115,9 +115,37 @@ def get_strava_activities():
             avg_hr = activity.get('average_heartrate', 0)
             hr_str = f"{int(avg_hr)} bpm" if avg_hr > 0 else "N/A"
             
-            # Calories
-            calories = activity.get('calories', 0)
-            calories_str = f"{int(calories)}" if calories > 0 else "N/A"
+            # Calories - Calculate based on activity type and duration
+            moving_time_hours = moving_time / 3600
+            
+            # Calorie estimation based on activity type (kcal/hour)
+            calorie_rates = {
+                'Run': 600,
+                'Walk': 300,
+                'Ride': 400,
+                'WeightTraining': 350,
+                'Workout': 400,
+                'Crossfit': 500,
+                'Rowing': 450,
+                'Swim': 500,
+                'Yoga': 200,
+                'Hike': 400
+            }
+            
+            # Get calorie rate for activity type, default to 350
+            calorie_rate = calorie_rates.get(activity_type, 350)
+            
+            # Calculate calories
+            estimated_calories = int(calorie_rate * moving_time_hours)
+            
+            # If heart rate is available, adjust calories (higher HR = more calories)
+            if avg_hr > 0:
+                # Adjust based on heart rate intensity
+                # Assuming max HR ~190, adjust calories by HR factor
+                hr_factor = min(avg_hr / 140, 1.5)  # Cap at 1.5x
+                estimated_calories = int(estimated_calories * hr_factor)
+            
+            calories_str = f"{estimated_calories}"
             
             # Distance (only for Run/Walk)
             distance_str = ""
