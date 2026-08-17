@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Edgar Bruney — 10+ years shipping code · Now building the agentic layer" width="100%" />
+<img src="./.github/assets/readme-aura-component-0-868374c9.svg" alt="Edgar Bruney — 10+ years shipping code · Now building the agentic layer" width="100%" />
 
 <div align="center">
 
@@ -147,7 +147,7 @@ His comprehensive technical stack includes:
 <div align="center">
 <sub>
 
-🤖 **Auto-updated by AI** on **2026-08-17** at **2026-08-17 01:12:40 UTC**
+🤖 **Auto-updated by AI** on **2026-08-17** at **2026-08-17 01:13:58 UTC**
 All information gathered from publicly available sources across the internet.
 Content rotates daily — layout variant 6/7.
 

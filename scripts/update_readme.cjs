@@ -184,9 +184,9 @@ function buildLayout(s) {
   const body = about_bodies[s];
   const tags = about_tags[s];
 
-  const layouts = [
+const layouts = [
     // 0 — Original structure, snake on right of about
-    () => `<img src="./assets/banner.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
+    () => `<img src="./.github/assets/readme-aura-component-0-868374c9.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
 
 <div align="center">
 
@@ -275,7 +275,7 @@ ${FOOTER_LINKS}
 </div>`,
 
     // 1 — Stack first, then about with snake below
-    () => `<img src="./assets/banner.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
+    () => `<img src="./.github/assets/readme-aura-component-0-868374c9.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
 
 <div align="center">
 
@@ -372,7 +372,7 @@ ${FOOTER_LINKS}
 </div>`,
 
     // 2 — Writing first, stats prominent
-    () => `<img src="./assets/banner.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
+    () => `<img src="./.github/assets/readme-aura-component-0-868374c9.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
 
 <div align="center">
 
@@ -463,7 +463,7 @@ ${FOOTER_LINKS}
 </div>`,
 
     // 3 — Compact about, projects center-stage
-    () => `<img src="./assets/banner.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
+    () => `<img src="./.github/assets/readme-aura-component-0-868374c9.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
 
 <div align="center">
 
@@ -552,7 +552,7 @@ ${FOOTER_LINKS}
 </div>`,
 
     // 4 — Stats top, then about
-    () => `<img src="./assets/banner.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
+    () => `<img src="./.github/assets/readme-aura-component-0-868374c9.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
 
 <div align="center">
 
@@ -637,7 +637,7 @@ ${FOOTER_LINKS}
 </div>`,
 
     // 5 — Spotify / music angle up top
-    () => `<img src="./assets/banner.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
+    () => `<img src="./.github/assets/readme-aura-component-0-868374c9.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
 
 <div align="center">
 
@@ -728,7 +728,7 @@ ${FOOTER_LINKS}
 </div>`,
 
     // 6 — Minimal / clean, everything prose-first
-    () => `<img src="./assets/banner.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
+    () => `<img src="./.github/assets/readme-aura-component-0-868374c9.svg" alt="Edgar Bruney — ${tagline}" width="100%" />
 
 <div align="center">
 
