@@ -91,6 +91,21 @@ def get_strava_activities():
         
         formatted_activities = []
         for activity in activities:
+            activity_id = activity.get('id')
+            
+            # Fetch detailed activity to get calories
+            print(f"  Fetching details for activity {activity_id}...")
+            detailed_response = requests.get(
+                f"https://www.strava.com/api/v3/activities/{activity_id}",
+                headers=headers
+            )
+            
+            if detailed_response.status_code == 200:
+                detailed_activity = detailed_response.json()
+                calories = detailed_activity.get('calories', 0)
+            else:
+                calories = 0
+            
             distance_km = activity.get('distance', 0) / 1000
             moving_time = activity.get('moving_time', 0)
             activity_type = activity.get('type', 'Activity')
@@ -115,37 +130,8 @@ def get_strava_activities():
             avg_hr = activity.get('average_heartrate', 0)
             hr_str = f"{int(avg_hr)} bpm" if avg_hr > 0 else "N/A"
             
-            # Calories - Calculate based on activity type and duration
-            moving_time_hours = moving_time / 3600
-            
-            # Calorie estimation based on activity type (kcal/hour)
-            calorie_rates = {
-                'Run': 600,
-                'Walk': 300,
-                'Ride': 400,
-                'WeightTraining': 350,
-                'Workout': 400,
-                'Crossfit': 500,
-                'Rowing': 450,
-                'Swim': 500,
-                'Yoga': 200,
-                'Hike': 400
-            }
-            
-            # Get calorie rate for activity type, default to 350
-            calorie_rate = calorie_rates.get(activity_type, 350)
-            
-            # Calculate calories
-            estimated_calories = int(calorie_rate * moving_time_hours)
-            
-            # If heart rate is available, adjust calories (higher HR = more calories)
-            if avg_hr > 0:
-                # Adjust based on heart rate intensity
-                # Assuming max HR ~190, adjust calories by HR factor
-                hr_factor = min(avg_hr / 140, 1.5)  # Cap at 1.5x
-                estimated_calories = int(estimated_calories * hr_factor)
-            
-            calories_str = f"{estimated_calories}"
+            # Calories from API or N/A
+            calories_str = f"{int(calories)}" if calories > 0 else "N/A"
             
             # Distance (only for Run/Walk)
             distance_str = ""
