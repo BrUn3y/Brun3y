@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Strava Activities Widget Generator
-Creates an SVG widget with the last 3 Strava activities
+Creates an SVG widget with the last 6 Strava activities
 """
 
 import json
@@ -64,7 +64,7 @@ def refresh_strava_token():
         return None
 
 def get_strava_activities():
-    """Get last 3 activities from Strava"""
+    """Get last 6 activities from Strava"""
     access_token = refresh_strava_token()
     
     if not access_token:
@@ -73,9 +73,9 @@ def get_strava_activities():
     
     try:
         headers = {"Authorization": f"Bearer {access_token}"}
-        params = {"per_page": 3}
+        params = {"per_page": 6}
         
-        print("🏃 Fetching last 3 Strava activities...")
+        print("🏃 Fetching last 6 Strava activities...")
         response = requests.get(
             "https://www.strava.com/api/v3/athlete/activities",
             headers=headers,
@@ -145,7 +145,7 @@ def generate_strava_svg(activities):
     
     # SVG dimensions
     width = 1200
-    height = 240
+    height = 350
     
     # Colors matching DarkOrbs theme
     bg_color = "#0a0a0a"
@@ -208,21 +208,21 @@ def generate_strava_svg(activities):
     {activity['time']}
   </text>
   <text x="500" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
-    Tiempo
+    Time
   </text>
   
   <text x="650" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
     {activity['hr']}
   </text>
   <text x="650" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
-    FC
+    HR
   </text>
   
   <text x="800" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
     {activity['calories']} kcal
   </text>
   <text x="800" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
-    Calorías
+    Calories
   </text>
 '''
         
@@ -232,7 +232,7 @@ def generate_strava_svg(activities):
     {activity['distance']}
   </text>
   <text x="1000" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
-    Distancia
+    Distance
   </text>
 '''
         
