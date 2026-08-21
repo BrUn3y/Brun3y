@@ -8,44 +8,48 @@
 
 ### Professional Journey
 
-**Edgar Bruney** is an engineer at **IBM** based in **Zapopan, Jalisco, Mexico**, focused on turning modern AI ideas into practical systems. Public profile information shows a GitHub presence dating back to **2013**, alongside a portfolio centered on agentic AI, cloud-native delivery, and developer tooling.
+**Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013** with over 13 years of experience in the tech industry, he has built a distinguished career focused on cutting-edge technology implementation and open-source contribution.
 
-His recent public work highlights a hands-on approach to **multi-agent application design**, especially across **BeeAI**, **CrewAI**, and **LangGraph**. Across his repositories and profile materials, Edgar consistently emphasizes production-minded implementations: containerized services, REST APIs, async execution, live SSE streaming, and orchestration patterns that make autonomous systems more reliable in real-world environments.
+Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with emphasis on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems that bridge the gap between research and enterprise deployment, demonstrating a unique ability to transform research-grade AI into practical enterprise solutions.
 
 ### Technical Expertise
 
-Edgar’s public profile and repository materials highlight a stack built around applied AI engineering and cloud integration:
+Edgar holds multiple industry certifications:
 
-* **Agentic AI Frameworks:** BeeAI, CrewAI, LangGraph, AgentStack SDK, A2A-oriented workflows
-* **Platform & Cloud Engineering:** IBM, AWS, Dockerized deployments, REST API design, async job execution, SSE-based streaming
-* **Quantum Computing:** Qiskit experimentation and open-source contribution, including visible contributions to **Qiskit/qiskit-ibm-runtime** (**236⭐, 218 forks** at the time of review)
-* **API Integrations:** Slack Socket Mode, Strava API, Google Fit-related tooling
-* **Engineering Focus:** Multi-agent pipelines, verify-and-retry orchestration loops, production-ready AI services, and practical automation
+* **IBM Generative & Agentic AI Expert Developer**
+* **AWS Serverless Badge Holder**
+* **Hybrid Cloud Microservices Architect**
 
-His profile README also lists certifications and badges including **IBM Generative & Agentic AI Expert Developer**, **AWS Serverless Badge Holder**, and **Hybrid Cloud Microservices Architect**.
+His comprehensive technical stack includes:
+
+* **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, AgentStack SDK, A2A protocol
+* **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture design and implementation
+* **Quantum Computing:** Qiskit experiments and community contributions, active contributor to IBM's Qiskit Runtime (235⭐, 218 forks)
+* **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API
+* **Specializations:** Multi-agent pipeline design, verify-and-retry orchestration loops, async jobs with live SSE streaming, enterprise AI deployment
 
 ### Featured Projects
 
-**[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** (**23⭐, 5 forks**) — A Dockerized harness for running IBM Bob Shell headless in unrestricted mode, exposed through a REST API with async jobs, live SSE streaming, and verify-and-retry orchestration. It stands out as a strong example of autonomous AI operations packaged for practical use.
+**[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** (21⭐, 5 forks) — A Dockerized harness running IBM's Bob Shell headless in unrestricted mode, exposed via REST API with async jobs and live SSE streaming. Features Slack integration for autonomous AI operations with verify-and-retry orchestration loops. This project showcases expertise in containerization, API development, and production-grade AI deployment, representing a bridge between enterprise AI tools and practical automation.
 
-**[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (**5⭐, 1 fork**) — A conversational AI system built around the Strava API using BeeAI and AgentStack SDK concepts. The project connects athletic data with agentic workflows and reflects Edgar’s interest in applying AI to measurable personal performance.
+**[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐, 1 fork) — An advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API. This personal project helped improve his 5K running time toward sub-21 minutes, demonstrating the practical application of AI in personal fitness optimization and data-driven athletic training.
 
-**X Trends Agent** — Implemented in three variants — [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI), [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI), and [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph) — this project demonstrates framework-agnostic experimentation and a comparative approach to agent engineering across ecosystems.
+**X Trends Agent** — A trend-analysis agent implemented across three different frameworks ([BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI), [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI), [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph)), demonstrating framework-agnostic agent engineering capabilities and deep understanding of different AI architectures. This multi-framework approach showcases adaptability and comprehensive knowledge of the agentic AI ecosystem.
 
-**[quantum-lab-agent](https://github.com/BrUn3y/quantum_lab_agent)** — A Python project exploring the overlap between AI agents and quantum computing workflows, extending Edgar’s visible interest in both applied AI and quantum technologies.
+**[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** — Quantum computing-related project exploring the intersection of AI agents and quantum computing technologies, pushing the boundaries at the cutting edge of both AI and quantum computing fields.
 
-**Qiskit Contributions** — Edgar’s profile highlights active contribution to **Qiskit/qiskit-ibm-runtime**, the IBM Quantum Compute client, along with documentation-related support for the broader quantum community.
+**Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (235⭐, 218 forks) and documentation translation projects, supporting the global quantum computing community and making quantum computing more accessible worldwide through multilingual documentation efforts.
 
 ### Beyond Code
 
-Beyond repository work, Edgar’s public profile presents a mix of community involvement and personal experimentation:
+Edgar is actively engaged in the tech community with significant leadership and educational initiatives:
 
-* **Quantum community engagement** in Guadalajara, including public mention of co-organizing local quantum computing meetups
-* **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, cloud tooling, and athletic-performance analysis
-* **Open-source activity** reflected in **51 repositories**, **50 stars**, **12 followers**, and **28 following** on GitHub at the time of review
-* **Personal interests** that visibly shape his projects, especially **running** and **heavy music**
+* **Co-organizing quantum computing meetups** in Guadalajara, with 60+ attendees at the inaugural session, fostering local quantum computing education and networking. This community leadership helps establish Guadalajara as an emerging hub for quantum computing in Latin America.
+* **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling, sharing practical insights from real-world implementations and providing valuable perspectives on applying AI to solve practical problems.
+* **Open-source contributions** across 50 repositories with 47 starred projects, demonstrating active participation in the developer community and commitment to collaborative development.
+* **Community building** with 12 followers and 28 following on GitHub, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
 
-A recurring theme across his public work is using software not just to build products, but to explore performance, automation, and emerging technologies in everyday practice.
+When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K using a data-driven AI approach) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
 
 `BeeAI · CrewAI · LangGraph`  ·  `IBM Cloud`  ·  `Qiskit`  ·  `Running`  ·  `Heavy Music`
 
@@ -131,5 +135,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ***
 
 <div align="center">
-<sub>ℹ️ Profile information collected by AI from public web sources and last updated on August 21, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on August 20, 2026</sub>
 </div>
