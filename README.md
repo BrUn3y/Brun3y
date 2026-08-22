@@ -8,9 +8,9 @@
 
 ### Professional Journey
 
-**Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013** with over 13 years of experience in the tech industry, he has built a distinguished career focused on cutting-edge technology implementation and open-source contribution.
+**Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, with over **13 years** in the tech industry. A GitHub member since **2013**, he specializes in **translating research-grade AI into production systems**. His current focus is on agentic AI development and cloud architecture, where he designs and implements multi-agent pipelines that bridge the gap between research and enterprise deployment.
 
-Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with emphasis on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems that bridge the gap between research and enterprise deployment, demonstrating a unique ability to transform research-grade AI into practical enterprise solutions.
+His recent public work highlights a hands-on approach to **multi-agent application design**, especially across **BeeAI**, **CrewAI**, and **LangGraph**. Across his repositories and profile materials, Edgar consistently emphasizes production-minded implementations: containerized services, REST APIs, async execution, live SSE streaming, and orchestration patterns that make autonomous systems more reliable in real-world environments.
 
 ### Technical Expertise
 
@@ -44,14 +44,14 @@ His comprehensive technical stack includes:
 
 Edgar is actively engaged in the tech community with significant leadership and educational initiatives:
 
-* **Co-organizing quantum computing meetups** in Guadalajara, with 60+ attendees at the inaugural session, fostering local quantum computing education and networking. This community leadership helps establish Guadalajara as an emerging hub for quantum computing in Latin America.
+* **Co-organizing quantum computing meetups** in Guadalajara, with **60+ attendees** at the inaugural session, fostering local quantum computing education and networking. This community leadership helps establish Guadalajara as an emerging hub for quantum computing in Latin America.
 * **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling, sharing practical insights from real-world implementations and providing valuable perspectives on applying AI to solve practical problems.
-* **Open-source contributions** across 50 repositories with 47 starred projects, demonstrating active participation in the developer community and commitment to collaborative development.
-* **Community building** with 12 followers and 28 following on GitHub, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
+* **Open-source contributions** across **50 repositories** with **47 starred projects**, demonstrating active participation in the developer community and commitment to collaborative development.
+* **Community building** with **12 followers** and **28 following** on GitHub, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
 
-When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K using a data-driven AI approach) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
+When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K using a data-driven AI approach) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth and demonstrates his unique ability to transform cutting-edge AI research into practical solutions that solve real-world problems.
 
-`BeeAI · CrewAI · LangGraph`  ·  `IBM Cloud`  ·  `Qiskit`  ·  `Running`  ·  `Heavy Music`
+`BeeAI · CrewAI · LangGraph`  ·  `IBM Cloud`  ·  `Qiskit`  ·  `Running`  ·  `Heavy Music`
 
 ***
 
@@ -135,5 +135,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ***
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on August 20, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on August 22, 2026</sub>
 </div>
