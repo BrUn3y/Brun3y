@@ -5,38 +5,66 @@ Creates an SVG widget with the last 6 Strava activities
 """
 
 import json
+import os
 import requests
 from datetime import datetime
 from pathlib import Path
 
-def refresh_strava_token():
-    """Refresh Strava access token if expired"""
+
+def load_strava_tokens():
+    """Load Strava tokens from env vars or fallback to local JSON file.
+    Returns (tokens_dict, file_path_or_None)."""
+    client_id = os.environ.get('STRAVA_CLIENT_ID')
+    client_secret = os.environ.get('STRAVA_CLIENT_SECRET')
+    refresh_token = os.environ.get('STRAVA_REFRESH_TOKEN')
+    access_token = os.environ.get('STRAVA_ACCESS_TOKEN')
+    expires_at = float(os.environ.get('STRAVA_EXPIRES_AT', '0'))
+
+    if all([client_id, client_secret, refresh_token]):
+        print("🔑 Using Strava credentials from environment variables")
+        return {
+            'client_id': client_id,
+            'client_secret': client_secret,
+            'refresh_token': refresh_token,
+            'access_token': access_token,
+            'expires_at': expires_at,
+        }, None  # no file to write back to
+
+    # Fallback to local file (never committed to git)
     strava_tokens_path = Path(__file__).parent / 'strava_tokens.json'
-    
     if not strava_tokens_path.exists():
-        print("❌ Strava tokens file not found")
-        return None
-    
+        print("❌ Strava tokens file not found and env vars not set")
+        return None, None
+
     with open(strava_tokens_path, 'r') as f:
         tokens = json.load(f)
-    
+    return tokens, strava_tokens_path
+
+
+def refresh_strava_token():
+    """Refresh Strava access token if expired."""
+    tokens, strava_tokens_path = load_strava_tokens()
+
+    if tokens is None:
+        return None
+
     expires_at = tokens.get('expires_at', 0)
     current_time = datetime.now().timestamp()
-    
+
     if current_time < expires_at:
         print("✅ Strava token still valid")
         return tokens.get('access_token')
-    
+
     print("🔄 Strava token expired, refreshing...")
-    
+
     refresh_token = tokens.get('refresh_token')
     client_id = tokens.get('client_id')
     client_secret = tokens.get('client_secret')
-    
+
     if not all([refresh_token, client_id, client_secret]):
         print("❌ Missing token credentials")
         return None
-    
+
     token_url = "https://www.strava.com/oauth/token"
     token_data = {
         "client_id": client_id,
@@ -44,72 +72,74 @@ def refresh_strava_token():
         "refresh_token": refresh_token,
         "grant_type": "refresh_token"
     }
-    
+
     try:
         response = requests.post(token_url, data=token_data)
         response.raise_for_status()
-        
+
         new_tokens = response.json()
         new_tokens['client_id'] = client_id
         new_tokens['client_secret'] = client_secret
-        
-        with open(strava_tokens_path, 'w') as f:
-            json.dump(new_tokens, f, indent=2)
-        
+
+        if strava_tokens_path:
+            with open(strava_tokens_path, 'w') as f:
+                json.dump(new_tokens, f, indent=2)
+
         print("✅ Strava token refreshed successfully")
         return new_tokens.get('access_token')
-    
+
     except Exception as e:
         print(f"❌ Error refreshing token: {e}")
         return None
 
+
 def get_strava_activities():
     """Get last 6 activities from Strava"""
     access_token = refresh_strava_token()
-    
+
     if not access_token:
         print("❌ Could not get valid access token")
         return []
-    
+
     try:
         headers = {"Authorization": f"Bearer {access_token}"}
         params = {"per_page": 6}
-        
+
         print("🏃 Fetching last 6 Strava activities...")
         response = requests.get(
             "https://www.strava.com/api/v3/athlete/activities",
             headers=headers,
             params=params
         )
-        
+
         if response.status_code != 200:
             print(f"❌ Error fetching Strava activities: {response.status_code}")
             return []
-        
+
         activities = response.json()
         print(f"✅ Fetched {len(activities)} activities")
-        
+
         formatted_activities = []
         for activity in activities:
             activity_id = activity.get('id')
-            
+
             # Fetch detailed activity to get calories
             print(f"  Fetching details for activity {activity_id}...")
             detailed_response = requests.get(
                 f"https://www.strava.com/api/v3/activities/{activity_id}",
                 headers=headers
             )
-            
+
             if detailed_response.status_code == 200:
                 detailed_activity = detailed_response.json()
                 calories = detailed_activity.get('calories', 0)
             else:
                 calories = 0
-            
+
             distance_km = activity.get('distance', 0) / 1000
             moving_time = activity.get('moving_time', 0)
             activity_type = activity.get('type', 'Activity')
-            
+
             # Format time
             hours = moving_time // 3600
             minutes = (moving_time % 3600) // 60
@@ -118,26 +148,26 @@ def get_strava_activities():
                 time_str = f"{hours}h {minutes}m"
             else:
                 time_str = f"{minutes}m {seconds}s"
-            
+
             # Date
             start_date = activity.get('start_date_local', '')
             date_str = ""
             if start_date:
                 dt = datetime.fromisoformat(start_date.replace('Z', '+00:00'))
                 date_str = dt.strftime('%b %d')
-            
+
             # Heart rate
             avg_hr = activity.get('average_heartrate', 0)
             hr_str = f"{int(avg_hr)} bpm" if avg_hr > 0 else "N/A"
-            
+
             # Calories from API or N/A
             calories_str = f"{int(calories)}" if calories > 0 else "N/A"
-            
+
             # Distance (only for Run/Walk)
             distance_str = ""
             if activity_type in ['Run', 'Walk']:
                 distance_str = f"{distance_km:.2f} km"
-            
+
             formatted_activities.append({
                 'name': activity.get('name', 'Unnamed'),
                 'type': activity_type,
@@ -147,34 +177,35 @@ def get_strava_activities():
                 'hr': hr_str,
                 'calories': calories_str
             })
-        
+
         return formatted_activities
-    
+
     except Exception as e:
         print(f"❌ Error processing Strava activities: {e}")
         return []
 
+
 def generate_strava_svg(activities):
     """Generate SVG widget with Strava activities"""
-    
+
     # SVG dimensions
     width = 1200
     height = 350
-    
+
     # Colors matching DarkOrbs theme
     bg_color = "#0a0a0a"
     border_color = "#1a1a1a"
     text_primary = "#ffffff"
     text_secondary = "#888888"
     accent_color = "#fc4c02"  # Strava orange
-    
+
     svg = f'''<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="stravaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:{accent_color};stop-opacity:0.1" />
       <stop offset="100%" style="stop-color:{accent_color};stop-opacity:0.05" />
     </linearGradient>
-    
+
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
@@ -183,32 +214,32 @@ def generate_strava_svg(activities):
       </feMerge>
     </filter>
   </defs>
-  
+
   <!-- Background -->
   <rect width="{width}" height="{height}" fill="{bg_color}" rx="12"/>
   <rect width="{width}" height="{height}" fill="url(#stravaGradient)" rx="12"/>
   <rect width="{width}" height="{height}" fill="none" stroke="{border_color}" stroke-width="2" rx="12"/>
-  
+
   <!-- Title -->
   <text x="24" y="40" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="{text_primary}" filter="url(#glow)">
     RECENT STRAVA ACTIVITIES
   </text>
-  
+
   <!-- Activities -->
 '''
-    
+
     y_start = 80
     activity_height = 45
-    
+
     for i, activity in enumerate(activities):
         y = y_start + (i * activity_height)
-        
+
         # Activity name (truncate if too long)
         name = activity['name'][:35] + "..." if len(activity['name']) > 35 else activity['name']
-        
+
         # Activity type prefix
         type_prefix = "[RUN]" if activity['type'] == "Run" else "[WALK]" if activity['type'] == "Walk" else "[RIDE]" if activity['type'] == "Ride" else "[WORKOUT]"
-        
+
         svg += f'''  <!-- Activity {i+1} -->
   <text x="24" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="{text_primary}">
     <tspan fill="{accent_color}">{type_prefix}</tspan> {name}
@@ -216,7 +247,7 @@ def generate_strava_svg(activities):
   <text x="24" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
     {activity['date']}
   </text>
-  
+
   <!-- Stats -->
   <text x="500" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
     {activity['time']}
@@ -224,14 +255,14 @@ def generate_strava_svg(activities):
   <text x="500" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
     Time
   </text>
-  
+
   <text x="650" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
     {activity['hr']}
   </text>
   <text x="650" y="{y+18}" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="{text_secondary}">
     HR
   </text>
-  
+
   <text x="800" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
     {activity['calories']} kcal
   </text>
@@ -239,7 +270,7 @@ def generate_strava_svg(activities):
     Calories
   </text>
 '''
-        
+
         # Show distance only for Run/Walk
         if activity['distance']:
             svg += f'''  <text x="1000" y="{y}" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="{accent_color}">
@@ -249,45 +280,47 @@ def generate_strava_svg(activities):
     Distance
   </text>
 '''
-        
+
         svg += '''
 '''
-    
+
     svg += f'''  <!-- Footer -->
   <text x="{width/2}" y="{height-15}" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="{text_secondary}" text-anchor="middle" letter-spacing="2">
     POWERED BY STRAVA API
   </text>
 </svg>'''
-    
+
     return svg
+
 
 def main():
     print("🚀 Strava Widget Generator\n")
-    
+
     # Get activities
     activities = get_strava_activities()
-    
+
     if not activities:
         print("\n❌ Could not fetch Strava activities")
         return
-    
+
     # Show activities
     print("\n📊 Activities fetched:")
     for i, activity in enumerate(activities, 1):
         print(f"  {i}. {activity['name']} - {activity['distance']} km - {activity['date']}")
-    
+
     # Generate SVG
     svg_content = generate_strava_svg(activities)
-    
+
     # Save SVG
     svg_path = Path(__file__).parent / 'assets' / 'strava-widget.svg'
     svg_path.parent.mkdir(exist_ok=True)
-    
+
     with open(svg_path, 'w', encoding='utf-8') as f:
         f.write(svg_content)
-    
+
     print(f"\n✅ SVG widget saved to {svg_path}")
     print("✅ Process completed successfully!")
+
 
 if __name__ == '__main__':
     main()
