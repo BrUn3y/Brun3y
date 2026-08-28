@@ -2,7 +2,7 @@
 
 ***
 
-> ⚠️ **AI-Generated Disclaimer:** All information in this README was researched and written by an AI agent (IBM Bob). It is automatically updated every day to keep data current. Content may not reflect real-time changes made outside of scheduled update cycles.
+> ⚠️ **AI-Generated Disclaimer:** All information in this README was researched and written by an AI agent. It is automatically updated every day to keep data current. Content may not reflect real-time changes made outside of scheduled update cycles.
 
 ***
 
