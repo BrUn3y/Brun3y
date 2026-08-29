@@ -4,7 +4,7 @@
       <stop offset="0%" style="stop-color:#fc4c02;stop-opacity:0.1" />
       <stop offset="100%" style="stop-color:#fc4c02;stop-opacity:0.05" />
     </linearGradient>
-    
+
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
@@ -13,17 +13,17 @@
       </feMerge>
     </filter>
   </defs>
-  
+
   <!-- Background -->
   <rect width="1200" height="350" fill="#0a0a0a" rx="12"/>
   <rect width="1200" height="350" fill="url(#stravaGradient)" rx="12"/>
   <rect width="1200" height="350" fill="none" stroke="#1a1a1a" stroke-width="2" rx="12"/>
-  
+
   <!-- Title -->
   <text x="24" y="40" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff" filter="url(#glow)">
     RECENT STRAVA ACTIVITIES
   </text>
-  
+
   <!-- Activities -->
   <!-- Activity 1 -->
   <text x="24" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">
@@ -32,7 +32,7 @@
   <text x="24" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Aug 24
   </text>
-  
+
   <!-- Stats -->
   <text x="500" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     53m 25s
@@ -40,14 +40,14 @@
   <text x="500" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
-  
+
   <text x="650" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     121 bpm
   </text>
   <text x="650" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
-  
+
   <text x="800" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     381 kcal
   </text>
@@ -62,7 +62,7 @@
   <text x="24" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Aug 24
   </text>
-  
+
   <!-- Stats -->
   <text x="500" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     10m 7s
@@ -70,14 +70,14 @@
   <text x="500" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
-  
+
   <text x="650" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     145 bpm
   </text>
   <text x="650" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
-  
+
   <text x="800" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     93 kcal
   </text>
@@ -92,7 +92,7 @@
   <text x="24" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Aug 23
   </text>
-  
+
   <!-- Stats -->
   <text x="500" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     1h 20m
@@ -100,14 +100,14 @@
   <text x="500" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
-  
+
   <text x="650" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     144 bpm
   </text>
   <text x="650" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
-  
+
   <text x="800" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     801 kcal
   </text>
@@ -122,7 +122,7 @@
   <text x="24" y="233" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Aug 22
   </text>
-  
+
   <!-- Stats -->
   <text x="500" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     26m 55s
@@ -130,14 +130,14 @@
   <text x="500" y="233" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
-  
+
   <text x="650" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     155 bpm
   </text>
   <text x="650" y="233" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
-  
+
   <text x="800" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     301 kcal
   </text>
@@ -152,7 +152,7 @@
   <text x="24" y="278" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Aug 22
   </text>
-  
+
   <!-- Stats -->
   <text x="500" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     24m 8s
@@ -160,14 +160,14 @@
   <text x="500" y="278" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
-  
+
   <text x="650" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     181 bpm
   </text>
   <text x="650" y="278" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
-  
+
   <text x="800" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     356 kcal
   </text>
@@ -188,7 +188,7 @@
   <text x="24" y="323" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Aug 22
   </text>
-  
+
   <!-- Stats -->
   <text x="500" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     10m 0s
@@ -196,14 +196,14 @@
   <text x="500" y="323" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
-  
+
   <text x="650" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     132 bpm
   </text>
   <text x="650" y="323" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
-  
+
   <text x="800" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
     81 kcal
   </text>
