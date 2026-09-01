@@ -188,7 +188,15 @@ def update_readme_with_strava(activities):
     
     # Insertar la tabla después del widget SVG
     new_content = re.sub(strava_widget_pattern, r'\1' + strava_section + '\n\n---', content)
-    
+
+    # Actualizar la fecha del footer "Profile information collected and updated by AI assistant"
+    today_str = datetime.now().strftime('%B %d, %Y').replace(' 0', ' ')
+    new_content = re.sub(
+        r'(Profile information collected and updated by AI assistant on )[A-Za-z]+ \d+, \d+',
+        rf'\g<1>{today_str}',
+        new_content
+    )
+
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(new_content)
     
