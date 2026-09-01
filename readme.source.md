@@ -60,6 +60,10 @@
 
 ---
 
+> ⚠️ **AI-Generated Disclaimer:** All information in this README was researched and written by an AI agent. It is automatically updated every day to keep data current. Content may not reflect real-time changes made outside of scheduled update cycles.
+
+---
+
 ```aura width=1200 height=200
 <div style={{
   width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%)',
