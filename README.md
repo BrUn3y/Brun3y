@@ -16,7 +16,7 @@
 
 Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with emphasis on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems that bridge the gap between research and enterprise deployment, demonstrating a unique ability to transform research-grade AI into practical enterprise solutions.
 
-His most recent open-source explorations push in two directions: **agentic video generation** (via [hyperframes](https://github.com/BrUn3y/hyperframes) — an HTML-to-video renderer purpose-built for AI agents) and **hybrid quantum computing** (via [quantum-experiment-agent](https://github.com/BrUn3y/quantum-experiment-agent), a development-stage agent powered by IBM Granite and AgentStack that bridges classical AI and quantum circuits).
+His most recent open-source work has expanded into a full **quantum multi-agent system**: the [Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent) now orchestrates a five-agent A2A network — Developer, Status, Computing, and Experiment specialists — all powered by **IBM Granite 4.2 8B** running locally via Ollama. This system can generate quantum code, inspect live IBM Quantum backends, execute circuits on real hardware (including `ibm_marrakesh`), run QAOA Max-Cut experiments end-to-end, and retrieve measurement results. He is also co-founding **Quantum Guild GDL**, a new Guadalajara-based community organization (est. August 2026) co-organizing the **Qiskit Fall Fest Guadalajara 2026** alongside seven other organizers.
 
 ### Technical Expertise
 
@@ -28,23 +28,23 @@ Edgar holds multiple industry certifications:
 
 His comprehensive technical stack includes:
 
-* **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, AgentStack SDK, A2A protocol, IBM Granite
+* **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, AgentStack SDK, A2A protocol, IBM Granite 4.2 8B (Ollama)
 * **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture design and implementation
-* **Quantum Computing:** Qiskit experiments and community contributions, active contributor to IBM's Qiskit Runtime (236⭐, 218 forks); building hybrid quantum-classical agents
+* **Quantum Computing:** Qiskit, QASM 2.0/3.0, QAOA, VQE, Grover, Shor algorithms; real-hardware execution on IBM Quantum; active contributor to IBM's Qiskit Runtime (236⭐, 218 forks); building hybrid quantum-classical multi-agent systems
 * **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API, Huawei Health API
-* **Specializations:** Multi-agent pipeline design, verify-and-retry orchestration loops, async jobs with live SSE streaming, enterprise AI deployment, HTML-to-video rendering for agents
+* **Specializations:** Multi-agent pipeline design with A2A protocol, verify-and-retry orchestration loops, async jobs with live SSE streaming, enterprise AI deployment, HTML-to-video rendering for agents
 
 ### Featured Projects
 
 **[IBM Bob Shell Harness](https://github.com/BrUn3y/IBM_Bob_Harness)** (23⭐, 5 forks) — A Dockerized harness running IBM's Bob Shell headless in unrestricted mode, exposed via REST API with async jobs and live SSE streaming. Features Slack integration for autonomous AI operations with verify-and-retry orchestration loops. This project showcases expertise in containerization, API development, and production-grade AI deployment, representing a bridge between enterprise AI tools and practical automation.
 
+**[Quantum Lab Agent System](https://github.com/BrUn3y/quantum_lab_agent)** — A complete five-agent multi-agent workspace for IBM Quantum, built entirely with the A2A protocol and IBM Granite 4.2 8B. The orchestrator (`quantum_lab_agent`, port 8000) coordinates four specialist agents: a [Quantum Developer Agent](https://github.com/BrUn3y/quantum-developer-agent) for code generation (Grover, Shor, Deutsch-Jozsa, QFT…), a [Quantum Status Agent](https://github.com/BrUn3y/quantum-status-agent) for real-time backend monitoring and chip topology visualization, a [Quantum Computing Agent](https://github.com/BrUn3y/quantum-computing-agent) for circuit execution on simulators and real IBM Quantum hardware, and the [Quantum Experiment Agent](https://github.com/BrUn3y/quantum-experiment-agent) for hybrid QAOA/VQE experiments (currently QAOA Max-Cut for 2–8 node graphs on `ibm_marrakesh`). This system demonstrates end-to-end quantum engineering: from natural language to real hardware results.
+
 **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** (5⭐, 1 fork) — An advanced conversational AI system built with BeeAI framework and AgentStack SDK that analyzes athletic performance directly from the Strava API. This personal project helped improve his 5K running time toward sub-21 minutes, demonstrating the practical application of AI in personal fitness optimization and data-driven athletic training. Complemented by [strava-analytics](https://github.com/BrUn3y/strava-analytics), a Python toolkit for analyzing running performance, CrossFit sessions, and calorie tracking.
 
 **X Trends Agent** — A trend-analysis agent implemented across three different frameworks ([BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI), [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI), [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph)), demonstrating framework-agnostic agent engineering capabilities and deep understanding of different AI architectures. This multi-framework approach showcases adaptability and comprehensive knowledge of the agentic AI ecosystem.
 
-**[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** / **[Quantum Experiment Agent](https://github.com/BrUn3y/quantum-experiment-agent)** — A growing suite of quantum computing agents exploring the intersection of AI and quantum circuits. The newer `quantum-experiment-agent` is a development-stage hybrid agent powered by IBM Granite and AgentStack, pushing the boundaries of both AI and quantum computing fields.
-
-**[hyperframes](https://github.com/BrUn3y/hyperframes)** — A new project that turns HTML into rendered video, purpose-built for AI agents. Demonstrates Edgar's interest in expanding the output modalities available to autonomous agents beyond text and API calls.
+**[hyperframes](https://github.com/BrUn3y/hyperframes)** — Turns HTML into rendered video, purpose-built for AI agents. Demonstrates Edgar's interest in expanding the output modalities available to autonomous agents beyond text and API calls.
 
 **Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (236⭐, 218 forks) and documentation translation projects, supporting the global quantum computing community and making quantum computing more accessible worldwide through multilingual documentation efforts.
 
@@ -52,14 +52,14 @@ His comprehensive technical stack includes:
 
 Edgar is actively engaged in the tech community with significant leadership and educational initiatives:
 
-* **Co-organizing quantum computing meetups** in Guadalajara, with 60+ attendees at the inaugural session, fostering local quantum computing education and networking. This community leadership helps establish Guadalajara as an emerging hub for quantum computing in Latin America.
+* **Co-founding Quantum Guild GDL** — a new Guadalajara-based community organization (established August 2026) dedicated to quantum computing education in Mexico. The guild is currently co-organizing the **Qiskit Fall Fest Guadalajara 2026** event, supported by IBM Quantum and IBM SkillsBuild, bringing together students and professionals across the Guadalajara tech ecosystem.
 * **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling, sharing practical insights from real-world implementations and providing valuable perspectives on applying AI to solve practical problems.
-* **Open-source contributions** across 54 public repositories with 53 starred projects, demonstrating active participation in the developer community and commitment to collaborative development.
-* **Community building** with 14 followers and 30 following on GitHub, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
+* **Open-source contributions** across 54 public repositories with 54 public repos on GitHub and 15 followers, demonstrating active participation in the developer community and commitment to collaborative development.
+* **Community building** on GitHub with 15 followers and 30 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K, tracking and analyzing every session with Python and AI tools) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
 
-`BeeAI · CrewAI · LangGraph`  ·  `IBM Cloud`  ·  `Qiskit`  ·  `Running`  ·  `Heavy Music`
+`BeeAI · CrewAI · LangGraph`  ·  `IBM Cloud`  ·  `Qiskit`  ·  `Running`  ·  `Heavy Music`
 
 ***
 
@@ -145,5 +145,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ***
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on September 6, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on September 7, 2026</sub>
 </div>
