@@ -54,12 +54,12 @@ Edgar is actively engaged in the tech community with significant leadership and 
 
 * **Co-founding Quantum Guild GDL** — a new Guadalajara-based community organization (established August 2026) dedicated to quantum computing education in Mexico. The guild is currently co-organizing the **Qiskit Fall Fest Guadalajara 2026** event, supported by IBM Quantum and IBM SkillsBuild, bringing together students and professionals across the Guadalajara tech ecosystem.
 * **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling, sharing practical insights from real-world implementations and providing valuable perspectives on applying AI to solve practical problems.
-* **Open-source contributions** across 54 public repositories with 54 public repos on GitHub and 15 followers, demonstrating active participation in the developer community and commitment to collaborative development.
+* **Open-source contributions** across 54 public repositories on GitHub, demonstrating active participation in the developer community and commitment to collaborative development.
 * **Community building** on GitHub with 15 followers and 30 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K, tracking and analyzing every session with Python and AI tools) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
 
-`BeeAI · CrewAI · LangGraph`  ·  `IBM Cloud`  ·  `Qiskit`  ·  `Running`  ·  `Heavy Music`
+`BeeAI · CrewAI · LangGraph`  ·  `IBM Cloud`  ·  `Qiskit`  ·  `Running`  ·  `Heavy Music`
 
 ***
 
