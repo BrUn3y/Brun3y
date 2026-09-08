@@ -127,11 +127,11 @@
 
 ### Professional Journey
 
-**Edgar Bruney** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013** with over 13 years of experience in the tech industry, he has built a distinguished career focused on cutting-edge technology implementation and open-source contribution.
+**Edgar Bruney Castañeda** is an experienced engineer at **IBM's CIO Organization** in **Zapopan, Jalisco, Mexico**, specializing in translating research-grade AI into production systems. A GitHub member since **2013** with over 13 years of experience in the tech industry, he has built a distinguished career focused on cutting-edge technology implementation and open-source contribution.
 
 Currently working at the intersection of **agentic AI development** and **cloud architecture**, Edgar designs and implements multi-agent pipelines using frameworks like **BeeAI**, **CrewAI**, and **LangGraph**. His work spans from concept to deployed REST APIs with async jobs and live SSE streaming, with emphasis on practical applications that solve real-world problems. He specializes in verify-and-retry orchestration loops and production-ready AI systems that bridge the gap between research and enterprise deployment, demonstrating a unique ability to transform research-grade AI into practical enterprise solutions.
 
-His most recent open-source work has expanded into a full **quantum multi-agent system**: the [Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent) now orchestrates a five-agent A2A network — Developer, Status, Computing, and Experiment specialists — all powered by **IBM Granite 4.2 8B** running locally via Ollama. This system can generate quantum code, inspect live IBM Quantum backends, execute circuits on real hardware (including `ibm_marrakesh`), run QAOA Max-Cut experiments end-to-end, and retrieve measurement results. He is also co-founding **Quantum Guild GDL**, a new Guadalajara-based community organization (est. August 2026) co-organizing the **Qiskit Fall Fest Guadalajara 2026** alongside seven other organizers.
+His most recent open-source work has expanded into a full **quantum multi-agent system**: the [Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent) now orchestrates a five-agent A2A network — Developer, Status, Computing, and Experiment specialists — all powered by **IBM Granite 4.2 8B** running locally via Ollama. This system can generate quantum code, inspect live IBM Quantum backends, execute circuits on real hardware (including `ibm_marrakesh`), run QAOA Max-Cut experiments end-to-end, and retrieve measurement results. He is also co-founding **Quantum Guild GDL**, a new Guadalajara-based community organization (est. August 2026) co-organizing the **Qiskit Fall Fest Guadalajara 2026** (scheduled for **October 28–30, 2026**) alongside seven co-organizers: Andrés Alejandre, Barbra Baena, Eva Nayeli Hernández Pulido, Jesús Rolón, Juan Miguel Ávila Sánchez, Kassandra Delfín, and Tanya Franco.
 
 ### Technical Expertise
 
@@ -164,7 +164,7 @@ His comprehensive technical stack includes:
 ### Beyond Code
 
 Edgar is actively engaged in the tech community with significant leadership and educational initiatives:
-- **Co-founding Quantum Guild GDL** — a new Guadalajara-based community organization (established August 2026) dedicated to quantum computing education in Mexico. The guild is currently co-organizing the **Qiskit Fall Fest Guadalajara 2026** event, supported by IBM Quantum and IBM SkillsBuild, bringing together students and professionals across the Guadalajara tech ecosystem.
+- **Co-founding Quantum Guild GDL** — a Guadalajara-based community organization (established August 2026) dedicated to quantum computing education in Mexico. The guild is co-organizing the **[Qiskit Fall Fest Guadalajara 2026](https://quantum-guild-gdl.github.io/qiskit_fall_fest_gdl/)** — a free, community-run quantum computing festival featuring talks, workshops, and hands-on sessions — scheduled for **October 28–30, 2026**. The event is supported by IBM Quantum and IBM SkillsBuild, and organized by eight co-organizers including Edgar alongside Andrés Alejandre, Barbra Baena, Eva Nayeli Hernández Pulido, Jesús Rolón, Juan Miguel Ávila Sánchez, Kassandra Delfín, and Tanya Franco. Keynote speaker: **Claudia Zendejas Morales**.
 - **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling, sharing practical insights from real-world implementations and providing valuable perspectives on applying AI to solve practical problems.
 - **Open-source contributions** across 54 public repositories on GitHub, demonstrating active participation in the developer community and commitment to collaborative development.
 - **Community building** on GitHub with 15 followers and 30 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
@@ -259,5 +259,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ---
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on September 7, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on September 8, 2026</sub>
 </div>
