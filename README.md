@@ -55,7 +55,7 @@ Edgar is actively engaged in the tech community with significant leadership and 
 * **Co-organizing Quantum Guild GDL** — founded August 17, 2026, the guild is driving the **[Qiskit Fall Fest Guadalajara 2026](https://quantum-guild-gdl.github.io/qiskit_fall_fest_gdl/)**: a free, community-run quantum computing festival held **October 28–30, 2026** (Mexico City time/CST). Day 1 (October 28) takes place **in person at AstraZeneca GITC Guadalajara** (Blvd. Puerta de Hierro 4965, Zapopan, Jalisco); Days 2–3 (October 29–30) are streamed online. The event features talks, hands-on workshops, and quantum labs. Speakers include **Claudia Zendejas Morales** (Physicist, Grad Student @KU, Coordinator @QWorld, Qiskit Advocate), **Eva Nayeli Hernández Pulido** (IBM GreenStar DevOps & App Support, Quantum enthusiast), **Jesús Rolón** (Software Development Engineer at IBM), and **Yra Cano** (Senior Software Developer at IBM). Organizers alongside Edgar are Andrés Alejandre, Barbara Baena, Eva Nayeli Hernández Pulido, Juan Miguel Ávila Sánchez, Kassandra Delfín, and Tanya Franco.
 * **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling, sharing practical insights from real-world implementations and providing valuable perspectives on applying AI to solve practical problems.
 * **Open-source contributions** across 54 public repositories on GitHub, demonstrating active participation in the developer community and commitment to collaborative development.
-* **Community building** on GitHub with 15 followers and 30 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
+* **Community building** on GitHub with 16 followers and 29 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K, tracking and analyzing every session with Python and AI tools) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
 
@@ -145,5 +145,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ***
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on September 11, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on September 12, 2026</sub>
 </div>
