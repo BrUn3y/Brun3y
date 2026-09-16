@@ -58,7 +58,7 @@ Edgar is actively engaged in the tech community with significant leadership and 
 * **Contributing to the HyperFrames ecosystem** — on September 14, 2026, Edgar filed **[PR #3930](https://github.com/heygen-com/hyperframes/pull/3930)** to `heygen-com/hyperframes` (50,000+⭐) proposing IBM Bob runtime support, bringing IBM's agentic AI toolchain into one of the most-starred open-source agent frameworks on GitHub.
 * **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling, sharing practical insights from real-world implementations and providing valuable perspectives on applying AI to solve practical problems.
 * **Open-source contributions** across 54 public repositories on GitHub, demonstrating active participation in the developer community and commitment to collaborative development.
-* **Community building** on GitHub with 17 followers and 28 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
+* **Community building** on GitHub with 17 followers and 29 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K, tracking and analyzing every session with Python and AI tools) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
 
@@ -148,5 +148,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ***
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on September 15, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on September 16, 2026</sub>
 </div>
