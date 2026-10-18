@@ -207,7 +207,7 @@ Edgar is actively engaged in the tech community with significant leadership and 
 - **Forked strands-agents/harness-sdk** — on **September 24, 2026**, Edgar forked the [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk) (8,828⭐), exploring the framework for production AI agent development across any model and cloud.
 - **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling.
 - **Open-source contributions** across 65 public repositories on GitHub, demonstrating continuous participation in the developer community and collaborative open-source engineering.
-- **Community building** on GitHub with 18 followers and 29 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
+- **Community building** on GitHub with 20 followers and 29 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K, tracking and analyzing every session with Python and AI tools) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
 
@@ -299,5 +299,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ---
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on October 17, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on October 18, 2026</sub>
 </div>
