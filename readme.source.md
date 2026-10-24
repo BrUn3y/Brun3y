@@ -157,7 +157,7 @@ His comprehensive technical stack includes:
 
 **[Quantum & Cybersecurity Interactive Workshop](https://github.com/BrUn3y/quantum-and-cybersecurity)** — An interactive educational slide deck and hands-on workshop deployed on [GitHub Pages](https://brun3y.github.io/quantum-and-cybersecurity/). It covers quantum computing principles, the threat posed by quantum algorithms (Shor's, Grover's) to public-key cryptography (RSA, ECC), NIST Post-Quantum Cryptography (PQC) standards (ML-KEM, ML-DSA, SLH-DSA), and cryptographic migration roadmaps. Features simplified explanations of superposition and entanglement, clarified cryptographic acronyms and mathematical foundations, a NotebookLM study guide, and an interactive Jupyter notebook workshop (`taller_estado_bell.ipynb`) constructing Bell state $\Phi^+$ using Qiskit, simulating the circuit, and dispatching execution to real IBM Quantum hardware.
 
-**[Qiskit/qiskit-ibm-runtime Contributions](https://github.com/Qiskit/qiskit-ibm-runtime)** (239⭐, 232 forks) — Active upstream contributions to IBM Quantum's runtime client. **[PR #3426](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3426)** (*"Expose timestamps in Session/Batch details()"*) was **merged on October 7, 2026**, exposing the backend state-transition `timestamps` list in dictionaries returned by `Session.details()` and `Batch.details()`. **[PR #3425](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3425)** (*"Reject nan angles in rzz validation"*) hardens `rzz` gate angle validation to reject `nan`/non-finite inputs with `IBMInputValueError`.
+**[Qiskit/qiskit-ibm-runtime Contributions](https://github.com/Qiskit/qiskit-ibm-runtime)** (238⭐, 233 forks) — Active upstream contributions to IBM Quantum's runtime client. **[PR #3426](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3426)** (*"Expose timestamps in Session/Batch details()"*) was **merged on October 7, 2026**, exposing the backend state-transition `timestamps` list in dictionaries returned by `Session.details()` and `Batch.details()`. **[PR #3425](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3425)** (*"Reject nan angles in rzz validation"*) hardens `rzz` gate angle validation to reject `nan`/non-finite inputs with `IBMInputValueError`.
 
 **[dam-agents/dam Contributions](https://github.com/dam-agents/dam)** (32⭐, 13 forks) — As part of **IBM Hacktoberfest**, Edgar contributed two critical UI fixes that are both **merged** into core: **[PR #4287](https://github.com/dam-agents/dam/pull/4287)** (*merged October 3, 2026*) stopped React portal event bubbling during inactive session deletion, and **[PR #4285](https://github.com/dam-agents/dam/pull/4285)** (*merged October 7, 2026*) preserved dialog content through exit transitions to eliminate content flash on modal close.
 
@@ -208,7 +208,7 @@ Edgar is actively engaged in the tech community with significant leadership and 
 - **Merged into Mellea & HyperFrames** — **[PR #1676](https://github.com/generative-computing/mellea/pull/1676)** to `generative-computing/mellea` (merged September 28, 2026) and **[PR #3930](https://github.com/heygen-com/hyperframes/pull/3930)** to `heygen-com/hyperframes` (merged September 22, 2026).
 - **Forked strands-agents/harness-sdk** — on **September 24, 2026**, Edgar forked the [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk) (8,828⭐), exploring the framework for production AI agent development across any model and cloud.
 - **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling.
-- **Open-source contributions** across 65 public repositories on GitHub, demonstrating continuous participation in the developer community and collaborative open-source engineering.
+- **Open-source contributions** across 66 public repositories on GitHub, demonstrating continuous participation in the developer community and collaborative open-source engineering.
 - **Community building** on GitHub with 23 followers and 31 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K, tracking and analyzing every session with Python and AI tools) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
@@ -235,7 +235,7 @@ When stepping away from the screen, Edgar pursues his passion for **running** (a
 - **[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** / **[Quantum Experiment Agent](https://github.com/BrUn3y/quantum-experiment-agent)** — Quantum computing agents exploring AI and quantum circuits, including a hybrid agent powered by IBM Granite and AgentStack.
 - **[hyperframes](https://github.com/BrUn3y/hyperframes)** — HTML-to-video renderer built for AI agents.
 - **[strava-analytics](https://github.com/BrUn3y/strava-analytics)** — Python scripts to analyze running performance, CrossFit sessions, and calorie tracking from Strava.
-- **Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (239⭐, 232 forks) and qiskit-addon-sqd (101⭐, 44 forks), supporting the quantum computing community.
+- **Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (238⭐, 233 forks) and qiskit-addon-sqd (101⭐, 44 forks), supporting the quantum computing community.
 
 ---
 
@@ -301,5 +301,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ---
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on October 23, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on October 24, 2026</sub>
 </div>
