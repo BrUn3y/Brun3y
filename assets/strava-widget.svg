@@ -27,29 +27,29 @@
   <!-- Activities -->
   <!-- Activity 1 -->
   <text x="24" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">
-    <tspan fill="#fc4c02">[WORKOUT]</tspan> Entrenamiento con pesas a la tarde
+    <tspan fill="#fc4c02">[WORKOUT]</tspan> Entrenamiento matutino
   </text>
   <text x="24" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
-    Oct 20
+    Oct 24
   </text>
 
   <!-- Stats -->
   <text x="500" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    1h 20m
+    1h 8m
   </text>
   <text x="500" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
 
   <text x="650" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    130 bpm
+    157 bpm
   </text>
   <text x="650" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
 
   <text x="800" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    663 kcal
+    807 kcal
   </text>
   <text x="800" y="98" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Calories
@@ -57,29 +57,29 @@
 
   <!-- Activity 2 -->
   <text x="24" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">
-    <tspan fill="#fc4c02">[WORKOUT]</tspan> Crossfit a la tarde
+    <tspan fill="#fc4c02">[WORKOUT]</tspan> Entrenamiento con pesas a la tarde
   </text>
   <text x="24" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
-    Oct 18
+    Oct 23
   </text>
 
   <!-- Stats -->
   <text x="500" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    57m 30s
+    1h 8m
   </text>
   <text x="500" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
 
   <text x="650" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    135 bpm
+    130 bpm
   </text>
   <text x="650" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
 
   <text x="800" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    510 kcal
+    573 kcal
   </text>
   <text x="800" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Calories
@@ -87,51 +87,45 @@
 
   <!-- Activity 3 -->
   <text x="24" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">
-    <tspan fill="#fc4c02">[RUN]</tspan> Carrera por la tarde
+    <tspan fill="#fc4c02">[WORKOUT]</tspan> Entrenamiento con pesas a la tarde
   </text>
   <text x="24" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
-    Oct 16
+    Oct 20
   </text>
 
   <!-- Stats -->
   <text x="500" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    47m 46s
+    1h 20m
   </text>
   <text x="500" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
 
   <text x="650" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    178 bpm
+    130 bpm
   </text>
   <text x="650" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
 
   <text x="800" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    694 kcal
+    663 kcal
   </text>
   <text x="800" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Calories
   </text>
-  <text x="1000" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    10.06 km
-  </text>
-  <text x="1000" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
-    Distance
-  </text>
 
   <!-- Activity 4 -->
   <text x="24" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">
-    <tspan fill="#fc4c02">[WORKOUT]</tspan> Entrenamiento por la tarde
+    <tspan fill="#fc4c02">[WORKOUT]</tspan> Crossfit a la tarde
   </text>
   <text x="24" y="233" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
-    Oct 16
+    Oct 18
   </text>
 
   <!-- Stats -->
   <text x="500" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    9m 50s
+    57m 30s
   </text>
   <text x="500" y="233" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
@@ -145,7 +139,7 @@
   </text>
 
   <text x="800" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    82 kcal
+    510 kcal
   </text>
   <text x="800" y="233" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Calories
@@ -153,35 +147,35 @@
 
   <!-- Activity 5 -->
   <text x="24" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">
-    <tspan fill="#fc4c02">[RUN]</tspan> Carrera por la mañana
+    <tspan fill="#fc4c02">[RUN]</tspan> Carrera por la tarde
   </text>
   <text x="24" y="278" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
-    Oct 11
+    Oct 16
   </text>
 
   <!-- Stats -->
   <text x="500" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    36m 53s
+    47m 46s
   </text>
   <text x="500" y="278" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
 
   <text x="650" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    175 bpm
+    178 bpm
   </text>
   <text x="650" y="278" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
 
   <text x="800" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    504 kcal
+    694 kcal
   </text>
   <text x="800" y="278" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Calories
   </text>
   <text x="1000" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    7.13 km
+    10.06 km
   </text>
   <text x="1000" y="278" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Distance
@@ -189,29 +183,29 @@
 
   <!-- Activity 6 -->
   <text x="24" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">
-    <tspan fill="#fc4c02">[WORKOUT]</tspan> Entrenamiento con pesas matutino
+    <tspan fill="#fc4c02">[WORKOUT]</tspan> Entrenamiento por la tarde
   </text>
   <text x="24" y="323" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
-    Oct 10
+    Oct 16
   </text>
 
   <!-- Stats -->
   <text x="500" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    59m 50s
+    9m 50s
   </text>
   <text x="500" y="323" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Time
   </text>
 
   <text x="650" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    121 bpm
+    135 bpm
   </text>
   <text x="650" y="323" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     HR
   </text>
 
   <text x="800" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#fc4c02">
-    416 kcal
+    82 kcal
   </text>
   <text x="800" y="323" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
     Calories
