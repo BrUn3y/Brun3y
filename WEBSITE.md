@@ -7,6 +7,9 @@ A Y2K-inspired static website based on the profile README. Built with HTML, CSS,
 - `site/app.js`: project filters, navigation, and the Mexico City clock.
 - `site/chat.js` and `site/chat-messages.json`: local chat, 500 original English messages, randomized pacing, personalized greetings, and funny replies.
 - `site/activity.js` and `site/activity.json`: public GitHub events and authored issues/PRs, with a saved fallback for network errors or API rate limits.
+- `site/strava.js` and `site/strava.json`: the latest six published workouts and totals, based on the existing profile Strava widget.
+- `scripts/refresh_site_data.py`: safe, repeatable GitHub and Strava refreshes. Run without flags to refresh both, or use `--github` / `--strava`.
+- `AGENTS.md` (also linked from `agent.md`): maintenance instructions for agents, including data sources, refresh commands, design constraints, validation, and publishing.
 - `site/assets/`: original SVG illustrations and the public GitHub avatar.
 
 ## Local development
@@ -23,12 +26,14 @@ The project chat is entirely simulated. Visitors can add a nickname and a messag
 
 Last activity uses GitHub's public events and authored issue search APIs without authentication. It supports pushes, pull requests, reviews, issues, comments, repositories, forks, stars, and releases. A checked-in public snapshot remains available when the API fails or rate limits requests. The displayed source indicates whether the feed is live, saved, or mixed. All links point to the actual GitHub resources.
 
+The Strava section reuses statistics already published in `assets/strava-widget.svg`. It includes six sessions, duration, available distance, heart rate, and calories. Totals cover those displayed sessions. The publication date comes from the widget's latest Git commit, and workout dates keep the month/day labels supplied by the widget. The browser reads only the sanitized static JSON; no Strava credentials, route data, or raw API responses are published.
+
 ## Deployment
 
 Live website: https://brun3y.github.io/
 
-The source stays in `BrUn3y/Brun3y`, preserving its role as the GitHub profile repository. GitHub requires a repository named `BrUn3y.github.io` to serve the root user website. That repository holds only the published website.
+The source stays in `BrUn3y/Brun3y`, preserving its role as the public GitHub profile repository. GitHub requires a repository named `BrUn3y.github.io` to serve the root user website. That publishing repository is **private**, holds only the published website, and serves GitHub Pages publicly.
 
-`.github/workflows/pages.yml` publishes changes to `index.html` and `site/` from `master`; it can also be run manually. A repository-specific SSH deploy key, stored in the source repository's `PAGES_DEPLOY_KEY` Actions secret, grants write access only to `BrUn3y/BrUn3y.github.io`. GitHub Pages serves the publishing repository's `main` branch from `/`.
+`.github/workflows/pages.yml` publishes relevant changes from `master`; it can also be run manually. It refreshes both data snapshots before publishing, runs daily at 06:41 UTC, and follows successful profile/fitness updates. A repository-specific SSH deploy key, stored in the source repository's `PAGES_DEPLOY_KEY` Actions secret, grants write access only to `BrUn3y/BrUn3y.github.io`. GitHub Pages serves the publishing repository's `main` branch from `/`.
 
 The published artifact contains exclusively `index.html`, `site/`, and `.nojekyll`. No profile scripts or configuration files are copied. The deployment action is pinned to a commit.

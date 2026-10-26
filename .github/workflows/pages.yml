@@ -6,7 +6,14 @@ on:
     paths:
       - 'index.html'
       - 'site/**'
+      - 'assets/strava-widget.svg'
+      - 'scripts/refresh_site_data.py'
       - '.github/workflows/pages.yml'
+  schedule:
+    - cron: '41 6 * * *'
+  workflow_run:
+    workflows: ['Update Profile', 'Update Fitness Widget']
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -18,10 +25,17 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Refresh public GitHub and published Strava data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/refresh_site_data.py --best-effort
       - name: Assemble public website
         run: |
           mkdir -p _site
