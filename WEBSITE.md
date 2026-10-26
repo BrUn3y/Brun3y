@@ -34,10 +34,10 @@ The Strava section reuses statistics already published in `assets/strava-widget.
 
 Website URL: https://brun3y.github.io/
 
-The source stays in `BrUn3y/Brun3y`, preserving its role as the public GitHub profile repository. GitHub requires a repository named `BrUn3y.github.io` to serve the root user website. That publishing repository is **private** at the user's request and holds only the website files.
+The source stays in `BrUn3y/Brun3y`, preserving its role as the public GitHub profile repository. GitHub requires a repository named `BrUn3y.github.io` to serve the root user website. That publishing repository is **private** at the user's request and holds the website files plus `agent.md` and `AGENTS.md` in its root. Both guides are automatically synchronized from the source repository so agents can find the maintenance and credential-handling instructions in either repository.
 
 **Deployment limitation:** GitHub disabled Pages after the publishing repository became private. Re-enabling it returned: "Your current plan does not support GitHub Pages for this repository." Serving a public Pages website from this private personal repository requires GitHub Pro. Preserve the private visibility. After the account has a supported plan, re-enable Pages in the publishing repository's Settings → Pages using `main` and `/`, then verify a successful destination Pages deployment and the updated public content. Cached HTTP 200 responses do not establish that Pages is still enabled.
 
 `.github/workflows/pages.yml` pushes relevant changes from `master` to the publishing repository; it can also be run manually. It refreshes both data snapshots before publishing, runs daily at 06:41 UTC, and follows successful profile/fitness updates. A repository-specific SSH deploy key, stored in the source repository's `PAGES_DEPLOY_KEY` Actions secret, grants write access only to `BrUn3y/BrUn3y.github.io`. Successful pushes do not deploy the public website while Pages is disabled.
 
-The published artifact contains exclusively `index.html`, `site/`, and `.nojekyll`. No profile scripts or configuration files are copied. The deployment action is pinned to a commit.
+The published artifact contains exclusively `index.html`, `site/`, `.nojekyll`, `agent.md`, and `AGENTS.md`. No profile scripts or credential files are copied. The deployment action is pinned to a commit.

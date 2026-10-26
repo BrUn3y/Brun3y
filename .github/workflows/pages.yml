@@ -5,6 +5,8 @@ on:
     branches: [master]
     paths:
       - 'index.html'
+      - 'agent.md'
+      - 'AGENTS.md'
       - 'site/**'
       - 'assets/strava-widget.svg'
       - 'scripts/refresh_site_data.py'
@@ -39,7 +41,7 @@ jobs:
       - name: Assemble public website
         run: |
           mkdir -p _site
-          cp index.html _site/
+          cp index.html agent.md AGENTS.md _site/
           cp -R site _site/site
           touch _site/.nojekyll
       - name: Publish to root GitHub Pages repository

@@ -2,9 +2,11 @@
 
 ## Scope and repository layout
 
-This repository, `BrUn3y/Brun3y`, is the source for both the public GitHub profile and the Y2K personal website at https://brun3y.github.io/. Read `WEBSITE.md` for the site overview.
+The canonical source repository, [BrUn3y/Brun3y](https://github.com/BrUn3y/Brun3y), contains both the public GitHub profile and the Y2K personal website at https://brun3y.github.io/. Read [WEBSITE.md](https://github.com/BrUn3y/Brun3y/blob/master/WEBSITE.md) for the site overview.
 
-The publishing repository, `BrUn3y/BrUn3y.github.io`, is **private** at the user's explicit request. GitHub Pages from a private personal repository requires GitHub Pro. After the visibility change, GitHub disabled Pages and rejected re-enabling it because the current plan does not support it. Preserve the repository's privacy; do not make it public or purchase a plan without the user's authorization. Edit source files here and let `.github/workflows/pages.yml` publish them; do not maintain a second independent copy in the publishing repository.
+`agent.md` and `AGENTS.md` are also mirrored in the root of `BrUn3y/BrUn3y.github.io`. If you are reading this in that publishing repository, open or clone the canonical source repository and make maintenance changes there. Run all commands below from its checkout; the refresh scripts and profile data exist only in the source repository. Direct edits in the publishing repository will be overwritten by the next automated publication. All file paths below refer to the source checkout.
+
+The publishing repository, `BrUn3y/BrUn3y.github.io`, is **private** at the user's explicit request. GitHub Pages from a private personal repository requires GitHub Pro. After the visibility change, GitHub disabled Pages and rejected re-enabling it because the current plan does not support it. Preserve the repository's privacy; do not make it public or purchase a plan without the user's authorization. Edit files in the canonical source repository and let `.github/workflows/pages.yml` publish them; do not maintain a second independent copy in the publishing repository.
 
 | File | Purpose |
 | --- | --- |
@@ -114,7 +116,7 @@ Use the browser to review the Strava section and GitHub feed, including narrow m
 
 When publication is part of the requested task, commit the relevant source/data files and push to `master`. Use the configured workflow rather than manually copying the repository root.
 
-The Pages workflow refreshes public GitHub and published Strava data before copying only `index.html`, `site/`, and `.nojekyll`. It also runs daily, after successful profile/fitness workflows, and manually. `--best-effort` keeps the last good snapshots if a refresh fails. Build-time refreshes are included in the deployed artifact; they do not create source commits.
+The Pages workflow refreshes public GitHub and published Strava data before copying only `index.html`, `site/`, `.nojekyll`, `agent.md`, and `AGENTS.md`. Both agent guides must remain in the publishing repository's root and be kept in sync automatically. It also runs daily, after successful profile/fitness workflows, and manually. `--best-effort` keeps the last good snapshots if a refresh fails. Build-time refreshes are included in the deployed artifact; they do not create source commits.
 
 `PAGES_DEPLOY_KEY` allows publishing only to the private `BrUn3y/BrUn3y.github.io` repository. Do not print it or replace it with a broad personal access token. Preserve the workflow's pinned deployment action and the publishing repository's private visibility.
 
