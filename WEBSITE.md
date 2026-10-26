@@ -1,6 +1,6 @@
 # BrUn3y personal website
 
-A Y2K-inspired static website based on the profile README. Built with HTML, CSS, and JavaScript, with no build dependencies or runtime third-party services. All website copy is in English.
+A Y2K-inspired static website based on the profile README. Built with HTML, CSS, and JavaScript, with no build dependencies. All website copy is in English.
 
 - `index.html`: content, links, projects, and retro self-promotion banners.
 - `site/style.css`: desktop and mobile styles.
@@ -21,6 +21,8 @@ python3 -m http.server 8080 --bind 127.0.0.1
 ```
 
 Open http://127.0.0.1:8080. Editorial content is maintained manually; existing profile README automation runs independently. The Spotify button opens the public profile rather than playing audio automatically or claiming to show a live track. Retro banners link to the owner's own projects and do not use an advertising network.
+
+Google Analytics uses the owner's Google tag, `G-GSG3QV8LMM`, loaded asynchronously in the document head. No custom analytics events send chat nicknames or messages.
 
 The project chat is entirely simulated. Visitors can add a nickname and a message to the current tab; messages are rendered with `textContent`, never sent over the network, and never stored in cookies, localStorage, sessionStorage, or a backend. Reloading resets the room. Fictional participants draw from 500 unique English messages shuffled without repeating a message until the deck is exhausted. Messages arrive at irregular intervals while the tab is visible. A nickname receives a welcome and a humorous reply on its first message in the current tab. The displayed log is limited to 18 messages. The UI only notes that messages clear on refresh.
 

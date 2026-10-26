@@ -23,6 +23,7 @@ The publishing repository, `BrUn3y/BrUn3y.github.io`, is **private** at the user
 ## User preferences to preserve
 
 - Keep all website UI and editorial copy in English.
+- Preserve the owner's Google Analytics tag `G-GSG3QV8LMM` in `index.html`. Do not send chat nicknames or messages as analytics events or parameters.
 - Preserve the Y2K browser window, chrome lettering, lavender/lime palette, retro project ads, and pixelated portrait.
 - Keep GitHub activity on the right and the small chat on the left on desktop. Preserve the mobile layout.
 - The user removed the **MY TOOLBOX / FOR THE FUTURE** section; do not restore it.
