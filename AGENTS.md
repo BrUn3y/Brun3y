@@ -32,6 +32,14 @@ The publishing repository, `BrUn3y/BrUn3y.github.io`, is **private** at the user
 - The user asked to omit fiction/demo/simulation labels from the visible chat. Keep the factual refresh notice. Do not invent online-user counts or claim real-time communication between visitors.
 - Project ads link to the owner's projects and community; preserve those destinations and avoid adding an ad network.
 
+## Credentials and secrets
+
+- Never upload, commit, push, or publish credentials, passwords, access or refresh tokens, API secrets, private keys, credential files, or `.env` files containing secrets. This applies to both public and private repositories, website assets, deployment artifacts, logs, and documentation.
+- Keep secrets in GitHub Actions secrets or local environment variables. Never print secret values in tool output, logs, examples, or messages. Do not open credential files such as `strava_tokens.json` or `token.json` for routine website maintenance.
+- Before staging or pushing, check the exact files being included and use the repository's secret checks. Keep local credential files ignored; `.gitignore` does not protect files already tracked. Do not bypass a secret-detection failure.
+- If an exposed secret is discovered, do not copy or republish it. Report the affected location without revealing the value, and arrange revocation or rotation with the owner. Removing a value from the latest revision does not remove it from Git history.
+- The Google Analytics measurement ID `G-GSG3QV8LMM` is a public website identifier, not an authentication credential.
+
 ## Update GitHub activity
 
 1. Check the working tree and incorporate remote changes without overwriting the user's work. Automated profile commits may arrive during the update.
