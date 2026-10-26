@@ -30,10 +30,12 @@ The Strava section reuses statistics already published in `assets/strava-widget.
 
 ## Deployment
 
-Live website: https://brun3y.github.io/
+Website URL: https://brun3y.github.io/
 
-The source stays in `BrUn3y/Brun3y`, preserving its role as the public GitHub profile repository. GitHub requires a repository named `BrUn3y.github.io` to serve the root user website. That publishing repository is **private**, holds only the published website, and serves GitHub Pages publicly.
+The source stays in `BrUn3y/Brun3y`, preserving its role as the public GitHub profile repository. GitHub requires a repository named `BrUn3y.github.io` to serve the root user website. That publishing repository is **private** at the user's request and holds only the website files.
 
-`.github/workflows/pages.yml` publishes relevant changes from `master`; it can also be run manually. It refreshes both data snapshots before publishing, runs daily at 06:41 UTC, and follows successful profile/fitness updates. A repository-specific SSH deploy key, stored in the source repository's `PAGES_DEPLOY_KEY` Actions secret, grants write access only to `BrUn3y/BrUn3y.github.io`. GitHub Pages serves the publishing repository's `main` branch from `/`.
+**Deployment limitation:** GitHub disabled Pages after the publishing repository became private. Re-enabling it returned: "Your current plan does not support GitHub Pages for this repository." Serving a public Pages website from this private personal repository requires GitHub Pro. Preserve the private visibility. After the account has a supported plan, re-enable Pages in the publishing repository's Settings → Pages using `main` and `/`, then verify a successful destination Pages deployment and the updated public content. Cached HTTP 200 responses do not establish that Pages is still enabled.
+
+`.github/workflows/pages.yml` pushes relevant changes from `master` to the publishing repository; it can also be run manually. It refreshes both data snapshots before publishing, runs daily at 06:41 UTC, and follows successful profile/fitness updates. A repository-specific SSH deploy key, stored in the source repository's `PAGES_DEPLOY_KEY` Actions secret, grants write access only to `BrUn3y/BrUn3y.github.io`. Successful pushes do not deploy the public website while Pages is disabled.
 
 The published artifact contains exclusively `index.html`, `site/`, and `.nojekyll`. No profile scripts or configuration files are copied. The deployment action is pinned to a commit.

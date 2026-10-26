@@ -4,7 +4,7 @@
 
 This repository, `BrUn3y/Brun3y`, is the source for both the public GitHub profile and the Y2K personal website at https://brun3y.github.io/. Read `WEBSITE.md` for the site overview.
 
-The publishing repository, `BrUn3y/BrUn3y.github.io`, is **private** and GitHub Pages serves its website publicly. Keep that arrangement. Edit source files here and let `.github/workflows/pages.yml` publish them; do not maintain a second independent copy in the publishing repository.
+The publishing repository, `BrUn3y/BrUn3y.github.io`, is **private** at the user's explicit request. GitHub Pages from a private personal repository requires GitHub Pro. After the visibility change, GitHub disabled Pages and rejected re-enabling it because the current plan does not support it. Preserve the repository's privacy; do not make it public or purchase a plan without the user's authorization. Edit source files here and let `.github/workflows/pages.yml` publish them; do not maintain a second independent copy in the publishing repository.
 
 | File | Purpose |
 | --- | --- |
@@ -109,4 +109,4 @@ The Pages workflow refreshes public GitHub and published Strava data before copy
 
 `PAGES_DEPLOY_KEY` allows publishing only to the private `BrUn3y/BrUn3y.github.io` repository. Do not print it or replace it with a broad personal access token. Preserve the workflow's pinned deployment action and the publishing repository's private visibility.
 
-Check both the source publishing run and the destination GitHub Pages run, then confirm https://brun3y.github.io/ serves the updated page publicly. Include any genuine refresh/deployment limitation in the final report.
+Pushing files to the publishing repository can succeed while Pages is disabled. Once the account has a supported plan, re-enable Pages for the publishing repository's `main` branch and `/` directory in Settings → Pages. Check both the source publishing run and the destination GitHub Pages run, then confirm https://brun3y.github.io/ serves the updated page publicly. Verify `gh api repos/BrUn3y/BrUn3y.github.io --jq '{private,has_pages}'` and the Pages settings API as well; an HTTP 200 alone may be cached content after a visibility change. Include any genuine refresh/deployment limitation in the final report.
