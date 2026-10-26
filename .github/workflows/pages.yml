@@ -1,0 +1,41 @@
+name: Deploy personal website to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'index.html'
+      - 'site/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: personal-website
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Assemble public website
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -R site _site/site
+          touch _site/.nojekyll
+      - name: Publish to root GitHub Pages repository
+        uses: peaceiris/actions-gh-pages@329bcc8f12caed2cefe5a5b80781499a6f3b361b # v4
+        with:
+          deploy_key: ${{ secrets.PAGES_DEPLOY_KEY }}
+          external_repository: BrUn3y/BrUn3y.github.io
+          publish_branch: main
+          publish_dir: ./_site
+          enable_jekyll: false
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_message: 'Publish personal website'
