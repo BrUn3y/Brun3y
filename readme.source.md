@@ -1,5 +1,3 @@
-[✦ Visit my Y2K personal website → brun3y.github.io](https://brun3y.github.io/)
-
 ```aura width=1200 height=280
 <div style={{
   width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%)',
