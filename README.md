@@ -84,6 +84,8 @@ His comprehensive technical stack includes:
 
 Edgar is actively engaged in the tech community with significant leadership and educational initiatives:
 
+* **Starred ismaelfaro/Spooktacle** — on **October 30, 2026**, Edgar starred **[ismaelfaro/Spooktacle](https://github.com/ismaelfaro/Spooktacle)** — a browser-based video mapping tool created the same day by **Ismael Faro** (ANFAIA President, ex-IBM Distinguished Engineer, and co-creator of Qiskit). The engagement reflects Edgar's ongoing connection with the Qiskit/IBM quantum community and his interest in creative browser-based visualization tools.
+* **Personal website continues daily automated updates** — on **October 29–31, 2026**, Edgar's personal site **[brun3y.github.io](https://brun3y.github.io/)** continued receiving automated daily data refreshes ("Refresh public website activity snapshots"), confirming the fully automated pipeline that keeps his public presence current without manual intervention.
 * **Qiskit Fall Fest Guadalajara 2026 concluded** — on **October 29, 2026**, the two-day festival co-organized by Edgar through Quantum Guild GDL wrapped up. The same day the event site was switched to post-event mode (Discord and ticket buttons removed, hero copy in past tense) and a **Gallery** section was introduced in place of registration, currently marked "In Progress".
 * **Starred ANFAIA/QUMO** — on **October 28, 2026**, Edgar starred **[ANFAIA/QUMO](https://github.com/ANFAIA/QUMO)** (*Quantum Utilities for Modern Outcomes*), continuing his engagement with the open quantum software ecosystem on the opening day of Qiskit Fall Fest Guadalajara 2026.
 * **Launched personal website BrUn3y.github.io** — on **October 26, 2026**, Edgar launched **[BrUn3y.github.io](https://github.com/BrUn3y/BrUn3y.github.io)** — his new personal site live at [brun3y.github.io](https://brun3y.github.io/), built with Y2K aesthetics and featuring AI agents, quantum computing, and open source content. On **October 27, 2026**, he replaced the Spotify widget with a custom **Cyber Music Lover Radio** player that shows the current radio song with animated playback bars. The same day he also added a rotating retro globe, an IRC-style retro chat with radio chatter and unread indicator, and classic web buttons to the sidebar. The site is actively maintained with daily automated updates.
@@ -108,7 +110,7 @@ Edgar is actively engaged in the tech community with significant leadership and 
 * **Forked strands-agents/harness-sdk** — on **September 24, 2026**, Edgar forked the [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk) (8,987⭐), exploring the framework for production AI agent development across any model and cloud.
 * **Writing on [Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data, and cloud tooling.
 * **Open-source contributions** across 68 public repositories on GitHub, demonstrating continuous participation in the developer community and collaborative open-source engineering.
-* **Community building** on GitHub with 22 followers and 32 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
+* **Community building** on GitHub with 22 followers and 33 following, maintaining connections across the global tech ecosystem and fostering knowledge exchange.
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K, tracking and analyzing every session with Python and AI tools) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
 
@@ -198,5 +200,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ***
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on October 30, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on October 31, 2026</sub>
 </div>
