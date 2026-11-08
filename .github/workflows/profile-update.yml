@@ -39,34 +39,19 @@ jobs:
           commit_message: "chore: refresh Medium cards"
           file_pattern: assets/medium/*.svg
 
-  # Refresh Google Health API (Fitbit) stats in the profile README on the same schedule
-  fitness-widget:
+  # Refresh Strava stats in the profile README on the same schedule
+  strava-widget:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: profile-repo
-      - uses: actions/checkout@v4
-        with:
-          repository: BrUn3y/google-health-api-setup
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: health-repo
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - run: |
           pip install --upgrade pip
-          pip install -r health-repo/requirements.txt
-      - name: Create Google Health API token
-        env:
-          GOOGLE_HEALTH_TOKEN: ${{ secrets.GOOGLE_HEALTH_TOKEN }}
-        run: |
-          printf '%s' "$GOOGLE_HEALTH_TOKEN" > health-repo/token.json
-          python3 -m json.tool health-repo/token.json > /dev/null
-      - run: |
-          cd health-repo
-          python update_fitness_widget.py
       - name: Create Strava tokens and refresh
         env:
           STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
@@ -80,11 +65,11 @@ jobs:
             -d client_secret="$STRAVA_CLIENT_SECRET" \
             -d refresh_token="$STRAVA_REFRESH_TOKEN" \
             -d grant_type=refresh_token)
-          
+
           ACCESS_TOKEN=$(echo "$RESPONSE" | python3 -c "import sys, json; print(json.load(sys.stdin)['access_token'])")
           EXPIRES_AT=$(echo "$RESPONSE" | python3 -c "import sys, json; print(json.load(sys.stdin)['expires_at'])")
           NEW_REFRESH_TOKEN=$(echo "$RESPONSE" | python3 -c "import sys, json; print(json.load(sys.stdin)['refresh_token'])")
-          
+
           cat > strava_tokens.json << EOF
           {
             "client_id": "$STRAVA_CLIENT_ID",
@@ -102,12 +87,12 @@ jobs:
           python update_strava_prs.py
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add assets/fitness-widget.svg readme.source.md
+          git add readme.source.md
           if [ -f assets/strava-widget.svg ]; then git add assets/strava-widget.svg; fi
           if [ -f assets/strava-pr-5k.svg ]; then git add assets/strava-pr-5k.svg; fi
           if [ -f assets/strava-pr-10k.svg ]; then git add assets/strava-pr-10k.svg; fi
           if [ -f assets/strava-pr-21k.svg ]; then git add assets/strava-pr-21k.svg; fi
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update fitness stats, Strava activities, PRs [automated]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🏃 Update Strava activities, PRs [automated]" && git push)
       - name: Trigger README generation
         if: success()
         uses: peter-evans/repository-dispatch@v3
