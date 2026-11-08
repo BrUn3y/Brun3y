@@ -1,59 +1,59 @@
 ```aura width=1200 height=280
 <div style={{
-  width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%)',
-  display: 'flex', alignItems: 'center', fontFamily: 'Inter',
-  position: 'relative', overflow: 'hidden', borderRadius: 16,
-  border: '1px solid rgba(110,80,220,0.18)'
+ width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%)',
+ display: 'flex', alignItems: 'center', fontFamily: 'Inter',
+ position: 'relative', overflow: 'hidden', borderRadius: 16,
+ border: '1px solid rgba(110,80,220,0.18)'
 }}>
 
-  <style>{`
-      @keyframes float-slow {
-        0%, 100% { transform: translateY(0px); opacity: 0.8; }
-        50% { transform: translateY(-20px); opacity: 1.2; }
-      }
-      @keyframes float-medium {
-        0%, 100% { transform: translateX(0px); opacity: 0.7; }
-        50% { transform: translateX(-30px); opacity: 1.1; }
-      }
-      @keyframes pulse {
-        0%, 100% { transform: scale(1); opacity: 0.6; }
-        50% { transform: scale(1.2); opacity: 0.9; }
-      }
-      #glow-1 { animation: float-slow 8s ease-in-out infinite; }
-      #glow-2 { animation: float-medium 12s ease-in-out infinite; }
-      #glow-3 { animation: pulse 6s ease-in-out infinite; }
-    `}</style>
+ <style>{`
+ @keyframes float-slow {
+ 0%, 100% { transform: translateY(0px); opacity: 0.8; }
+ 50% { transform: translateY(-20px); opacity: 1.2; }
+ }
+ @keyframes float-medium {
+ 0%, 100% { transform: translateX(0px); opacity: 0.7; }
+ 50% { transform: translateX(-30px); opacity: 1.1; }
+ }
+ @keyframes pulse {
+ 0%, 100% { transform: scale(1); opacity: 0.6; }
+ 50% { transform: scale(1.2); opacity: 0.9; }
+ }
+ #glow-1 { animation: float-slow 8s ease-in-out infinite; }
+ #glow-2 { animation: float-medium 12s ease-in-out infinite; }
+ #glow-3 { animation: pulse 6s ease-in-out infinite; }
+ `}</style>
 
-  <svg width="1200" height="280" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <defs>
-      <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(110,20,210,0.5)" />
-        <stop offset="70%" stopColor="rgba(90,15,180,0)" />
-      </radialGradient>
-      <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(40,60,255,0.4)" />
-        <stop offset="70%" stopColor="rgba(30,50,200,0)" />
-      </radialGradient>
-      <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(0,190,230,0.3)" />
-        <stop offset="70%" stopColor="rgba(0,190,230,0)" />
-      </radialGradient>
-    </defs>
+ <svg width="1200" height="280" style={{ position: 'absolute', top: 0, left: 0 }}>
+ <defs>
+ <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stopColor="rgba(110,20,210,0.5)" />
+ <stop offset="70%" stopColor="rgba(90,15,180,0)" />
+ </radialGradient>
+ <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stopColor="rgba(40,60,255,0.4)" />
+ <stop offset="70%" stopColor="rgba(30,50,200,0)" />
+ </radialGradient>
+ <radialGradient id="g3" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stopColor="rgba(0,190,230,0.3)" />
+ <stop offset="70%" stopColor="rgba(0,190,230,0)" />
+ </radialGradient>
+ </defs>
 
-    <ellipse id="glow-1" cx="200" cy="140" rx="300" ry="200" fill="url(#g1)" />
-    <ellipse id="glow-2" cx="600" cy="140" rx="250" ry="180" fill="url(#g2)" />
-    <ellipse id="glow-3" cx="1000" cy="140" rx="200" ry="150" fill="url(#g3)" />
-  </svg>
+ <ellipse id="glow-1" cx="200" cy="140" rx="300" ry="200" fill="url(#g1)" />
+ <ellipse id="glow-2" cx="600" cy="140" rx="250" ry="180" fill="url(#g2)" />
+ <ellipse id="glow-3" cx="1000" cy="140" rx="200" ry="150" fill="url(#g3)" />
+ </svg>
 
-  <div style={{ display:'flex', flexDirection:'column', marginLeft:60, gap:12, zIndex: 10, width: '100%' }}>
-    <div style={{ display:'flex', fontSize:56, fontWeight:900, color:'#ffffff', letterSpacing:'-2px', lineHeight:1 }}>
-      Edgar Bruney
-    </div>
-    <div style={{ display:'flex', fontSize:22, color:'rgba(180,165,255,0.9)', fontWeight:500, letterSpacing:'0.5px' }}>
-      Agentic AI Engineer · Cloud Architect · Quantum Explorer
-    </div>
+ <div style={{ display:'flex', flexDirection:'column', marginLeft:60, gap:12, zIndex: 10, width: '100%' }}>
+ <div style={{ display:'flex', fontSize:56, fontWeight:900, color:'#ffffff', letterSpacing:'-2px', lineHeight:1 }}>
+ Edgar Bruney
+ </div>
+ <div style={{ display:'flex', fontSize:22, color:'rgba(180,165,255,0.9)', fontWeight:500, letterSpacing:'0.5px' }}>
+ Agentic AI Engineer · Cloud Architect · Quantum Explorer
+ </div>
 
-  </div>
+ </div>
 </div>
 ```
 
@@ -66,60 +66,60 @@
 
 ```aura width=1200 height=200
 <div style={{
-  width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%)',
-  display: 'flex', flexDirection: 'column', justifyContent: 'center', fontFamily: 'Inter',
-  position: 'relative', overflow: 'hidden', borderRadius: 16,
-  border: '1px solid rgba(110,80,220,0.18)', padding: '40px 60px'
+ width: '100%', height: '100%', background: 'linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%)',
+ display: 'flex', flexDirection: 'column', justifyContent: 'center', fontFamily: 'Inter',
+ position: 'relative', overflow: 'hidden', borderRadius: 16,
+ border: '1px solid rgba(110,80,220,0.18)', padding: '40px 60px'
 }}>
 
-  <style>{`
-      @keyframes float-slow {
-        0%, 100% { transform: translateY(0px); opacity: 0.8; }
-        50% { transform: translateY(-20px); opacity: 1.2; }
-      }
-      #tech-glow { animation: float-slow 8s ease-in-out infinite; }
-    `}</style>
+ <style>{`
+ @keyframes float-slow {
+ 0%, 100% { transform: translateY(0px); opacity: 0.8; }
+ 50% { transform: translateY(-20px); opacity: 1.2; }
+ }
+ #tech-glow { animation: float-slow 8s ease-in-out infinite; }
+ `}</style>
 
-  <svg width="1200" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <defs>
-      <radialGradient id="tg1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(110,20,210,0.4)" />
-        <stop offset="70%" stopColor="rgba(90,15,180,0)" />
-      </radialGradient>
-    </defs>
-    <ellipse id="tech-glow" cx="600" cy="100" rx="400" ry="150" fill="url(#tg1)" />
-  </svg>
+ <svg width="1200" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
+ <defs>
+ <radialGradient id="tg1" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stopColor="rgba(110,20,210,0.4)" />
+ <stop offset="70%" stopColor="rgba(90,15,180,0)" />
+ </radialGradient>
+ </defs>
+ <ellipse id="tech-glow" cx="600" cy="100" rx="400" ry="150" fill="url(#tg1)" />
+ </svg>
 
-  <div style={{ display:'flex', flexDirection:'column', gap: 20, zIndex: 10 }}>
-    
-    <div style={{ display:'flex', flexDirection:'column', gap: 8 }}>
-      <div style={{ fontSize: 18, fontWeight: 700, color: 'rgba(180,165,255,0.95)', letterSpacing: '1px' }}>
-        CORE
-      </div>
-      <div style={{ fontSize: 16, color: 'rgba(255,255,255,0.85)', fontWeight: 400, letterSpacing: '0.3px' }}>
-        Java · TypeScript · Python · Node.js · React
-      </div>
-    </div>
+ <div style={{ display:'flex', flexDirection:'column', gap: 20, zIndex: 10 }}>
+ 
+ <div style={{ display:'flex', flexDirection:'column', gap: 8 }}>
+ <div style={{ fontSize: 18, fontWeight: 700, color: 'rgba(180,165,255,0.95)', letterSpacing: '1px' }}>
+ CORE
+ </div>
+ <div style={{ fontSize: 16, color: 'rgba(255,255,255,0.85)', fontWeight: 400, letterSpacing: '0.3px' }}>
+ Java · TypeScript · Python · Node.js · React
+ </div>
+ </div>
 
-    <div style={{ display:'flex', flexDirection:'column', gap: 8 }}>
-      <div style={{ fontSize: 18, fontWeight: 700, color: 'rgba(180,165,255,0.95)', letterSpacing: '1px' }}>
-        CLOUD
-      </div>
-      <div style={{ fontSize: 16, color: 'rgba(255,255,255,0.85)', fontWeight: 400, letterSpacing: '0.3px' }}>
-        IBM Cloud · AWS · GCP · Docker · Linux
-      </div>
-    </div>
+ <div style={{ display:'flex', flexDirection:'column', gap: 8 }}>
+ <div style={{ fontSize: 18, fontWeight: 700, color: 'rgba(180,165,255,0.95)', letterSpacing: '1px' }}>
+ CLOUD
+ </div>
+ <div style={{ fontSize: 16, color: 'rgba(255,255,255,0.85)', fontWeight: 400, letterSpacing: '0.3px' }}>
+ IBM Cloud · AWS · GCP · Docker · Linux
+ </div>
+ </div>
 
-    <div style={{ display:'flex', flexDirection:'column', gap: 8 }}>
-      <div style={{ fontSize: 18, fontWeight: 700, color: 'rgba(180,165,255,0.95)', letterSpacing: '1px' }}>
-        AI LAB
-      </div>
-      <div style={{ fontSize: 16, color: 'rgba(255,255,255,0.85)', fontWeight: 400, letterSpacing: '0.3px' }}>
-        IBM Watson · IBM Bob · BeeAI · Gemini · Claude
-      </div>
-    </div>
+ <div style={{ display:'flex', flexDirection:'column', gap: 8 }}>
+ <div style={{ fontSize: 18, fontWeight: 700, color: 'rgba(180,165,255,0.95)', letterSpacing: '1px' }}>
+ AI LAB
+ </div>
+ <div style={{ fontSize: 16, color: 'rgba(255,255,255,0.85)', fontWeight: 400, letterSpacing: '0.3px' }}>
+ IBM Watson · IBM Bob · BeeAI · Gemini · Claude
+ </div>
+ </div>
 
-  </div>
+ </div>
 </div>
 ```
 
@@ -133,11 +133,11 @@ Currently working at the intersection of **agentic AI development** and **cloud 
 
 His open-source work centers heavily on quantum computing and autonomous agent systems. He created the **Quantum Lab Agent System**: a five-agent A2A network — Developer, Status, Computing, and Experiment specialists — all orchestrated by a central Lab Agent and powered by **IBM Granite 4.2 8B** running locally via Ollama. The system features an Agent Stack Canvas integration for circuit visualization, live backend topology dashboards, and end-to-end QAOA Max-Cut experiments on real IBM Quantum hardware including `ibm_marrakesh`. In October 2026, he published **[quantum-and-cybersecurity](https://github.com/BrUn3y/quantum-and-cybersecurity)**, an interactive presentation and hands-on workshop hosted on [GitHub Pages](https://brun3y.github.io/quantum-and-cybersecurity/) exploring quantum computing foundations, post-quantum cryptography (PQC) standards, cryptographic migration strategies, and real-QPU Bell state generation with Qiskit. Through mid-October 2026 he continually enhanced the workshop — simplifying core explanations of quantum superposition and entanglement, clarifying cryptographic acronyms and mathematical foundations (symmetric vs. asymmetric encryption, NIST PQC standards), integrating a NotebookLM study guide and slide timing labels, adding PQC library references, simplifying the Shor's algorithm explanation, and streamlining the quantum-risk guidance slide — with the final polish landed on **October 15, 2026**.
 
-Edgar is also a core organizer of **Quantum Guild GDL** (established August 17, 2026), a Guadalajara-based community co-organizing the **[Qiskit Fall Fest Guadalajara 2026](https://quantum-guild-gdl.github.io/qiskit_fall_fest_gdl/)** — a free, two-day community quantum computing festival held **October 28–29, 2026** (CST) with both days streamed **online** — the event has now **concluded**. All event content will be delivered in **Spanish** to support the regional Spanish-speaking quantum developer community. The festival features a two-track parallel schedule — a *Round Table for Decision Makers (Presencial Only)* running alongside main quantum computing sessions — Discord integration, and Luma ticketing. The site updates on **October 26, 2026** fixed swapped organizer photos (Alberto Treviño and Luis Toxtli), sorted all organizers alphabetically, and added five new organizers: **Joel Gonzales**, **Luis Toxtli**, **María Fernanda Chávez Colón**, **Alberto Adrián Treviño González**, and **Emmanuel Vazquez Pando**, bringing the full organizing team to ten members. On **October 26, 2026**, the session title for the 09:20–10:20 CST slot was updated to **"Cuántica + IA"**, highlighting the fusion of quantum computing and artificial intelligence as one of the core themes of the event. On **October 25, 2026**, an **Access & Check-in** item was added at 08:45–09:00 CST (in-person only) and the Round Table session received an **"Only Decision Makers"** label. Prior updates through October 23 added an **access video modal** to the venue section, aligned the venue buttons on a single row, removed a broken icon from the IBM SkillsBuild QR slide link, and introduced **registration deadlines** under each ticket tier (client-side auto-close logic). On **October 29, 2026**, the site moved into post-event mode: the Discord and "Get your ticket" buttons were removed, the hero text was rewritten in the past tense, and the Register section was replaced by a new **Gallery** section added to the navbar. On **November 3, 2026**, Edgar opened and merged four follow-up pull requests: the Gallery became an interactive showcase of 40 curated event photos (three slow-moving rows, hover-to-pause, full-screen viewer with keyboard navigation; PR #30), was expanded to **60 photos** with optimized WebP previews (PR #31), and the two **Day 1 recordings** (Part 1 and Part 2) were embedded beside the Schedule timeline with click-to-load YouTube players (PR #32), with Part 1 set to start at 1:00:00 to skip the empty opening hour (PR #33). Earlier, on **October 27, 2026**, both Tier 1 and Tier 2 registrations were closed — the Luma links were removed and replaced with disabled **"Registro cerrado"** buttons, and the deadline text and auto-close scripts were dropped since registration is now permanently closed. On **October 21, 2026**, an **IBM SkillsBuild QR slide** (scene 7) was added, inviting attendees to join the free Quantum Computing Learning Plan (2 digital credentials, plan `PLAN-3793AAC77C46`). Headliner speakers include **Salvador E. Venegas-Andraca**, **Claudia Zendejas Morales**, and **Ismael Faro**.
+Edgar is also a core organizer of **Quantum Guild GDL** (established August 17, 2026), a Guadalajara-based community co-organizing the **[Qiskit Fall Fest Guadalajara 2026](https://quantum-guild-gdl.github.io/qiskit_fall_fest_gdl/)** — a free, two-day community quantum computing festival held **October 28–29, 2026** (CST) with both days streamed **online** — the event has now **concluded**. All event content will be delivered in **Spanish** to support the regional Spanish-speaking quantum developer community. The festival features a two-track parallel schedule — a *Round Table for Decision Makers (Presencial Only)* running alongside main quantum computing sessions — Discord integration, and Luma ticketing. The site updates on **October 26, 2026** fixed swapped organizer photos, sorted all organizers alphabetically, and added five new organizers, bringing the full organizing team to ten members. On **October 26, 2026**, the session title for the 09:20–10:20 CST slot was updated to **"Cuántica + IA"**, highlighting the fusion of quantum computing and artificial intelligence as one of the core themes of the event. On **October 25, 2026**, an **Access & Check-in** item was added at 08:45–09:00 CST (in-person only) and the Round Table session received an **"Only Decision Makers"** label. Prior updates through October 23 added an **access video modal** to the venue section, aligned the venue buttons on a single row, removed a broken icon from the IBM SkillsBuild QR slide link, and introduced **registration deadlines** under each ticket tier (client-side auto-close logic). On **October 29, 2026**, the site moved into post-event mode: the Discord and "Get your ticket" buttons were removed, the hero text was rewritten in the past tense, and the Register section was replaced by a new **Gallery** section added to the navbar. On **November 3, 2026**, Edgar opened and merged four follow-up pull requests: the Gallery became an interactive showcase of 40 curated event photos (three slow-moving rows, hover-to-pause, full-screen viewer with keyboard navigation; PR #30), was expanded to **60 photos** with optimized WebP previews (PR #31), and the two **Day 1 recordings** (Part 1 and Part 2) were embedded beside the Schedule timeline with click-to-load YouTube players (PR #32), with Part 1 set to start at 1:00:00 to skip the empty opening hour (PR #33). Earlier, on **October 27, 2026**, both Tier 1 and Tier 2 registrations were closed — the Luma links were removed and replaced with disabled **"Registro cerrado"** buttons, and the deadline text and auto-close scripts were dropped since registration is now permanently closed. On **October 21, 2026**, an **IBM SkillsBuild QR slide** (scene 7) was added, inviting attendees to join the free Quantum Computing Learning Plan (2 digital credentials, plan `PLAN-3793AAC77C46`). Headliner speakers were announced.
 
 Edgar's open-source contributions span major generative programming, agent orchestration, quantum ecosystems, and NASA open science. Across **Qiskit**, his **[PR #3426](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3426)** (*"Expose timestamps in Session/Batch details()"*) to **[Qiskit/qiskit-ibm-runtime](https://github.com/Qiskit/qiskit-ibm-runtime)** was **merged on October 7, 2026**, exposing session transition timestamps in `Session.details()` and `Batch.details()`, while **[PR #3425](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3425)** hardens `rzz` gate angle validation against `nan` values. For **IBM Hacktoberfest**, both of his UI bug-fix contributions to **[dam-agents/dam](https://github.com/dam-agents/dam)** were accepted and **merged**: **[PR #4287](https://github.com/dam-agents/dam/pull/4287)** (*merged October 3, 2026*) preventing React portal event bubbling during session deletions, and **[PR #4285](https://github.com/dam-agents/dam/pull/4285)** (*merged October 7, 2026*) retaining dialog content through the close animation. In the Microsoft quantum ecosystem, he submitted **[PR #3899](https://github.com/microsoft/qdk/pull/3899)** to **[microsoft/qdk](https://github.com/microsoft/qdk)** (open, Microsoft CLA signed October 12, 2026), adding Q# language-service completion test coverage for notebook package dependencies (closing issue #1768). On **November 5, 2026** he published **[Qiskit Lab](https://github.com/BrUn3y/qiskit_lab)** — a Qiskit SDK workspace packaged as a **DAM starter kit** for circuit development, local simulation, QAOA Max-Cut experiments, and explicitly requested IBM Quantum hardware jobs via Qiskit Runtime `SamplerV2` — shipping releases **v0.3.0** and **v0.3.1** the same day, and opened **[dam-starter-kits PR #18](https://github.com/dam-agents/dam-starter-kits/pull/18)** to list it in the official DAM catalog (open). On **November 6, 2026**, he published **[ai-journey](https://github.com/BrUn3y/ai-journey)** (live at [brun3y.github.io/ai-journey](https://brun3y.github.io/ai-journey/)), an interactive 15-slide Spanish presentation with IBM Carbon styling covering AI agent evolution for IT support, DAM integration, and early architecture steps toward an AI Software Factory leveraging Claude Code, Codex, and Bob in the cloud on IBM Research infrastructure. In early November 2026 he kept two open pull requests moving: on **November 3, 2026** he merged the latest upstream `main` into his **[Omnigent PR #8902](https://github.com/omnigent-ai/omnigent/pull/8902)** branch, resolving conflicts so the Bob harness reuses the shared runner launch lock registry, and asked the maintainers to review **[earthdata-search PR #2099](https://github.com/nasa/earthdata-search/pull/2099)** after the AccessMethod and SwodlrForm test suites passed locally (73 tests). On **November 2, 2026** he also published **[ica-learning](https://github.com/BrUn3y/ica-learning)**, a 12-slide Spanish presentation on IBM Consulting Advantage (ICA) for accounting and administration, and shared a working example in **[dam-agents/dam issue #6134](https://github.com/dam-agents/dam/issues/6134)** of running Claude Code on DAM against ICA's Anthropic-compatible Messages API. On **November 3, 2026**, he also pushed a Google Drive webhook and Gemini Live ingestion pipeline to the Bob harness (`feat/google-drive-gemini-live`), the backbone of his new **Gemini Live to Pages** voice-to-website experiment.
 
-Additional upstream contributions include **[PR #1676](https://github.com/generative-computing/mellea/pull/1676)** to **[generative-computing/mellea](https://github.com/generative-computing/mellea)** (**merged September 28, 2026** for dynamic OpenAI adapter deregistration) and **[PR #3930](https://github.com/heygen-com/hyperframes/pull/3930)** to **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** (**merged September 22, 2026** adding IBM Bob Shell runtime support). Edgar also published **[TriForge](https://github.com/BrUn3y/triforge)** on **September 23, 2026** — orchestrating Codex, Claude Code, and IBM Bob Shell into an auditable multi-agent engineering council. On **September 24, 2026**, Edgar forked **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)** (9,075⭐, 1,480 forks) — the open-source Python & TypeScript SDK for building production AI agent harnesses across any model and cloud — signalling interest in contributing to the Strands Agents ecosystem. On **October 12, 2026**, Edgar forked **[NASA Earthdata Search](https://github.com/nasa/earthdata-search)** (829⭐, 262 forks) — NASA EOSDIS's web application for Earth science data discovery — and opened **[PR #2099](https://github.com/nasa/earthdata-search/pull/2099)** (*"Fixes typos in SWODLR access method and tooltip text"*), correcting user-facing spelling errors in the SWODLR access method and constants, linked to issue #2098. On **October 16, 2026**, he forked **[morluto/rea](https://github.com/BrUn3y/rea)** — an agent-driven reverse-engineering project for working from app behavior down to native binaries — expanding his exploration of agentic AI tooling. On **October 23, 2026**, Edgar published **[skills-ai-week](https://github.com/BrUn3y/skills-ai-week)** — a comprehensive visual guide (in Spanish) explaining how AI agent skills work across Claude Code, Codex, and IBM Bob, created with Archify. The guide features four interactive Mermaid diagrams covering the skill activation lifecycle, file structure, framework comparisons, and an agent decision tree. On **October 25, 2026**, Edgar forked **[seedds/nxnative](https://github.com/seedds/nxnative)** (13,377⭐, 2,314 forks) — a cutting-edge project that converts Nintendo Switch game packages (NSP files) into unsigned IPAs capable of running natively on iPhone, iPad, and Mac via an NSO rewriter, Horizon HLE host, and NVN-to-Metal translation layer — expanding his portfolio into systems-level mobile and gaming engineering. On **October 26, 2026**, Edgar launched **[BrUn3y.github.io](https://github.com/BrUn3y/BrUn3y.github.io)** — his new personal website (live at [brun3y.github.io](https://brun3y.github.io/)) built with Y2K aesthetics, featuring AI agents, quantum computing content, and a custom **BRUN3YAMP** music player. The site integrates live Spotify data and is actively maintained with daily automated updates. By **October 27, 2026**, he had replaced the original Spotify widget with an in-house **Cyber Music Lover Radio** player featuring animated playback bars and live song display, and on October 27, 2026 added a rotating retro globe with decorative signals, an IRC-style retro chat (`brun3y` channel) with radio chatter and an unread-message indicator, classic web buttons under the Open Source sidebar, and retro forum share-image metadata.
+Additional upstream contributions include **[PR #1676](https://github.com/generative-computing/mellea/pull/1676)** to **[generative-computing/mellea](https://github.com/generative-computing/mellea)** (**merged September 28, 2026** for dynamic OpenAI adapter deregistration) and **[PR #3930](https://github.com/heygen-com/hyperframes/pull/3930)** to **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** (**merged September 22, 2026** adding IBM Bob Shell runtime support). Edgar also published **[TriForge](https://github.com/BrUn3y/triforge)** on **September 23, 2026** — orchestrating Codex, Claude Code, and IBM Bob Shell into an auditable multi-agent engineering council. On **September 24, 2026**, Edgar forked **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)** (9,075⭐, 1,480 forks) — the open-source Python & TypeScript SDK for building production AI agent harnesses across any model and cloud — signalling interest in contributing to the Strands Agents ecosystem. On **October 12, 2026**, Edgar forked **[NASA Earthdata Search](https://github.com/nasa/earthdata-search)** (829⭐, 262 forks) — NASA EOSDIS's web application for Earth science data discovery — and opened **[PR #2099](https://github.com/nasa/earthdata-search/pull/2099)** (*"Fixes typos in SWODLR access method and tooltip text"*), correcting user-facing spelling errors in the SWODLR access method and constants, linked to issue #2098. On **October 16, 2026**, he forked **[rea](https://github.com/BrUn3y/rea)** — an agent-driven reverse-engineering project for working from app behavior down to native binaries — expanding his exploration of agentic AI tooling. On **October 23, 2026**, Edgar published **[skills-ai-week](https://github.com/BrUn3y/skills-ai-week)** — a comprehensive visual guide (in Spanish) explaining how AI agent skills work across Claude Code, Codex, and IBM Bob, created with Archify. The guide features four interactive Mermaid diagrams covering the skill activation lifecycle, file structure, framework comparisons, and an agent decision tree. On **October 25, 2026**, Edgar forked **[nxnative](https://github.com/BrUn3y/nxnative)** (13,377⭐, 2,314 forks) — a cutting-edge project that converts Nintendo Switch game packages (NSP files) into unsigned IPAs capable of running natively on iPhone, iPad, and Mac via an NSO rewriter, Horizon HLE host, and NVN-to-Metal translation layer — expanding his portfolio into systems-level mobile and gaming engineering. On **October 26, 2026**, Edgar launched **[BrUn3y.github.io](https://github.com/BrUn3y/BrUn3y.github.io)** — his new personal website (live at [brun3y.github.io](https://brun3y.github.io/)) built with Y2K aesthetics, featuring AI agents, quantum computing content, and a custom **BRUN3YAMP** music player. The site integrates live Spotify data and is actively maintained with daily automated updates. By **October 27, 2026**, he had replaced the original Spotify widget with an in-house **Cyber Music Lover Radio** player featuring animated playback bars and live song display, and on October 27, 2026 added a rotating retro globe with decorative signals, an IRC-style retro chat (`brun3y` channel) with radio chatter and an unread-message indicator, classic web buttons under the Open Source sidebar, and retro forum share-image metadata.
 
 ### Technical Expertise
 
@@ -179,7 +179,7 @@ His comprehensive technical stack includes:
 
 **[Mellea Contributions](https://github.com/generative-computing/mellea)** (1,850⭐, 177 forks) — On September 24, 2026, Edgar submitted **[PR #1676](https://github.com/generative-computing/mellea/pull/1676)** (*"fix: add OpenAI adapter deregistration"*) to `generative-computing/mellea`, introducing `OpenAIBackend.remove_adapter()` to enable dynamic adapter deregistration, cache invalidation, and qualified name recycling under concurrency locks. The PR was **merged on September 28, 2026**, making the adapter deregistration feature part of Mellea's upstream codebase.
 
-**[hyperframes](https://github.com/BrUn3y/hyperframes)** — Edgar's fork of the **[HeyGen hyperframes](https://github.com/heygen-com/hyperframes)** project (80,606⭐, 7,435 forks), a framework for writing HTML and rendering it as video — purpose-built for AI agents. On September 14, 2026, Edgar submitted **[PR #3930](https://github.com/heygen-com/hyperframes/pull/3930)** upstream to add IBM Bob runtime support to the HyperFrames CLI. The PR was **merged on September 22, 2026** by maintainer `jrusso1020`, integrating IBM Bob Shell into HyperFrames as a first-class supported coding-agent runtime.
+**[hyperframes](https://github.com/BrUn3y/hyperframes)** — Edgar's fork of the **[HeyGen hyperframes](https://github.com/heygen-com/hyperframes)** project (80,606⭐, 7,435 forks), a framework for writing HTML and rendering it as video — purpose-built for AI agents. On September 14, 2026, Edgar submitted **[PR #3930](https://github.com/heygen-com/hyperframes/pull/3930)** upstream to add IBM Bob runtime support to the HyperFrames CLI. The PR was **merged on September 22, 2026**, integrating IBM Bob Shell into HyperFrames as a first-class supported coding-agent runtime.
 
 **[Quantum Lab Agent System](https://github.com/BrUn3y/quantum_lab_agent)** — A complete five-agent multi-agent workspace for IBM Quantum, built entirely with the A2A protocol and IBM Granite 4.2 8B. The orchestrator (`quantum_lab_agent`, port 8000) coordinates four specialist agents: a [Quantum Developer Agent](https://github.com/BrUn3y/quantum-developer-agent) for code generation (Grover, Shor, Deutsch-Jozsa, QFT...), a [Quantum Status Agent](https://github.com/BrUn3y/quantum-status-agent) for real-time backend monitoring and chip topology Canvas visualization, a [Quantum Computing Agent](https://github.com/BrUn3y/quantum-computing-agent) for circuit execution on simulators and real IBM Quantum hardware, and the [Quantum Experiment Agent](https://github.com/BrUn3y/quantum-experiment-agent) for hybrid QAOA/VQE experiments (QAOA Max-Cut for 2–8 node graphs on `ibm_marrakesh`).
 
@@ -197,7 +197,7 @@ His comprehensive technical stack includes:
 
 **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)** (9,075⭐, 1,480 forks) — On **September 24, 2026**, Edgar forked the Strands Agents Harness SDK — an open-source Python & TypeScript framework for building production AI agent harnesses across any model and any cloud (Anthropic, OpenAI, AWS Bedrock, and more). The fork signals Edgar's exploration of the Strands Agents ecosystem as a complement to his existing multi-agent toolchain.
 
-**[nxnative](https://github.com/BrUn3y/nxnative)** — On **October 25, 2026**, Edgar forked **[seedds/nxnative](https://github.com/seedds/nxnative)** (13,377⭐, 2,314 forks) — a project that converts Nintendo Switch NSP packages into unsigned IPAs that run natively on iPhone, iPad, and Mac, via an NSO binary rewriter, a Horizon OS High-Level Emulation (HLE) host, and a complete NVN-to-Metal graphics translation layer. The fork demonstrates Edgar's interest in low-level systems engineering, mobile runtime environments, and binary translation at the intersection of gaming and platform hacking.
+**[nxnative](https://github.com/BrUn3y/nxnative)** — On **October 25, 2026**, Edgar forked **[nxnative](https://github.com/BrUn3y/nxnative)** (13,377⭐, 2,314 forks) — a project that converts Nintendo Switch NSP packages into unsigned IPAs that run natively on iPhone, iPad, and Mac, via an NSO binary rewriter, a Horizon OS High-Level Emulation (HLE) host, and a complete NVN-to-Metal graphics translation layer. The fork demonstrates Edgar's interest in low-level systems engineering, mobile runtime environments, and binary translation at the intersection of gaming and platform hacking.
 
 **[skills-ai-week](https://github.com/BrUn3y/skills-ai-week)** — Published on **October 23, 2026**, this is a comprehensive visual guide (in Spanish) explaining how AI agent skills work across Claude Code, Codex, and IBM Bob, created with Archify. The guide includes four interactive Mermaid diagrams covering the skill activation lifecycle, file structure, framework comparisons, and an agent decision tree. It also features installation walkthroughs (local and global), Markdown technique references, a downloadable skill template, and a curated list of repositories. The static site is deployed on [GitHub Pages](https://brun3y.github.io/skills-ai-week/) and produced as part of AI Week educational content.
 
@@ -213,18 +213,17 @@ Edgar is actively engaged in the tech community with significant leadership and 
 - **Shipped Qiskit Fall Fest GDL gallery and recordings** — on **November 3, 2026**, Edgar merged four pull requests into the [event site](https://quantum-guild-gdl.github.io/qiskit_fall_fest_gdl/): a 40-photo interactive gallery (expanded to 60 photos) and embedded Day 1 recordings (Parts 1 and 2) beside the Schedule, with Part 1 starting at 1:00:00.
 - **Published ICA Learning presentation** — on **November 2, 2026**, Edgar published **[ica-learning](https://github.com/BrUn3y/ica-learning)** (live at [brun3y.github.io/ica-learning](https://brun3y.github.io/ica-learning/)), a 12-slide Spanish deck teaching accounting and administration teams how to build context-aware agents with IBM Consulting Advantage Document Collections, Tools, and the no-code creator, with five interactive recipes. He refined it the same day with real UI screenshots, mobile layout fixes, and a QR code linking to the presentation.
 - **Shared ICA + Claude Code example in dam-agents/dam** — on **November 2, 2026**, Edgar commented on [issue #6134](https://github.com/dam-agents/dam/issues/6134), showing Claude Code on DAM working against ICA's Anthropic-compatible Messages API (`POST /v1/messages`, bearer-token auth, `GET /v1/models` discovery).
-- **Forked and starred jmars125/xcx-recomp** — on **November 2, 2026**, Edgar starred and forked **[xcx-recomp](https://github.com/BrUn3y/xcx-recomp)** (148⭐, 4 forks), a static recompilation of *Xenoblade Chronicles X: Definitive Edition* to native Windows x86-64 with a Vulkan renderer, continuing his interest in low-level systems and binary translation alongside nxnative.
+- **Forked and starred xcx-recomp** — on **November 2, 2026**, Edgar starred and forked **[xcx-recomp](https://github.com/BrUn3y/xcx-recomp)** (148⭐, 4 forks), a static recompilation of *Xenoblade Chronicles X: Definitive Edition* to native Windows x86-64 with a Vulkan renderer, continuing his interest in low-level systems and binary translation alongside nxnative.
 - **Advanced Omnigent PR #8902 and earthdata-search PR #2099** — on **November 3, 2026**, Edgar merged `main` into the Omnigent IBM Bob native TUI branch (resolving conflicts, pre-commit green) and asked NASA Earthdata Search maintainers to review his SWODLR typo-fix PR.
-- **Starred ismaelfaro/Spooktacle** — on **October 30, 2026**, Edgar starred **[ismaelfaro/Spooktacle](https://github.com/ismaelfaro/Spooktacle)** — a browser-based video mapping tool created the same day by **Ismael Faro** (ANFAIA President, ex-IBM Distinguished Engineer, and co-creator of Qiskit). The engagement reflects Edgar's ongoing connection with the Qiskit/IBM quantum community and his interest in creative browser-based visualization tools.
 - **Personal website continues daily automated updates** — on **October 29 – November 8, 2026**, with the latest refresh on **November 8, 2026**, Edgar's personal site **[brun3y.github.io](https://brun3y.github.io/)** continued receiving automated daily data refreshes ("Refresh public website activity snapshots"), confirming the fully automated pipeline that keeps his public presence current without manual intervention. On **November 3, 2026**, the site also gained its new top-ranked **Gemini Live to Pages** project card and a matching retro ad.
 - **Qiskit Fall Fest Guadalajara 2026 concluded** — on **October 29, 2026**, the two-day festival co-organized by Edgar through Quantum Guild GDL wrapped up. The same day the event site was switched to post-event mode (Discord and ticket buttons removed, hero copy in past tense) and a **Gallery** section was introduced in place of registration (initially marked "In Progress"); it was filled on **November 3, 2026** with 60 curated event photos and Day 1 recordings.
 - **Starred ANFAIA/QUMO** — on **October 28, 2026**, Edgar starred **[ANFAIA/QUMO](https://github.com/ANFAIA/QUMO)** (*Quantum Utilities for Modern Outcomes*), continuing his engagement with the open quantum software ecosystem on the opening day of Qiskit Fall Fest Guadalajara 2026.
 - **Launched personal website BrUn3y.github.io** — on **October 26, 2026**, Edgar launched **[BrUn3y.github.io](https://github.com/BrUn3y/BrUn3y.github.io)** — his new personal site live at [brun3y.github.io](https://brun3y.github.io/), built with Y2K aesthetics and featuring AI agents, quantum computing, and open source content. On **October 27, 2026**, he replaced the Spotify widget with a custom **Cyber Music Lover Radio** player that shows the current radio song with animated playback bars. The same day he also added a rotating retro globe, an IRC-style retro chat with radio chatter and unread indicator, and classic web buttons to the sidebar. The site is actively maintained with daily automated updates.
-- **Forked nxnative** — on **October 25, 2026**, Edgar forked **[seedds/nxnative](https://github.com/seedds/nxnative)** (13,377⭐, 2,314 forks) — a project for running Nintendo Switch games natively on iPhone, iPad, and Mac through NSP-to-IPA conversion, an NSO rewriter, Horizon HLE host, and NVN to Metal graphics translation — exploring systems-level low-level binary engineering at the intersection of gaming and mobile platforms.
-- **Qiskit Fall Fest Guadalajara 2026 — October 28–29** — The **[Qiskit Fall Fest Guadalajara 2026](https://quantum-guild-gdl.github.io/qiskit_fall_fest_gdl/)** that Edgar co-organizes through **Quantum Guild GDL** ran **October 28–29, 2026** (CST), both days streamed **online** in **Spanish**. On **October 26, 2026**, the organizing team expanded to ten members with the addition of Joel Gonzales, Luis Toxtli, María Fernanda Chávez Colón, Alberto Adrián Treviño González, and Emmanuel Vazquez Pando; organizer photos were corrected; all organizers sorted alphabetically; and the 09:20 session was retitled **"Cuántica + IA"**. On **October 25, 2026**, an Access & Check-in item was added at 08:45 CST and the Round Table session was labeled for decision makers only. On **October 27, 2026**, Tier 1 and Tier 2 registration were both closed (Luma links replaced by disabled "Registro cerrado" buttons). Earlier updates added registration deadlines, an IBM SkillsBuild QR slide, headliner speakers (Salvador E. Venegas-Andraca, Claudia Zendejas Morales, Ismael Faro), and a streamlined two-track agenda.
+- **Forked nxnative** — on **October 25, 2026**, Edgar forked **[nxnative](https://github.com/BrUn3y/nxnative)** (13,377⭐, 2,314 forks) — a project for running Nintendo Switch games natively on iPhone, iPad, and Mac through NSP-to-IPA conversion, an NSO rewriter, Horizon HLE host, and NVN to Metal graphics translation — exploring systems-level low-level binary engineering at the intersection of gaming and mobile platforms.
+- **Qiskit Fall Fest Guadalajara 2026 — October 28–29** — The **[Qiskit Fall Fest Guadalajara 2026](https://quantum-guild-gdl.github.io/qiskit_fall_fest_gdl/)** that Edgar co-organizes through **Quantum Guild GDL** ran **October 28–29, 2026** (CST), both days streamed **online** in **Spanish**. On **October 26, 2026**, the organizing team expanded to ten members; organizer photos were corrected; all organizers sorted alphabetically; and the 09:20 session was retitled **"Cuántica + IA"**. On **October 25, 2026**, an Access & Check-in item was added at 08:45 CST and the Round Table session was labeled for decision makers only. On **October 27, 2026**, Tier 1 and Tier 2 registration were both closed (Luma links replaced by disabled "Registro cerrado" buttons). Earlier updates added registration deadlines, an IBM SkillsBuild QR slide, headliner speakers, and a streamlined two-track agenda.
 - **Published skills-ai-week visual guide** — on **October 23, 2026**, Edgar published **[skills-ai-week](https://github.com/BrUn3y/skills-ai-week)** — a comprehensive interactive visual guide (in Spanish) covering how AI agent skills work across Claude Code, Codex, and IBM Bob, built with Archify. The guide features four interactive Mermaid diagrams (activation lifecycle, file structure, framework comparison, decision tree), installation walkthroughs, Markdown technique references, and a downloadable skill template. The site is live at [GitHub Pages](https://brun3y.github.io/skills-ai-week/), produced as part of AI Week educational content.
 - **Starred OpenCommunityEdition/OpenCE** — on **October 19, 2026**, Edgar starred **[OpenCommunityEdition/OpenCE](https://github.com/OpenCommunityEdition/OpenCE)** (1,915⭐, 277 forks) — the open-source port of *Halo: Combat Evolved* (original Xbox) to Windows, Linux, and Android — reflecting his broader interests in open-source systems programming and classic game preservation.
-- **Forked morluto/rea** — on **October 16, 2026**, Edgar forked **[morluto/rea](https://github.com/BrUn3y/rea)**, an agent-driven reverse-engineering project ("reverse engineer anything with agents, from app behavior down to native binaries"), expanding his agentic AI tooling and binary reverse-engineering workflows.
+- **Forked rea** — on **October 16, 2026**, Edgar forked **[rea](https://github.com/BrUn3y/rea)**, an agent-driven reverse-engineering project ("reverse engineer anything with agents, from app behavior down to native binaries"), expanding his agentic AI tooling and binary reverse-engineering workflows.
 - **Refined Quantum & Cybersecurity Interactive Workshop** — on **October 14–15, 2026**, Edgar enhanced **[quantum-and-cybersecurity](https://github.com/BrUn3y/quantum-and-cybersecurity)** interactive slides with simplified explanations of quantum superposition and entanglement, clarified cryptographic acronyms and mathematical foundations (symmetric vs. asymmetric cryptography, NIST PQC standards like ML-KEM, ML-DSA, and SLH-DSA), added PQC library references to the standards slide, simplified the Shor's algorithm explanation, updated the PQC slide title, and streamlined the quantum-risk guidance slide. Earlier in October, he integrated NIST reference links, a NotebookLM study guide, slide timing labels, updated workshop links, and reorganized Bell state resources ahead of Qiskit Fall Fest Guadalajara 2026.
 - **Forked NASA Earthdata Search & opened PR #2099** — on **October 12, 2026**, Edgar forked **[NASA/earthdata-search](https://github.com/nasa/earthdata-search)** (829⭐) and submitted **[PR #2099](https://github.com/nasa/earthdata-search/pull/2099)** (*"Fixes typos in SWODLR access method and tooltip text"*), correcting user-facing spelling errors in the SWODLR access method details and tooltip constants, linked to issue #2098.
 - **Resolved DuckDuckGo Search Tooling in BeeAI Agent** — on **October 12, 2026**, closed issue #1 in **[x_trends_agent_BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI)** addressing search tool rate-limiting and error handling in multi-agent trend workflows.
@@ -276,30 +275,30 @@ When stepping away from the screen, Edgar pursues his passion for **running** (a
 I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic performance data, and cloud tooling.
 
 <table>
-  <tr>
-    <td>
-      <a href="https://medium.com/@brun3y/how-my-ai-agent-is-engineering-a-5km-pr-a2e9966869f4">
-        <img src="./assets/medium/1.svg" alt="How My AI Agent is Engineering a 5KM PR" />
-      </a>
-    </td>
-    <td>
-      <a href="https://medium.com/@brun3y/ibm-bob-shell-skills-sh-supercharging-your-personal-ai-d074dbd5ec7c">
-        <img src="./assets/medium/2.svg" alt="IBM Bob Shell + Skills.sh: Supercharging Your Personal AI" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808">
-        <img src="./assets/medium/3.svg" alt="I Finally Got Positive Results Following My Strava AI Agent" />
-      </a>
-    </td>
-    <td>
-      <a href="https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a">
-        <img src="./assets/medium/4.svg" alt="My Personal AI Agent for Strava" />
-      </a>
-    </td>
-  </tr>
+ <tr>
+ <td>
+ <a href="https://medium.com/@brun3y/how-my-ai-agent-is-engineering-a-5km-pr-a2e9966869f4">
+ <img src="./assets/medium/1.svg" alt="How My AI Agent is Engineering a 5KM PR" />
+ </a>
+ </td>
+ <td>
+ <a href="https://medium.com/@brun3y/ibm-bob-shell-skills-sh-supercharging-your-personal-ai-d074dbd5ec7c">
+ <img src="./assets/medium/2.svg" alt="IBM Bob Shell + Skills.sh: Supercharging Your Personal AI" />
+ </a>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <a href="https://medium.com/@brun3y/i-finally-got-positive-results-following-my-strava-ai-agent-76ab080d8808">
+ <img src="./assets/medium/3.svg" alt="I Finally Got Positive Results Following My Strava AI Agent" />
+ </a>
+ </td>
+ <td>
+ <a href="https://medium.com/@brun3y/my-personal-ai-agent-for-strava-bdcb43d4fa3a">
+ <img src="./assets/medium/4.svg" alt="My Personal AI Agent for Strava" />
+ </a>
+ </td>
+ </tr>
 </table>
 
 ---
