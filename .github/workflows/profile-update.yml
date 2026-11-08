@@ -65,11 +65,11 @@ jobs:
             -d client_secret="$STRAVA_CLIENT_SECRET" \
             -d refresh_token="$STRAVA_REFRESH_TOKEN" \
             -d grant_type=refresh_token)
-
+          
           ACCESS_TOKEN=$(echo "$RESPONSE" | python3 -c "import sys, json; print(json.load(sys.stdin)['access_token'])")
           EXPIRES_AT=$(echo "$RESPONSE" | python3 -c "import sys, json; print(json.load(sys.stdin)['expires_at'])")
           NEW_REFRESH_TOKEN=$(echo "$RESPONSE" | python3 -c "import sys, json; print(json.load(sys.stdin)['refresh_token'])")
-
+          
           cat > strava_tokens.json << EOF
           {
             "client_id": "$STRAVA_CLIENT_ID",
