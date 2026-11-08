@@ -60,10 +60,13 @@
   </text>
   
   <text x="85" y="192" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#fc4c02">
-    48:01
+    47:46
   </text>
   <text x="85" y="210" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#888888">
-    4:45 /km • Mar 24, 2024
+    4:44 /km • Oct 16, 2026
+  </text>
+  <text x="85" y="224" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#888888">
+    ❤️ 178 bpm avg
   </text>
   
   <!-- Footer -->
