@@ -263,5 +263,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ---
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on November 17, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on November 18, 2026</sub>
 </div>
