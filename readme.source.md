@@ -144,14 +144,15 @@ His comprehensive technical stack includes:
 - **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, Mellea (generative programming), AgentStack SDK, Harness SDK, Strands Agents SDK, A2A protocol, IBM Granite 4.2 8B (Ollama)
 - **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture design and implementation
 - **Quantum Computing:** Qiskit, QASM 2.0/3.0, QAOA, VQE, Grover, Shor, Deutsch-Jozsa, QFT algorithms; Post-Quantum Cryptography (PQC) standards and migration; real-hardware execution on IBM Quantum; upstream contributor to Qiskit/qiskit-ibm-runtime (PR #3426 merged, PR #3425) and qiskit-addon-sqd (Sample-based Quantum Diagonalization); Agent Stack Canvas for circuit and topology visualization; hybrid quantum-classical multi-agent systems; Microsoft QDK (Q#, resource estimator, Quantum Katas) — upstream contributor via PR #3899 (notebook dependency completion coverage, Q# language service, open)
-- **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API, Huawei Health API, CLI-Hub public catalog (CLI-Anything, 58,836⭐)
+- **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API, Huawei Health API, CLI-Hub public catalog (CLI-Anything, 59,794⭐)
 - **Specializations:** Multi-agent pipelines with A2A, verify-and-retry orchestration, async jobs with live SSE streaming, enterprise AI deployment, Kubernetes agent sandboxing (DAM), IBM Consulting Advantage agent enablement, voice automation with Gemini Live, and event-site engineering
 
 ### Featured Projects
 
-- **[Qiskit Lab — DAM Starter Kit](https://github.com/BrUn3y/qiskit_lab)** — Qiskit SDK workspace for circuit development, local simulation, QAOA Max-Cut and IBM Quantum hardware jobs via `SamplerV2`. Latest: **v0.4.0** (Nov 11, 2026) with native CHSH experiments, durable results and bundled official Qiskit Agent Skills. ([dam-starter-kits PR #18](https://github.com/dam-agents/dam-starter-kits/pull/18) open)
+- **[Qiskit Lab — DAM Starter Kit](https://github.com/BrUn3y/qiskit_lab)** — Qiskit SDK workspace for circuit development, local simulation, QAOA Max-Cut and IBM Quantum hardware jobs via `SamplerV2`. Latest: **v0.4.0** (Nov 11, 2026) with native CHSH experiments, durable results and bundled official Qiskit Agent Skills. ([dam-starter-kits PR #18](https://github.com/dam-agents/dam-starter-kits/pull/18) merged Nov 18, 2026, so the kit is now in the DAM starter-kit catalog)
 - **[YT Vertical Mode](https://github.com/BrUn3y/yt-vertical-mode)** — Chrome and Dia extension that reframes YouTube videos for a portrait monitor with adjustable crop and framing. Latest: **v1.1.0** (Nov 13, 2026).
 - **[Remote Bob](https://github.com/BrUn3y/remote_bob)** — Dockerized IBM Bob Shell harness over REST API with async jobs, live SSE streaming and Slack integration. Latest: **v1.0.4**.
+- **[Gemini CLI Remote](https://github.com/BrUn3y/gemini_cli_remote)** — New (Nov 17, 2026) remote FastAPI harness for Google Gemini CLI with Slack, cancellable jobs, SSE streaming, verification retries and cron scheduling.
 - **[AI Journey](https://github.com/BrUn3y/ai-journey)** — 15-slide Spanish presentation on AI agent evolution and the AI Software Factory (IBM Carbon styling).
 - **[Qiskit Advocate Program](https://github.com/BrUn3y/qiskit-advocate-program)** — 18-slide Spanish deck on the Qiskit Advocate Program, tiers and point simulator.
 - **[ICA Learning](https://github.com/BrUn3y/ica-learning)** — 12-slide Spanish deck on building agents with IBM Consulting Advantage.
@@ -171,7 +172,7 @@ His comprehensive technical stack includes:
 
 - Co-organizer of **Quantum Guild GDL** and **Qiskit Fall Fest Guadalajara 2026** (Oct 28–29, 2026).
 - Writes on **[Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data and cloud tooling.
-- Open-source contributor across 75 public repositories.
+- Open-source contributor across 76 public repositories.
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K, tracking and analyzing every session with Python and AI tools) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
 
@@ -263,5 +264,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ---
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on November 18, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on November 19, 2026</sub>
 </div>
