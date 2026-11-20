@@ -144,7 +144,7 @@ His comprehensive technical stack includes:
 - **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, Mellea (generative programming), AgentStack SDK, Harness SDK, Strands Agents SDK, A2A protocol, IBM Granite 4.2 8B (Ollama)
 - **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture design and implementation
 - **Quantum Computing:** Qiskit, QASM 2.0/3.0, QAOA, VQE, Grover, Shor, Deutsch-Jozsa, QFT algorithms; Post-Quantum Cryptography (PQC) standards and migration; real-hardware execution on IBM Quantum; upstream contributor to Qiskit/qiskit-ibm-runtime (PR #3426 merged, PR #3425) and qiskit-addon-sqd (Sample-based Quantum Diagonalization); Agent Stack Canvas for circuit and topology visualization; hybrid quantum-classical multi-agent systems; Microsoft QDK (Q#, resource estimator, Quantum Katas) — upstream contributor via PR #3899 (notebook dependency completion coverage, Q# language service, open)
-- **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API, Huawei Health API, CLI-Hub public catalog (CLI-Anything, 59,794⭐)
+- **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API, Huawei Health API, CLI-Hub public catalog (CLI-Anything, 60,603⭐)
 - **Specializations:** Multi-agent pipelines with A2A, verify-and-retry orchestration, async jobs with live SSE streaming, enterprise AI deployment, Kubernetes agent sandboxing (DAM), IBM Consulting Advantage agent enablement, voice automation with Gemini Live, and event-site engineering
 
 ### Featured Projects
@@ -198,7 +198,7 @@ When stepping away from the screen, Edgar pursues his passion for **running** (a
 - **[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** / **[Quantum Experiment Agent](https://github.com/BrUn3y/quantum-experiment-agent)** — Quantum computing agents exploring AI and quantum circuits, including a hybrid agent powered by IBM Granite and AgentStack.
 - **[hyperframes](https://github.com/BrUn3y/hyperframes)** — HTML-to-video renderer built for AI agents.
 - **[strava-analytics](https://github.com/BrUn3y/strava-analytics)** — Python scripts to analyze running performance, CrossFit sessions, and calorie tracking from Strava.
-- **Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (241⭐, 233 forks) and qiskit-addon-sqd (102⭐, 45 forks), supporting the quantum computing community.
+- **Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (242⭐, 233 forks) and qiskit-addon-sqd (103⭐, 48 forks), supporting the quantum computing community.
 
 ---
 
@@ -264,5 +264,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ---
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on November 19, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on November 20, 2026</sub>
 </div>
