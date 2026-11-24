@@ -144,12 +144,13 @@ His comprehensive technical stack includes:
 - **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, Mellea (generative programming), AgentStack SDK, Harness SDK, Strands Agents SDK, A2A protocol, IBM Granite 4.2 8B (Ollama)
 - **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture design and implementation
 - **Quantum Computing:** Qiskit, QASM 2.0/3.0, QAOA, VQE, Grover, Shor, Deutsch-Jozsa, QFT algorithms; Post-Quantum Cryptography (PQC) standards and migration; real-hardware execution on IBM Quantum; upstream contributor to Qiskit/qiskit-ibm-runtime (PR #3426 merged, PR #3425) and qiskit-addon-sqd (Sample-based Quantum Diagonalization); Agent Stack Canvas for circuit and topology visualization; hybrid quantum-classical multi-agent systems; Microsoft QDK (Q#, resource estimator, Quantum Katas) — upstream contributor via PR #3899 (notebook dependency completion coverage, Q# language service, open)
-- **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API, Huawei Health API, CLI-Hub public catalog (CLI-Anything, 62,101⭐)
+- **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API, Huawei Health API, CLI-Hub public catalog (CLI-Anything, 63,704⭐)
 - **Specializations:** Multi-agent pipelines with A2A, verify-and-retry orchestration, async jobs with live SSE streaming, enterprise AI deployment, Kubernetes agent sandboxing (DAM), IBM Consulting Advantage agent enablement, voice automation with Gemini Live, and event-site engineering
 
 ### Featured Projects
 
-- **[Qiskit Lab — DAM Starter Kit](https://github.com/BrUn3y/qiskit_lab)** — Qiskit SDK workspace for circuit development, local simulation, QAOA Max-Cut and IBM Quantum hardware jobs via `SamplerV2`. Latest: **v0.4.0** (Nov 11, 2026) with native CHSH experiments, durable results and bundled official Qiskit Agent Skills; follow-up releases on Nov 18 fixed the kit publisher metadata so it shows correctly in DAM catalogs. ([dam-starter-kits PR #18](https://github.com/dam-agents/dam-starter-kits/pull/18) merged Nov 18, 2026, so the kit is now in the DAM starter-kit catalog)
+- **[xTerm](https://github.com/BrUn3y/xTerm)** — New (Nov 23, 2026) desktop terminal built with Electron, React and TypeScript: split panes, file explorer, adaptive HARNESS panel showing live coding-agent activity, and file drag and drop. Latest: **v0.4.0** (unsigned macOS arm64 builds) with a [product website](https://brun3y.github.io/xTerm/).
+- **[Qiskit Lab — DAM Starter Kit](https://github.com/BrUn3y/qiskit_lab)** — Qiskit SDK workspace for circuit development, local simulation, QAOA Max-Cut and IBM Quantum hardware jobs via `SamplerV2`. Latest: **v0.4.0** (Nov 11, 2026) with native CHSH experiments, durable results and bundled official Qiskit Agent Skills; follow-up releases on Nov 18 fixed the kit publisher metadata so it shows correctly in DAM catalogs. ([dam-starter-kits PR #18](https://github.com/dam-agents/dam-starter-kits/pull/18) merged Nov 18, 2026, so the kit is now in the DAM starter-kit catalog); the kit also has a public [website](https://brun3y.github.io/qiskit_lab/) with a DAM catalog walkthrough
 - **[YT Vertical Mode](https://github.com/BrUn3y/yt-vertical-mode)** — Chrome and Dia extension that reframes YouTube videos for a portrait monitor with adjustable crop and framing. Latest: **v1.1.0** (Nov 13, 2026).
 - **[Remote Bob](https://github.com/BrUn3y/remote_bob)** — Dockerized IBM Bob Shell harness over REST API with async jobs, live SSE streaming and Slack integration. Latest: **v1.0.4**.
 - **[Gemini CLI Remote](https://github.com/BrUn3y/gemini_cli_remote)** — New (Nov 17, 2026) remote FastAPI harness for Google Gemini CLI with Slack, cancellable jobs, SSE streaming, verification retries and cron scheduling.
@@ -159,12 +160,12 @@ His comprehensive technical stack includes:
 - **[Quantum & Cybersecurity](https://github.com/BrUn3y/quantum-and-cybersecurity)** — Interactive workshop on quantum computing, post-quantum cryptography and Bell states on real hardware.
 - **[Gemini Live to Pages](https://github.com/BrUn3y/IBM_Bob_Harness/tree/feat/google-drive-gemini-live)** — Speak a prompt to Gemini Live; Bob builds and publishes the site to GitHub Pages.
 - **[BrUn3y.github.io](https://github.com/BrUn3y/BrUn3y.github.io)** — Personal site with Y2K aesthetics, live Spotify data and a custom radio player.
-- **[TriForge](https://github.com/BrUn3y/triforge)** — Codex, Claude Code and IBM Bob Shell as an auditable multi-agent engineering council.
+- **[TriForge](https://github.com/BrUn3y/triforge)** — Codex, Claude Code and IBM Bob Shell as an auditable multi-agent engineering council, now with an industrial-style [website](https://brun3y.github.io/triforge/) and interactive agent-loop architecture explorer.
 - **[Quantum Lab Agent System](https://github.com/BrUn3y/quantum_lab_agent)** — Five-agent A2A workspace for IBM Quantum (Developer, Status, Computing, Experiment), now with an English [project website](https://brun3y.github.io/quantum_lab_agent/) (Nov 17, 2026).
 - **[Strava Agent](https://github.com/BrUn3y/Strava_Agent)** — Conversational AI over the Strava API (BeeAI + AgentStack).
 - **X Trends Agent** — Same trend-analysis agent in three frameworks: [BeeAI](https://github.com/BrUn3y/x_trends_agent_BeeAI) · [CrewAI](https://github.com/BrUn3y/x_trends_agent_CrewAI) · [LangGraph](https://github.com/BrUn3y/x_trends_agent_LangGraph).
 - **[skills-ai-week](https://github.com/BrUn3y/skills-ai-week)** — Visual guide (in Spanish) on AI agent skills across Claude Code, Codex and IBM Bob.
-- **Upstream contributions** — Merged: Qiskit/qiskit-ibm-runtime [PR #3426](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3426) (Session/Batch timestamps), dam-agents/dam [PR #4287](https://github.com/dam-agents/dam/pull/4287) and [PR #4285](https://github.com/dam-agents/dam/pull/4285) (Hacktoberfest UI fixes), Mellea [PR #1676](https://github.com/generative-computing/mellea/pull/1676), hyperframes [PR #3930](https://github.com/heygen-com/hyperframes/pull/3930) (IBM Bob runtime). Open: Microsoft QDK [PR #3899](https://github.com/microsoft/qdk/pull/3899), Omnigent [PR #8902](https://github.com/omnigent-ai/omnigent/pull/8902), CLI-Anything [PR #529](https://github.com/HKUDS/CLI-Anything/pull/529) (adds IBM Bob Shell to the CLI-Hub catalog; review requested Nov 19), qiskit-ibm-runtime [PR #3425](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3425). NASA Earthdata Search [PR #2099](https://github.com/nasa/earthdata-search/pull/2099) was closed; the fix continues via [issue #2098](https://github.com/nasa/earthdata-search/issues/2098) awaiting an EDSC number.
+- **Upstream contributions** — Merged: Qiskit/qiskit-ibm-runtime [PR #3426](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3426) (Session/Batch timestamps), dam-agents/dam [PR #4287](https://github.com/dam-agents/dam/pull/4287) and [PR #4285](https://github.com/dam-agents/dam/pull/4285) (Hacktoberfest UI fixes), Mellea [PR #1676](https://github.com/generative-computing/mellea/pull/1676), hyperframes [PR #3930](https://github.com/heygen-com/hyperframes/pull/3930) (IBM Bob runtime). Open: Microsoft QDK [PR #3899](https://github.com/microsoft/qdk/pull/3899), Omnigent [PR #8902](https://github.com/omnigent-ai/omnigent/pull/8902) (IBM Bob native TUI integration), CLI-Anything [PR #529](https://github.com/HKUDS/CLI-Anything/pull/529) (adds IBM Bob Shell to the CLI-Hub catalog; review requested Nov 19, still open), qiskit-ibm-runtime [PR #3425](https://github.com/Qiskit/qiskit-ibm-runtime/pull/3425) (reject NaN angles in `rzz` validation). NASA Earthdata Search [PR #2099](https://github.com/nasa/earthdata-search/pull/2099) was closed; the fix continues via [issue #2098](https://github.com/nasa/earthdata-search/issues/2098) awaiting an EDSC number.
 - **[NASA OpenMCT](https://github.com/BrUn3y/openmct)** — Fork with a fix for stale tooltip path requests (issue #6989).
 - **[nxnative](https://github.com/BrUn3y/nxnative)** / **[rea](https://github.com/BrUn3y/rea)** — Forks exploring systems engineering: Switch-to-iOS translation and agent-driven reverse engineering.
 
@@ -172,7 +173,7 @@ His comprehensive technical stack includes:
 
 - Co-organizer of **Quantum Guild GDL** and **Qiskit Fall Fest Guadalajara 2026** (Oct 28–29, 2026).
 - Writes on **[Medium](https://medium.com/@brun3y)** about AI agents, athletic performance data and cloud tooling.
-- Open-source contributor across 76 public repositories.
+- Open-source contributor across 77 public repositories.
 
 When stepping away from the screen, Edgar pursues his passion for **running** (actively training for a sub-21 minute 5K, tracking and analyzing every session with Python and AI tools) and enjoys **heavy music**. His application of AI technology to personal fitness optimization reflects his commitment to applying technology to personal growth.
 
@@ -264,5 +265,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ---
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on November 23, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on November 24, 2026</sub>
 </div>
