@@ -31,12 +31,12 @@ His comprehensive technical stack includes:
 * **AI/ML Frameworks:** BeeAI, CrewAI, LangGraph, Mellea (generative programming), AgentStack SDK, Harness SDK, Strands Agents SDK, A2A protocol, IBM Granite 4.2 8B (Ollama)
 * **Cloud Platforms:** IBM Cloud, AWS, multi-cloud architecture design and implementation
 * **Quantum Computing:** Qiskit, QASM 2.0/3.0, QAOA, VQE, Grover, Shor, Deutsch-Jozsa, QFT algorithms; Post-Quantum Cryptography (PQC) standards and migration; real-hardware execution on IBM Quantum; upstream contributor to Qiskit/qiskit-ibm-runtime (PR #3426 merged, PR #3425) and qiskit-addon-sqd (Sample-based Quantum Diagonalization); Agent Stack Canvas for circuit and topology visualization; hybrid quantum-classical multi-agent systems; Microsoft QDK (Q#, resource estimator, Quantum Katas) — upstream contributor via PR #3899 (notebook dependency completion coverage, Q# language service, open)
-* **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API, Huawei Health API, CLI-Hub public catalog (CLI-Anything, 64,860⭐)
+* **Integration Technologies:** REST API design, Docker containerization, Slack integration (Socket Mode), Strava API, Google Fit API, Huawei Health API, CLI-Hub public catalog (CLI-Anything, 65,711⭐)
 * **Specializations:** Multi-agent pipelines with A2A, verify-and-retry orchestration, async jobs with live SSE streaming, enterprise AI deployment, Kubernetes agent sandboxing (DAM), IBM Consulting Advantage agent enablement, voice automation with Gemini Live, and remote terminal access (xTerm Remote Mode), and event-site engineering
 
 ### Featured Projects
 
-* **[xTerm](https://github.com/BrUn3y/xTerm)** — New (Nov 23, 2026) desktop terminal built with Electron, React and TypeScript: split panes, file explorer, adaptive HARNESS panel showing live coding-agent activity, GitHub repo shortcut, foreground SSH sidebar and file drag and drop. Latest: **v0.6.0** (Nov 25, 2026) adds beta **Remote Mode** — check a running terminal or answer a coding agent from your phone via a single-use QR and Cloudflare tunnel (view-only or allow-commands, 1–5 hour access window); macOS arm64 DMG/ZIP and Linux AppImage with a [product website](https://brun3y.github.io/xTerm/).
+* **[xTerm](https://github.com/BrUn3y/xTerm)** — New (Nov 23, 2026) desktop terminal built with Electron, React and TypeScript: split panes, file explorer, adaptive HARNESS panel showing live coding-agent activity, GitHub repo shortcut, foreground SSH sidebar and file drag and drop. Latest: **v0.6.1** (Nov 25, 2026) restores foreground coding-harness detection on macOS and Linux (sidebar harness card with model and activity, covered by a native PTY regression test); v0.6.0 added beta **Remote Mode** — check a running terminal or answer a coding agent from your phone via a single-use QR and Cloudflare tunnel (view-only or allow-commands, 1–5 hour access window); macOS arm64 DMG/ZIP and Linux AppImage with a [product website](https://brun3y.github.io/xTerm/).
 * **[Qiskit Lab — DAM Starter Kit](https://github.com/BrUn3y/qiskit_lab)** — Qiskit SDK workspace for circuit development, local simulation, QAOA Max-Cut and IBM Quantum hardware jobs via `SamplerV2`. Latest: **v0.4.0** (Nov 11, 2026) with native CHSH experiments, durable results and bundled official Qiskit Agent Skills; follow-up releases on Nov 18 fixed the kit publisher metadata so it shows correctly in DAM catalogs. ([dam-starter-kits PR #18](https://github.com/dam-agents/dam-starter-kits/pull/18) merged Nov 18, 2026, so the kit is now in the DAM starter-kit catalog); the kit also has a public [website](https://brun3y.github.io/qiskit_lab/) with a DAM catalog walkthrough
 * **[YT Vertical Mode](https://github.com/BrUn3y/yt-vertical-mode)** — Chrome and Dia extension that reframes YouTube videos for a portrait monitor with adjustable crop and framing. Latest: **v1.1.0** (Nov 13, 2026).
 * **[Remote Bob](https://github.com/BrUn3y/remote_bob)** — Dockerized IBM Bob Shell harness over REST API with async jobs, live SSE streaming and Slack integration. Latest: **v1.0.4**.
@@ -86,7 +86,7 @@ When stepping away from the screen, Edgar pursues his passion for **running** (a
 * **[Quantum Lab Agent](https://github.com/BrUn3y/quantum_lab_agent)** / **[Quantum Experiment Agent](https://github.com/BrUn3y/quantum-experiment-agent)** — Quantum computing agents exploring AI and quantum circuits, including a hybrid agent powered by IBM Granite and AgentStack.
 * **[hyperframes](https://github.com/BrUn3y/hyperframes)** — HTML-to-video renderer built for AI agents.
 * **[strava-analytics](https://github.com/BrUn3y/strava-analytics)** — Python scripts to analyze running performance, CrossFit sessions, and calorie tracking from Strava.
-* **Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (244⭐, 234 forks) and qiskit-addon-sqd (103⭐, 48 forks), supporting the quantum computing community.
+* **Qiskit Contributions** — Active contributor to Qiskit/qiskit-ibm-runtime (244⭐, 235 forks) and qiskit-addon-sqd (102⭐, 49 forks), supporting the quantum computing community.
 
 ***
 
@@ -150,5 +150,5 @@ I write on [Medium](https://medium.com/@brun3y) about AI agents, athletic perfor
 ***
 
 <div align="center">
-<sub>ℹ️ Profile information collected and updated by AI assistant on November 25, 2026</sub>
+<sub>ℹ️ Profile information collected and updated by AI assistant on November 26, 2026</sub>
 </div>
